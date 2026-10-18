@@ -2,7 +2,7 @@
 
 Code, measurements and fitted models for *Physical and Neuromorphic Representations of PMUT Electrical Spectra for Glucose Loading Classification*.
 
-The primary dataset comprises 15 frequency sweeps: three repeats each of 50, 100, 250, 500 and 1000 mM glucose. Each sweep has 6,000 samples with frequency, amplitude, phase, X and Y. Four signal channels form non-overlapping 128-sample windows; frequency is retained as provenance. Complete acquisitions are separated in the main benchmark folds.
+The primary dataset comprises frequency sweeps at 50, 100, 250, 500 and 1000 mM glucose concentrations. Each sweep has 6,000 samples with frequency, amplitude, phase, X and Y. Four signal channels form non-overlapping 128-sample windows; frequency is retained as provenance. Complete acquisitions are separated in the main benchmark folds.
 
 ## Installation
 
