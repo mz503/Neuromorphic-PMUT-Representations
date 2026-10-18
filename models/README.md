@@ -1,0 +1,3 @@
+# models
+
+Original saved CNN checkpoints and fold-0-only exploratory SpikingCNN checkpoints are under `high-glucose_folds_w128/`. Their `preprocessing.json` files contain labels and training-only normalisers. `features/` contains six fitted classifiers per fold for both historical full-table and training-fold-only imputation. `reservoir/` contains all five seeds for ESN and both LSM readouts; transparent NPZ exports include reservoir matrices, biases and Ridge coefficients/intercepts/classes. `precision/` contains an independently fitted model for each precision and the float reference. `MODEL_INDEX.csv` identifies every saved model. Regenerated fitted exports are distinguished from original neural checkpoints.

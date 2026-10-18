@@ -1,0 +1,11 @@
+{
+  "x_train": true,
+  "y_train": true,
+  "train_groups": true,
+  "x_val": true,
+  "y_val": true,
+  "val_groups": true,
+  "x_test": true,
+  "y_test": true,
+  "test_groups": true
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "model": "cnn1d",
+    "fold": 0,
+    "seed": 7,
+    "predictions_match_archived": true,
+    "accuracy": 0.7652173913043478
+  },
+  {
+    "model": "cnn1d",
+    "fold": 0,
+    "seed": 42,
+    "predictions_match_archived": true,
+    "accuracy": 0.6347826086956522
+  },
+  {
+    "model": "cnn1d",
+    "fold": 0,
+    "seed": 123,
+    "predictions_match_archived": true,
+    "accuracy": 0.8478260869565217
+  },
+  {
+    "model": "cnn1d",
+    "fold": 0,
+    "seed": 999,
+    "predictions_match_archived": true,
+    "accuracy": 0.8043478260869565
+  },
+  {
+    "model": "cnn1d",
+    "fold": 0,
+    "seed": 2024,
+    "predictions_match_archived": true,
+    "accuracy": 0.5695652173913044
+  },
+  {
+    "model": "cnn1d",
+    "fold": 1,
+    "seed": 7,
+    "predictions_match_archived": true,
+    "accuracy": 0.7565217391304347
+  },
+  {
+    "model": "cnn1d",
+    "fold": 1,
+    "seed": 42,
+    "predictions_match_archived": true,
+    "accuracy": 0.5260869565217391
+  },
+  {
+    "model": "cnn1d",
+    "fold": 1,
+    "seed": 123,
+    "predictions_match_archived": true,
+    "accuracy": 0.591304347826087
+  },
+  {
+    "model": "cnn1d",
+    "fold": 1,
+    "seed": 999,
+    "predictions_match_archived": true,
+    "accuracy": 0.7956521739130434
+  },
+  {
+    "model": "cnn1d",
+    "fold": 1,
+    "seed": 2024,
+    "predictions_match_archived": true,
+    "accuracy": 0.7913043478260869
+  },
+  {
+    "model": "cnn1d",
+    "fold": 2,
+    "seed": 7,
+    "predictions_match_archived": true,
+    "accuracy": 0.8478260869565217
+  },
+  {
+    "model": "cnn1d",
+    "fold": 2,
+    "seed": 42,
+    "predictions_match_archived": true,
+    "accuracy": 0.8956521739130435
+  },
+  {
+    "model": "cnn1d",
+    "fold": 2,
+    "seed": 123,
+    "predictions_match_archived": true,
+    "accuracy": 0.8869565217391304
+  },
+  {
+    "model": "cnn1d",
+    "fold": 2,
+    "seed": 999,
+    "predictions_match_archived": true,
+    "accuracy": 0.8739130434782608
+  },
+  {
+    "model": "cnn1d",
+    "fold": 2,
+    "seed": 2024,
+    "predictions_match_archived": true,
+    "accuracy": 0.9304347826086956
+  },
+  {
+    "model": "spiking_cnn1d",
+    "fold": 0,
+    "seed": 7,
+    "predictions_match_archived": true,
+    "accuracy": 0.7086956521739131
+  },
+  {
+    "model": "spiking_cnn1d",
+    "fold": 0,
+    "seed": 42,
+    "predictions_match_archived": true,
+    "accuracy": 0.8043478260869565
+  },
+  {
+    "model": "spiking_cnn1d",
+    "fold": 0,
+    "seed": 123,
+    "predictions_match_archived": true,
+    "accuracy": 0.8434782608695652
+  },
+  {
+    "model": "spiking_cnn1d",
+    "fold": 0,
+    "seed": 999,
+    "predictions_match_archived": true,
+    "accuracy": 0.7956521739130434
+  },
+  {
+    "model": "spiking_cnn1d",
+    "fold": 0,
+    "seed": 2024,
+    "predictions_match_archived": true,
+    "accuracy": 0.8260869565217391
+  }
+]

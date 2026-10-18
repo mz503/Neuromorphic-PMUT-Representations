@@ -1,0 +1,20 @@
+{
+  "instrument": "Zurich Instruments HF2LI",
+  "drive_voltage_V": 10,
+  "drive_voltage_convention": "peak-to-peak",
+  "liquid_volume_uL": 25,
+  "frequency_range_Hz": [
+    100000,
+    2500000
+  ],
+  "points_per_sweep": 6000,
+  "concentrations_mM": [
+    50,
+    100,
+    250,
+    500,
+    1000
+  ],
+  "repeats_per_class": 3,
+  "settings_source": "Latest supplied manuscript; drive voltage confirmed by author as 10 V peak-to-peak; frequency range and count checked against measurements"
+}

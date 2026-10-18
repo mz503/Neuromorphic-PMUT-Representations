@@ -1,0 +1,46 @@
+{
+  "origin": "Regenerated, condition-specific supporting output",
+  "condition": "16-bit",
+  "evaluation_unit": "test window",
+  "n_test_windows": 230,
+  "n_correct": 195,
+  "accuracy": 0.8478260869565217,
+  "confusion_matrix": [
+    [
+      19,
+      27,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      44,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      46,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      40,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      46
+    ]
+  ],
+  "protocol_file": "../protocol.json"
+}

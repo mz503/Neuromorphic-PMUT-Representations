@@ -1,0 +1,18 @@
+{
+  "kind": "ESN",
+  "fold": 2,
+  "seed": 7,
+  "regenerated": true,
+  "params": {
+    "n_reservoir": 300,
+    "spectral_radius": 0.95,
+    "leaking_rate": 0.3,
+    "input_scaling": 1.0,
+    "sparsity": 0.9,
+    "warmup": 10,
+    "state_reduction": "mean",
+    "alpha": 1.0
+  },
+  "archived_predictions_and_probabilities_match": true,
+  "max_probability_difference": 2.3331336862497665e-13
+}

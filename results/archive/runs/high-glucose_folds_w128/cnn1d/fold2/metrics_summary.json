@@ -1,0 +1,80 @@
+{
+  "model": "cnn1d",
+  "num_seeds": 5,
+  "seeds": [
+    7,
+    42,
+    123,
+    999,
+    2024
+  ],
+  "labels": [
+    "Glucose 50 mM",
+    "Glucose 100 mM",
+    "Glucose 250 mM",
+    "Glucose 500 mM",
+    "Glucose 1000 mM"
+  ],
+  "dataset": {
+    "task": "high-glucose",
+    "split": "grouped_folds",
+    "fold": 2,
+    "train_sweeps": [
+      "Glucose 50mM sweep 3 (100k\u20132.5M)",
+      "Glucose 100mM sweep 3 (100k\u20132.5M)",
+      "Glucose 250mM sweep 3 (100k\u20132.5M)",
+      "Glucose 500mM sweep 3 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 3 (100k\u20132.5M)"
+    ],
+    "val_sweeps": [
+      "Glucose 50mM sweep 1 (100k\u20132.5M)",
+      "Glucose 100mM sweep 1 (100k\u20132.5M)",
+      "Glucose 250mM sweep 1 (100k\u20132.5M)",
+      "Glucose 500mM sweep 1 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 1 (100k\u20132.5M)"
+    ],
+    "test_sweeps": [
+      "Glucose 50mM sweep 2 (100k\u20132.5M)",
+      "Glucose 100mM sweep 2 (100k\u20132.5M)",
+      "Glucose 250mM sweep 2 (100k\u20132.5M)",
+      "Glucose 500mM sweep 2 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 2 (100k\u20132.5M)"
+    ],
+    "window_size": 128,
+    "stride": 128,
+    "n_samples": 690,
+    "n_train": 230,
+    "n_val": 230,
+    "n_test": 230,
+    "normalization_mean": [
+      0.004447887185961008,
+      -1.9447659254074097,
+      0.004441681317985058,
+      -0.00017138323164545
+    ],
+    "normalization_std": [
+      0.0011047190055251122,
+      2.1991817951202393,
+      0.0011014469200745225,
+      0.00018482410814613104
+    ]
+  },
+  "final_test_accuracy_mean": 0.8869565217391304,
+  "final_test_accuracy_std": 0.02708245478677815,
+  "final_test_accuracy_list": [
+    0.8478260869565217,
+    0.8956521739130435,
+    0.8869565217391304,
+    0.8739130434782608,
+    0.9304347826086956
+  ],
+  "best_val_accuracy_mean": 0.8652173913043478,
+  "best_val_accuracy_std": 0.022841609628806415,
+  "best_val_accuracy_list": [
+    0.8260869565217391,
+    0.8913043478260869,
+    0.8826086956521739,
+    0.8565217391304348,
+    0.8695652173913043
+  ]
+}

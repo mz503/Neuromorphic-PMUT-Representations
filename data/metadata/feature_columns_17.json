@@ -1,0 +1,19 @@
+[
+  "f0_b1_hz",
+  "q_b1",
+  "amp_b1",
+  "f0_b2_hz",
+  "q_b2",
+  "amp_b2",
+  "f0_b3_hz",
+  "q_b3",
+  "amp_b3",
+  "f0_b4_hz",
+  "q_b4",
+  "amp_b4",
+  "f_phase_transition_hz",
+  "phase_slope_deg_per_hz",
+  "amp_mean",
+  "amp_peak",
+  "amp_auc"
+]

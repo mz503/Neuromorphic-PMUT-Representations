@@ -1,0 +1,13 @@
+evaluation,model,accuracy_percent,macro_f1_percent,fold0_accuracy_percent,fold1_accuracy_percent,fold2_accuracy_percent
+legacy_full_table_imputation,SVM (RBF),66.66666666666666,63.142857142857146,40.0,80.0,80.0
+legacy_full_table_imputation,SVM (Linear),80.0,78.14285714285714,60.0,100.0,80.0
+legacy_full_table_imputation,Random Forest,93.33333333333333,93.14285714285712,80.0,100.0,100.0
+legacy_full_table_imputation,KNN (k=3),66.66666666666666,64.42857142857143,40.0,100.0,60.0
+legacy_full_table_imputation,KNN (k=5),60.0,46.666666666666664,60.0,60.0,60.0
+legacy_full_table_imputation,MLP,86.66666666666667,86.66666666666666,80.0,100.0,80.0
+training_fold_only_imputation,SVM (RBF),73.33333333333333,66.47619047619048,60.0,80.0,80.0
+training_fold_only_imputation,SVM (Linear),73.33333333333333,72.57142857142857,40.0,100.0,80.0
+training_fold_only_imputation,Random Forest,93.33333333333333,93.14285714285712,80.0,100.0,100.0
+training_fold_only_imputation,KNN (k=3),66.66666666666666,64.42857142857143,40.0,100.0,60.0
+training_fold_only_imputation,KNN (k=5),60.0,46.666666666666664,60.0,60.0,60.0
+training_fold_only_imputation,MLP,86.66666666666667,86.28571428571428,80.0,100.0,80.0

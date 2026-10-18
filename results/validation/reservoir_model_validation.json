@@ -1,0 +1,266 @@
+[
+  {
+    "model": "ESN",
+    "fold": 0,
+    "seed": 7,
+    "matches_archived": true,
+    "max_probability_difference": 4.655165142253281e-13,
+    "accuracy": 0.6739130434782609
+  },
+  {
+    "model": "ESN",
+    "fold": 0,
+    "seed": 42,
+    "matches_archived": true,
+    "max_probability_difference": 2.723377079405509e-13,
+    "accuracy": 0.7130434782608696
+  },
+  {
+    "model": "ESN",
+    "fold": 0,
+    "seed": 123,
+    "matches_archived": true,
+    "max_probability_difference": 2.149391775674303e-13,
+    "accuracy": 0.7
+  },
+  {
+    "model": "ESN",
+    "fold": 0,
+    "seed": 999,
+    "matches_archived": true,
+    "max_probability_difference": 2.362554596402333e-13,
+    "accuracy": 0.7
+  },
+  {
+    "model": "ESN",
+    "fold": 0,
+    "seed": 2024,
+    "matches_archived": true,
+    "max_probability_difference": 1.829647544582258e-13,
+    "accuracy": 0.717391304347826
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 0,
+    "seed": 7,
+    "matches_archived": true,
+    "max_probability_difference": 5.440536909873117e-12,
+    "accuracy": 0.6739130434782609
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 0,
+    "seed": 42,
+    "matches_archived": true,
+    "max_probability_difference": 9.566319958409508e-12,
+    "accuracy": 0.6869565217391305
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 0,
+    "seed": 123,
+    "matches_archived": true,
+    "max_probability_difference": 3.6112224321982467e-12,
+    "accuracy": 0.6739130434782609
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 0,
+    "seed": 999,
+    "matches_archived": true,
+    "max_probability_difference": 3.816974514236904e-12,
+    "accuracy": 0.6782608695652174
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 0,
+    "seed": 2024,
+    "matches_archived": true,
+    "max_probability_difference": 2.8419488984354757e-12,
+    "accuracy": 0.6826086956521739
+  },
+  {
+    "model": "LSM_spikes",
+    "fold": 0,
+    "seed": 42,
+    "matches_archived": true,
+    "max_probability_difference": 8.065770273901762e-14,
+    "accuracy": 0.7086956521739131
+  },
+  {
+    "model": "ESN",
+    "fold": 1,
+    "seed": 7,
+    "matches_archived": true,
+    "max_probability_difference": 1.3278267374516872e-13,
+    "accuracy": 0.8434782608695652
+  },
+  {
+    "model": "ESN",
+    "fold": 1,
+    "seed": 42,
+    "matches_archived": true,
+    "max_probability_difference": 8.809619700400617e-14,
+    "accuracy": 0.8173913043478261
+  },
+  {
+    "model": "ESN",
+    "fold": 1,
+    "seed": 123,
+    "matches_archived": true,
+    "max_probability_difference": 2.099431739566171e-13,
+    "accuracy": 0.8434782608695652
+  },
+  {
+    "model": "ESN",
+    "fold": 1,
+    "seed": 999,
+    "matches_archived": true,
+    "max_probability_difference": 3.1874503036988244e-13,
+    "accuracy": 0.9
+  },
+  {
+    "model": "ESN",
+    "fold": 1,
+    "seed": 2024,
+    "matches_archived": true,
+    "max_probability_difference": 1.7258416917798058e-13,
+    "accuracy": 0.8782608695652174
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 1,
+    "seed": 7,
+    "matches_archived": true,
+    "max_probability_difference": 1.5518697438210438e-12,
+    "accuracy": 0.8130434782608695
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 1,
+    "seed": 42,
+    "matches_archived": true,
+    "max_probability_difference": 1.6058820939690577e-12,
+    "accuracy": 0.8217391304347826
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 1,
+    "seed": 123,
+    "matches_archived": true,
+    "max_probability_difference": 2.42772468794783e-12,
+    "accuracy": 0.8130434782608695
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 1,
+    "seed": 999,
+    "matches_archived": true,
+    "max_probability_difference": 1.9164669851079452e-12,
+    "accuracy": 0.8130434782608695
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 1,
+    "seed": 2024,
+    "matches_archived": true,
+    "max_probability_difference": 2.103317520152359e-12,
+    "accuracy": 0.8260869565217391
+  },
+  {
+    "model": "LSM_spikes",
+    "fold": 1,
+    "seed": 42,
+    "matches_archived": true,
+    "max_probability_difference": 4.6074255521943996e-14,
+    "accuracy": 0.8782608695652174
+  },
+  {
+    "model": "ESN",
+    "fold": 2,
+    "seed": 7,
+    "matches_archived": true,
+    "max_probability_difference": 2.3331336862497665e-13,
+    "accuracy": 0.8304347826086956
+  },
+  {
+    "model": "ESN",
+    "fold": 2,
+    "seed": 42,
+    "matches_archived": true,
+    "max_probability_difference": 1.4277468096679513e-13,
+    "accuracy": 0.8739130434782608
+  },
+  {
+    "model": "ESN",
+    "fold": 2,
+    "seed": 123,
+    "matches_archived": true,
+    "max_probability_difference": 4.162226119319712e-13,
+    "accuracy": 0.8608695652173913
+  },
+  {
+    "model": "ESN",
+    "fold": 2,
+    "seed": 999,
+    "matches_archived": true,
+    "max_probability_difference": 1.829647544582258e-13,
+    "accuracy": 0.8739130434782608
+  },
+  {
+    "model": "ESN",
+    "fold": 2,
+    "seed": 2024,
+    "matches_archived": true,
+    "max_probability_difference": 2.9898306053155466e-13,
+    "accuracy": 0.8652173913043478
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 2,
+    "seed": 7,
+    "matches_archived": true,
+    "max_probability_difference": 1.8243739852152885e-12,
+    "accuracy": 0.8391304347826087
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 2,
+    "seed": 42,
+    "matches_archived": true,
+    "max_probability_difference": 1.5630274852185266e-12,
+    "accuracy": 0.8652173913043478
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 2,
+    "seed": 123,
+    "matches_archived": true,
+    "max_probability_difference": 3.913425139501214e-12,
+    "accuracy": 0.8652173913043478
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 2,
+    "seed": 999,
+    "matches_archived": true,
+    "max_probability_difference": 9.917622278976523e-13,
+    "accuracy": 0.8304347826086956
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 2,
+    "seed": 2024,
+    "matches_archived": true,
+    "max_probability_difference": 2.8105295868385838e-12,
+    "accuracy": 0.8347826086956521
+  },
+  {
+    "model": "LSM_spikes",
+    "fold": 2,
+    "seed": 42,
+    "matches_archived": true,
+    "max_probability_difference": 8.087974734394265e-14,
+    "accuracy": 0.8913043478260869
+  }
+]

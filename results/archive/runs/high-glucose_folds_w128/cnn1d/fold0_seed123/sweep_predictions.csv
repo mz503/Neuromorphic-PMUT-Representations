@@ -1,0 +1,6 @@
+sweep_key,target,prediction,target_label,prediction_label
+Glucose 1000mM sweep 3 (100k–2.5M),4,4,Glucose 1000 mM,Glucose 1000 mM
+Glucose 100mM sweep 3 (100k–2.5M),1,0,Glucose 100 mM,Glucose 50 mM
+Glucose 250mM sweep 3 (100k–2.5M),2,2,Glucose 250 mM,Glucose 250 mM
+Glucose 500mM sweep 3 (100k–2.5M),3,3,Glucose 500 mM,Glucose 500 mM
+Glucose 50mM sweep 3 (100k–2.5M),0,0,Glucose 50 mM,Glucose 50 mM

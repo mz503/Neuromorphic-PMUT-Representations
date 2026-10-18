@@ -1,0 +1,22 @@
+[
+  {
+    "class_id": 0,
+    "label": "Glucose 50 mM"
+  },
+  {
+    "class_id": 1,
+    "label": "Glucose 100 mM"
+  },
+  {
+    "class_id": 2,
+    "label": "Glucose 250 mM"
+  },
+  {
+    "class_id": 3,
+    "label": "Glucose 500 mM"
+  },
+  {
+    "class_id": 4,
+    "label": "Glucose 1000 mM"
+  }
+]

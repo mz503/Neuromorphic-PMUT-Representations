@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the associated PMUT representations paper and this repository."
+type: software
+title: "Dataset and code for Physical and Neuromorphic Representations of PMUT Electrical Spectra for Glucose Loading Classification"
+authors:
+  - family-names: "Zaid"
+    given-names: "M."
+  - family-names: "Cheng"
+    given-names: "Z."
+  - family-names: "Seshia"
+    given-names: "A."
+repository-code: "https://github.com/mz503/Neuromorphic-PMUT-Representations"

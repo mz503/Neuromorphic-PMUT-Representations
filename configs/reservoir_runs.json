@@ -1,0 +1,551 @@
+[
+  {
+    "model": "ESN",
+    "fold": 0,
+    "seed": 123,
+    "params": {
+      "n_reservoir": 300,
+      "spectral_radius": 0.95,
+      "leaking_rate": 0.3,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "warmup": 10,
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "ESN",
+    "fold": 0,
+    "seed": 2024,
+    "params": {
+      "n_reservoir": 300,
+      "spectral_radius": 0.95,
+      "leaking_rate": 0.3,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "warmup": 10,
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "ESN",
+    "fold": 0,
+    "seed": 42,
+    "params": {
+      "n_reservoir": 300,
+      "spectral_radius": 0.95,
+      "leaking_rate": 0.3,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "warmup": 10,
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "ESN",
+    "fold": 0,
+    "seed": 7,
+    "params": {
+      "n_reservoir": 300,
+      "spectral_radius": 0.95,
+      "leaking_rate": 0.3,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "warmup": 10,
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "ESN",
+    "fold": 0,
+    "seed": 999,
+    "params": {
+      "n_reservoir": 300,
+      "spectral_radius": 0.95,
+      "leaking_rate": 0.3,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "warmup": 10,
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "ESN",
+    "fold": 1,
+    "seed": 123,
+    "params": {
+      "n_reservoir": 300,
+      "spectral_radius": 0.95,
+      "leaking_rate": 0.3,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "warmup": 10,
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "ESN",
+    "fold": 1,
+    "seed": 2024,
+    "params": {
+      "n_reservoir": 300,
+      "spectral_radius": 0.95,
+      "leaking_rate": 0.3,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "warmup": 10,
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "ESN",
+    "fold": 1,
+    "seed": 42,
+    "params": {
+      "n_reservoir": 300,
+      "spectral_radius": 0.95,
+      "leaking_rate": 0.3,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "warmup": 10,
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "ESN",
+    "fold": 1,
+    "seed": 7,
+    "params": {
+      "n_reservoir": 300,
+      "spectral_radius": 0.95,
+      "leaking_rate": 0.3,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "warmup": 10,
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "ESN",
+    "fold": 1,
+    "seed": 999,
+    "params": {
+      "n_reservoir": 300,
+      "spectral_radius": 0.95,
+      "leaking_rate": 0.3,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "warmup": 10,
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "ESN",
+    "fold": 2,
+    "seed": 123,
+    "params": {
+      "n_reservoir": 300,
+      "spectral_radius": 0.95,
+      "leaking_rate": 0.3,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "warmup": 10,
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "ESN",
+    "fold": 2,
+    "seed": 2024,
+    "params": {
+      "n_reservoir": 300,
+      "spectral_radius": 0.95,
+      "leaking_rate": 0.3,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "warmup": 10,
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "ESN",
+    "fold": 2,
+    "seed": 42,
+    "params": {
+      "n_reservoir": 300,
+      "spectral_radius": 0.95,
+      "leaking_rate": 0.3,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "warmup": 10,
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "ESN",
+    "fold": 2,
+    "seed": 7,
+    "params": {
+      "n_reservoir": 300,
+      "spectral_radius": 0.95,
+      "leaking_rate": 0.3,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "warmup": 10,
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "ESN",
+    "fold": 2,
+    "seed": 999,
+    "params": {
+      "n_reservoir": 300,
+      "spectral_radius": 0.95,
+      "leaking_rate": 0.3,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "warmup": 10,
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 0,
+    "seed": 123,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "membrane",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 0,
+    "seed": 2024,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "membrane",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 0,
+    "seed": 42,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "membrane",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 0,
+    "seed": 7,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "membrane",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 0,
+    "seed": 999,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "membrane",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 1,
+    "seed": 123,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "membrane",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 1,
+    "seed": 2024,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "membrane",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 1,
+    "seed": 42,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "membrane",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 1,
+    "seed": 7,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "membrane",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 1,
+    "seed": 999,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "membrane",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 2,
+    "seed": 123,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "membrane",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 2,
+    "seed": 2024,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "membrane",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 2,
+    "seed": 42,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "membrane",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 2,
+    "seed": 7,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "membrane",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_membrane",
+    "fold": 2,
+    "seed": 999,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "membrane",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_spikes",
+    "fold": 0,
+    "seed": 42,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "spikes",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_spikes",
+    "fold": 1,
+    "seed": 42,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "spikes",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  },
+  {
+    "model": "LSM_spikes",
+    "fold": 2,
+    "seed": 42,
+    "params": {
+      "n_reservoir": 300,
+      "beta": 0.9,
+      "threshold": 1.0,
+      "spectral_radius": 0.95,
+      "input_scaling": 1.0,
+      "sparsity": 0.9,
+      "exc_ratio": 0.8,
+      "warmup": 10,
+      "state_mode": "spikes",
+      "state_reduction": "mean",
+      "alpha": 1.0
+    }
+  }
+]

@@ -1,0 +1,16 @@
+sweep_id,sweep_key,label,concentration_mM,repeat,n_points,frequency_min_hz,frequency_max_hz,complete_windows,retained_points,omitted_trailing_points,file,sheet
+g0050_r01,Glucose 50mM sweep 1 (100k–2.5M),Glucose 50 mM,50,1,6000,100000.0000003354,2500000.000000177,46,5888,112,data/raw/pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx,AllSamples
+g0050_r02,Glucose 50mM sweep 2 (100k–2.5M),Glucose 50 mM,50,2,6000,100000.0000003354,2500000.000000177,46,5888,112,data/raw/pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx,AllSamples
+g0050_r03,Glucose 50mM sweep 3 (100k–2.5M),Glucose 50 mM,50,3,6000,100000.0000003354,2500000.000000177,46,5888,112,data/raw/pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx,AllSamples
+g0100_r01,Glucose 100mM sweep 1 (100k–2.5M),Glucose 100 mM,100,1,6000,100000.0000003354,2500000.000000177,46,5888,112,data/raw/pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx,AllSamples
+g0100_r02,Glucose 100mM sweep 2 (100k–2.5M),Glucose 100 mM,100,2,6000,100000.0000003354,2500000.000000177,46,5888,112,data/raw/pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx,AllSamples
+g0100_r03,Glucose 100mM sweep 3 (100k–2.5M),Glucose 100 mM,100,3,6000,100000.0000003354,2500000.000000177,46,5888,112,data/raw/pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx,AllSamples
+g0250_r01,Glucose 250mM sweep 1 (100k–2.5M),Glucose 250 mM,250,1,6000,100000.0000003354,2500000.000000177,46,5888,112,data/raw/pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx,AllSamples
+g0250_r02,Glucose 250mM sweep 2 (100k–2.5M),Glucose 250 mM,250,2,6000,100000.0000003354,2500000.000000177,46,5888,112,data/raw/pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx,AllSamples
+g0250_r03,Glucose 250mM sweep 3 (100k–2.5M),Glucose 250 mM,250,3,6000,100000.0000003354,2500000.000000177,46,5888,112,data/raw/pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx,AllSamples
+g0500_r01,Glucose 500mM sweep 1 (100k–2.5M),Glucose 500 mM,500,1,6000,100000.0000003354,2500000.000000177,46,5888,112,data/raw/pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx,AllSamples
+g0500_r02,Glucose 500mM sweep 2 (100k–2.5M),Glucose 500 mM,500,2,6000,100000.0000003354,2500000.000000177,46,5888,112,data/raw/pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx,AllSamples
+g0500_r03,Glucose 500mM sweep 3 (100k–2.5M),Glucose 500 mM,500,3,6000,100000.0000003354,2500000.000000177,46,5888,112,data/raw/pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx,AllSamples
+g1000_r01,Glucose 1000mM sweep 1 (100k–2.5M),Glucose 1000 mM,1000,1,6000,100000.0000003354,2500000.000000177,46,5888,112,data/raw/pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx,AllSamples
+g1000_r02,Glucose 1000mM sweep 2 (100k–2.5M),Glucose 1000 mM,1000,2,6000,100000.0000003354,2500000.000000177,46,5888,112,data/raw/pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx,AllSamples
+g1000_r03,Glucose 1000mM sweep 3 (100k–2.5M),Glucose 1000 mM,1000,3,6000,100000.0000003354,2500000.000000177,46,5888,112,data/raw/pmut_rx_tx_Air_Glucose_50mM_to_1000mM.xlsx,AllSamples

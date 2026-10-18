@@ -1,0 +1,111 @@
+{
+  "raw_samples": 90000,
+  "physical_sweeps": 15,
+  "windows": 690,
+  "assignments": 2070,
+  "feature_checks": {
+    "f0_b1_hz": {
+      "matches": true,
+      "max_abs_difference": 0.0,
+      "missing": 0
+    },
+    "q_b1": {
+      "matches": true,
+      "max_abs_difference": 5.684341886080802e-14,
+      "missing": 6
+    },
+    "amp_b1": {
+      "matches": true,
+      "max_abs_difference": 0.0,
+      "missing": 0
+    },
+    "f0_b2_hz": {
+      "matches": true,
+      "max_abs_difference": 0.0,
+      "missing": 0
+    },
+    "q_b2": {
+      "matches": true,
+      "max_abs_difference": 1.4210854715202004e-14,
+      "missing": 0
+    },
+    "amp_b2": {
+      "matches": true,
+      "max_abs_difference": 0.0,
+      "missing": 0
+    },
+    "f0_b3_hz": {
+      "matches": true,
+      "max_abs_difference": 1.1641532182693481e-10,
+      "missing": 0
+    },
+    "q_b3": {
+      "matches": true,
+      "max_abs_difference": 2.842170943040401e-14,
+      "missing": 2
+    },
+    "amp_b3": {
+      "matches": true,
+      "max_abs_difference": 0.0,
+      "missing": 0
+    },
+    "f0_b4_hz": {
+      "matches": true,
+      "max_abs_difference": 0.0,
+      "missing": 0
+    },
+    "q_b4": {
+      "matches": true,
+      "max_abs_difference": 0.0,
+      "missing": 7
+    },
+    "amp_b4": {
+      "matches": true,
+      "max_abs_difference": 0.0,
+      "missing": 0
+    },
+    "f_phase_transition_hz": {
+      "matches": true,
+      "max_abs_difference": 0.0,
+      "missing": 0
+    },
+    "phase_slope_deg_per_hz": {
+      "matches": true,
+      "max_abs_difference": 0.0,
+      "missing": 0
+    },
+    "amp_mean": {
+      "matches": true,
+      "max_abs_difference": 6.765421556309548e-17,
+      "missing": 0
+    },
+    "amp_peak": {
+      "matches": true,
+      "max_abs_difference": 0.0,
+      "missing": 0
+    },
+    "amp_auc": {
+      "matches": true,
+      "max_abs_difference": 1.8189894035458565e-12,
+      "missing": 0
+    }
+  },
+  "fold_checks": [
+    {
+      "fold": 0,
+      "split_matches_recorded": true,
+      "normalization_exactly_matches_recorded": true
+    },
+    {
+      "fold": 1,
+      "split_matches_recorded": true,
+      "normalization_exactly_matches_recorded": true
+    },
+    {
+      "fold": 2,
+      "split_matches_recorded": true,
+      "normalization_exactly_matches_recorded": true
+    }
+  ],
+  "phase_units": "See phase_units_audit.csv; original source field is phase_deg."
+}

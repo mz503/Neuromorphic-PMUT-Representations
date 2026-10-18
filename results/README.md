@@ -1,0 +1,3 @@
+# results
+
+`archive/` preserves relevant original machine-readable metrics, predictions and training logs. `neural_inference/` contains re-evaluated checkpoint class probabilities. `predictions/identified_predictions.csv` adds model, fold, seed, precision, true/predicted label, parent sweep and stable window IDs/frequency bounds. `metrics/` includes individual-run metrics and confusion matrices; `tables/` contains separately identified window/sweep summaries. `precision/` contains separate condition-specific supporting outputs. Population SD uses ddof=0; reservoir seed variation is computed within folds and the reported overall SD across the three fold means. Feature-CV mean/SD use the archived three sweep folds. SpikingCNN results are fold 0 only.

@@ -1,0 +1,21 @@
+{
+  "kind": "LSM_membrane",
+  "fold": 0,
+  "seed": 999,
+  "regenerated": true,
+  "params": {
+    "n_reservoir": 300,
+    "beta": 0.9,
+    "threshold": 1.0,
+    "spectral_radius": 0.95,
+    "input_scaling": 1.0,
+    "sparsity": 0.9,
+    "exc_ratio": 0.8,
+    "warmup": 10,
+    "state_mode": "membrane",
+    "state_reduction": "mean",
+    "alpha": 1.0
+  },
+  "archived_predictions_and_probabilities_match": true,
+  "max_probability_difference": 3.816974514236904e-12
+}

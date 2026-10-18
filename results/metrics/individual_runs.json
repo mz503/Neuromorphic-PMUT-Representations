@@ -1,0 +1,8381 @@
+[
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 0,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.7,
+    "macro_f1": 0.6897205466170983,
+    "confusion_matrix": [
+      [
+        18,
+        28,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        38,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        32,
+        14
+      ],
+      [
+        0,
+        0,
+        19,
+        0,
+        27
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 0,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 0,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.717391304347826,
+    "macro_f1": 0.7079725610157747,
+    "confusion_matrix": [
+      [
+        18,
+        28,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        38,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        31,
+        15
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        32
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 0,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.7130434782608696,
+    "macro_f1": 0.7017273576097106,
+    "confusion_matrix": [
+      [
+        18,
+        28,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        38,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        26,
+        20
+      ],
+      [
+        0,
+        0,
+        10,
+        0,
+        36
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 0,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.6739130434782609,
+    "macro_f1": 0.6618443166740381,
+    "confusion_matrix": [
+      [
+        18,
+        28,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        38,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        30,
+        16
+      ],
+      [
+        0,
+        0,
+        23,
+        0,
+        23
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 0,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 0,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.7,
+    "macro_f1": 0.6897835808158389,
+    "confusion_matrix": [
+      [
+        18,
+        28,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        38,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        29,
+        17
+      ],
+      [
+        0,
+        0,
+        16,
+        0,
+        30
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 0,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 1,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8434782608695652,
+    "macro_f1": 0.83662328899171,
+    "confusion_matrix": [
+      [
+        45,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        13,
+        33,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        22,
+        24
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 1,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 1,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8782608695652174,
+    "macro_f1": 0.8724100022784234,
+    "confusion_matrix": [
+      [
+        41,
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        45,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        22,
+        24
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 1,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8173913043478261,
+    "macro_f1": 0.8091448187378717,
+    "confusion_matrix": [
+      [
+        44,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        19,
+        27,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        21,
+        25
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 1,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8434782608695652,
+    "macro_f1": 0.832298569459231,
+    "confusion_matrix": [
+      [
+        44,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        7,
+        39,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        27,
+        19
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 1,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 1,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.9,
+    "macro_f1": 0.8949771652362342,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        44,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        21,
+        25
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 1,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 2,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8608695652173913,
+    "macro_f1": 0.8509452179947603,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        44,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        43,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        27,
+        19
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 2,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 2,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8652173913043478,
+    "macro_f1": 0.8574660217238573,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        43,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        43,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        25,
+        21
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 2,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8739130434782608,
+    "macro_f1": 0.8677087779200455,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        42,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        44,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        23,
+        23
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 2,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8304347826086956,
+    "macro_f1": 0.8215122275572527,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        6,
+        40,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        40,
+        0,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        27,
+        19
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 2,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 2,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8739130434782608,
+    "macro_f1": 0.8628451620691922,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        44,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        27,
+        19
+      ]
+    ]
+  },
+  {
+    "model": "ESN",
+    "variant": "main",
+    "fold": 2,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 0,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.6739130434782609,
+    "macro_f1": 0.6262491585133791,
+    "confusion_matrix": [
+      [
+        19,
+        27,
+        0,
+        0,
+        0
+      ],
+      [
+        7,
+        39,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        6,
+        40
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 0,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 0,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.6826086956521739,
+    "macro_f1": 0.6338389663663448,
+    "confusion_matrix": [
+      [
+        19,
+        27,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        41,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        6,
+        40
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 0,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.6869565217391305,
+    "macro_f1": 0.633793434994135,
+    "confusion_matrix": [
+      [
+        19,
+        27,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        42,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        41
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 0,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.6739130434782609,
+    "macro_f1": 0.6158977473783261,
+    "confusion_matrix": [
+      [
+        18,
+        28,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        42,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        42
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 0,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 0,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.6782608695652174,
+    "macro_f1": 0.6196590418059642,
+    "confusion_matrix": [
+      [
+        18,
+        28,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        43,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        42
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 0,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 1,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8130434782608695,
+    "macro_f1": 0.7667108948842695,
+    "confusion_matrix": [
+      [
+        45,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        42,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 1,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 1,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8260869565217391,
+    "macro_f1": 0.7855477855477856,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        40,
+        6,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 1,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8217391304347826,
+    "macro_f1": 0.7826875990205963,
+    "confusion_matrix": [
+      [
+        45,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        40,
+        6,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 1,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8130434782608695,
+    "macro_f1": 0.7607860922146636,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        43,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 1,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 1,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8130434782608695,
+    "macro_f1": 0.7667108948842695,
+    "confusion_matrix": [
+      [
+        45,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        42,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 1,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 2,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8652173913043478,
+    "macro_f1": 0.8564946474086341,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        25,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        45,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        41
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 2,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 2,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8347826086956521,
+    "macro_f1": 0.8283260504123522,
+    "confusion_matrix": [
+      [
+        39,
+        7,
+        0,
+        0,
+        0
+      ],
+      [
+        26,
+        20,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        41
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 2,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8652173913043478,
+    "macro_f1": 0.856017231143082,
+    "confusion_matrix": [
+      [
+        43,
+        1,
+        0,
+        0,
+        2
+      ],
+      [
+        26,
+        20,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        44
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 2,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8391304347826087,
+    "macro_f1": 0.8332325637825342,
+    "confusion_matrix": [
+      [
+        38,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        26,
+        20,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        43
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 2,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 2,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8304347826086956,
+    "macro_f1": 0.825759821602432,
+    "confusion_matrix": [
+      [
+        37,
+        9,
+        0,
+        0,
+        0
+      ],
+      [
+        25,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        41
+      ]
+    ]
+  },
+  {
+    "model": "LSM_membrane",
+    "variant": "main",
+    "fold": 2,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 0,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.7043478260869566,
+    "macro_f1": 0.6967208883539159,
+    "confusion_matrix": [
+      [
+        19,
+        27,
+        0,
+        0,
+        0
+      ],
+      [
+        10,
+        36,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        31,
+        15
+      ],
+      [
+        0,
+        0,
+        16,
+        0,
+        30
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 0,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 0,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.6739130434782609,
+    "macro_f1": 0.6606347553474072,
+    "confusion_matrix": [
+      [
+        18,
+        28,
+        0,
+        0,
+        0
+      ],
+      [
+        9,
+        37,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        23,
+        21
+      ],
+      [
+        0,
+        0,
+        15,
+        0,
+        31
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 0,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.7086956521739131,
+    "macro_f1": 0.6989359912276395,
+    "confusion_matrix": [
+      [
+        18,
+        28,
+        0,
+        0,
+        0
+      ],
+      [
+        9,
+        37,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        29,
+        14
+      ],
+      [
+        0,
+        0,
+        13,
+        0,
+        33
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 0,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.6739130434782609,
+    "macro_f1": 0.6571569535713705,
+    "confusion_matrix": [
+      [
+        18,
+        28,
+        0,
+        0,
+        0
+      ],
+      [
+        9,
+        37,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        19,
+        27
+      ],
+      [
+        0,
+        0,
+        11,
+        0,
+        35
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 0,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 0,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.6956521739130435,
+    "macro_f1": 0.6806420966420966,
+    "confusion_matrix": [
+      [
+        19,
+        27,
+        0,
+        0,
+        0
+      ],
+      [
+        9,
+        37,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        20,
+        26
+      ],
+      [
+        0,
+        0,
+        8,
+        0,
+        38
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 0,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 1,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8565217391304348,
+    "macro_f1": 0.8514783472693311,
+    "confusion_matrix": [
+      [
+        39,
+        7,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        41,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        21,
+        25
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 1,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 1,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8782608695652174,
+    "macro_f1": 0.8755970102557704,
+    "confusion_matrix": [
+      [
+        39,
+        7,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        42,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        17,
+        29
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 1,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8782608695652174,
+    "macro_f1": 0.875933702399146,
+    "confusion_matrix": [
+      [
+        35,
+        11,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        44,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        31
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 1,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8695652173913043,
+    "macro_f1": 0.8667848249336034,
+    "confusion_matrix": [
+      [
+        37,
+        9,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        42,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        17,
+        29
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 1,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 1,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.9173913043478261,
+    "macro_f1": 0.9170753850919434,
+    "confusion_matrix": [
+      [
+        39,
+        7,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        42,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        8,
+        38
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 1,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 2,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8521739130434782,
+    "macro_f1": 0.8401012306806832,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        41,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        45,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        28,
+        18
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 2,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 2,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8869565217391304,
+    "macro_f1": 0.8793326907676742,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        44,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        24,
+        22
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 2,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8913043478260869,
+    "macro_f1": 0.8862526864053724,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        42,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        21,
+        25
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 2,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8652173913043478,
+    "macro_f1": 0.8612357491257502,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        46,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        37,
+        0,
+        9
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        22,
+        24
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 2,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 2,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8869565217391304,
+    "macro_f1": 0.8811221234905446,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        42,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        22,
+        24
+      ]
+    ]
+  },
+  {
+    "model": "LSM_spikes",
+    "variant": "main",
+    "fold": 2,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "majority_vote",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 0,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8478260869565217,
+    "macro_f1": 0.8436703483432456,
+    "confusion_matrix": [
+      [
+        21,
+        25,
+        0,
+        0,
+        0
+      ],
+      [
+        10,
+        36,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 0,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 0,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.5695652173913044,
+    "macro_f1": 0.5326117371998403,
+    "confusion_matrix": [
+      [
+        24,
+        22,
+        0,
+        0,
+        0
+      ],
+      [
+        13,
+        33,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        6,
+        40
+      ],
+      [
+        0,
+        0,
+        24,
+        0,
+        22
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 0,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 0.4,
+    "macro_f1": 0.26666666666666666,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "selected",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.6347826086956522,
+    "macro_f1": 0.5903785103785104,
+    "confusion_matrix": [
+      [
+        20,
+        26,
+        0,
+        0,
+        0
+      ],
+      [
+        6,
+        40,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        6,
+        40
+      ],
+      [
+        0,
+        0,
+        12,
+        0,
+        34
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "selected",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "selected",
+    "fold": 0,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.7652173913043478,
+    "macro_f1": 0.7578947368421053,
+    "confusion_matrix": [
+      [
+        19,
+        27,
+        0,
+        0,
+        0
+      ],
+      [
+        11,
+        35,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        30,
+        16
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "selected",
+    "fold": 0,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 0,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8043478260869565,
+    "macro_f1": 0.8038766800386838,
+    "confusion_matrix": [
+      [
+        28,
+        18,
+        0,
+        0,
+        0
+      ],
+      [
+        15,
+        31,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        37,
+        9
+      ],
+      [
+        0,
+        0,
+        3,
+        0,
+        43
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 0,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 1,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.591304347826087,
+    "macro_f1": 0.4622222222222222,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        44,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 1,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 1,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.7913043478260869,
+    "macro_f1": 0.7246335697399526,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        44
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 1,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "selected",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.5260869565217391,
+    "macro_f1": 0.47189473300528517,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        33,
+        13,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        16,
+        0,
+        30
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "selected",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 0.4,
+    "macro_f1": 0.26666666666666666,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "selected",
+    "fold": 1,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.7565217391304347,
+    "macro_f1": 0.6895042251477894,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        45,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        9,
+        37
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "selected",
+    "fold": 1,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 1,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.7956521739130434,
+    "macro_f1": 0.7289849935011226,
+    "confusion_matrix": [
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        45
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 1,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 2,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8869565217391304,
+    "macro_f1": 0.8818733976055361,
+    "confusion_matrix": [
+      [
+        25,
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        46,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        41
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 2,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 2,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.9304347826086956,
+    "macro_f1": 0.9282651072124757,
+    "confusion_matrix": [
+      [
+        30,
+        16,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        46,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 2,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "selected",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8956521739130435,
+    "macro_f1": 0.8919074400211391,
+    "confusion_matrix": [
+      [
+        27,
+        19,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        46,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        41
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "selected",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "selected",
+    "fold": 2,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8478260869565217,
+    "macro_f1": 0.8220748722199198,
+    "confusion_matrix": [
+      [
+        11,
+        35,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        46,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "selected",
+    "fold": 2,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 2,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8739130434782608,
+    "macro_f1": 0.867519777046598,
+    "confusion_matrix": [
+      [
+        23,
+        23,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        45,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        41
+      ]
+    ]
+  },
+  {
+    "model": "cnn1d",
+    "variant": "additional_saved_seed",
+    "fold": 2,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "spiking_cnn1d",
+    "variant": "selected",
+    "fold": 0,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8434782608695652,
+    "macro_f1": 0.8357142857142857,
+    "confusion_matrix": [
+      [
+        18,
+        28,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        38,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "model": "spiking_cnn1d",
+    "variant": "selected",
+    "fold": 0,
+    "seed": 123,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "spiking_cnn1d",
+    "variant": "selected",
+    "fold": 0,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8260869565217391,
+    "macro_f1": 0.8074303318750701,
+    "confusion_matrix": [
+      [
+        13,
+        33,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        43,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        42,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "model": "spiking_cnn1d",
+    "variant": "selected",
+    "fold": 0,
+    "seed": 2024,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "spiking_cnn1d",
+    "variant": "selected",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8043478260869565,
+    "macro_f1": 0.7855790605410402,
+    "confusion_matrix": [
+      [
+        13,
+        33,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        43,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        44,
+        2
+      ],
+      [
+        0,
+        0,
+        7,
+        0,
+        39
+      ]
+    ]
+  },
+  {
+    "model": "spiking_cnn1d",
+    "variant": "selected",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "spiking_cnn1d",
+    "variant": "selected",
+    "fold": 0,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.7086956521739131,
+    "macro_f1": 0.6932837434725949,
+    "confusion_matrix": [
+      [
+        19,
+        27,
+        0,
+        0,
+        0
+      ],
+      [
+        9,
+        37,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        20,
+        26
+      ],
+      [
+        0,
+        0,
+        5,
+        0,
+        41
+      ]
+    ]
+  },
+  {
+    "model": "spiking_cnn1d",
+    "variant": "selected",
+    "fold": 0,
+    "seed": 7,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "spiking_cnn1d",
+    "variant": "selected",
+    "fold": 0,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.7956521739130434,
+    "macro_f1": 0.7826846645157952,
+    "confusion_matrix": [
+      [
+        15,
+        31,
+        0,
+        0,
+        0
+      ],
+      [
+        6,
+        40,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        39,
+        7
+      ],
+      [
+        0,
+        0,
+        3,
+        0,
+        43
+      ]
+    ]
+  },
+  {
+    "model": "spiking_cnn1d",
+    "variant": "selected",
+    "fold": 0,
+    "seed": 999,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "mean_probability",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "KNN_k=3",
+    "variant": "legacy_full_table_imputation",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.4,
+    "macro_f1": 0.3333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "KNN_k=3",
+    "variant": "legacy_full_table_imputation",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "KNN_k=3",
+    "variant": "legacy_full_table_imputation",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "KNN_k=5",
+    "variant": "legacy_full_table_imputation",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "KNN_k=5",
+    "variant": "legacy_full_table_imputation",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "KNN_k=5",
+    "variant": "legacy_full_table_imputation",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "MLP",
+    "variant": "legacy_full_table_imputation",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "MLP",
+    "variant": "legacy_full_table_imputation",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "MLP",
+    "variant": "legacy_full_table_imputation",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "Random_Forest",
+    "variant": "legacy_full_table_imputation",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "Random_Forest",
+    "variant": "legacy_full_table_imputation",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "Random_Forest",
+    "variant": "legacy_full_table_imputation",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "SVM_Linear",
+    "variant": "legacy_full_table_imputation",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "SVM_Linear",
+    "variant": "legacy_full_table_imputation",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "SVM_Linear",
+    "variant": "legacy_full_table_imputation",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "SVM_RBF",
+    "variant": "legacy_full_table_imputation",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.4,
+    "macro_f1": 0.3333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "SVM_RBF",
+    "variant": "legacy_full_table_imputation",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "SVM_RBF",
+    "variant": "legacy_full_table_imputation",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "KNN_k=3",
+    "variant": "training_fold_only_imputation",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.4,
+    "macro_f1": 0.3333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "KNN_k=3",
+    "variant": "training_fold_only_imputation",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "KNN_k=3",
+    "variant": "training_fold_only_imputation",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "KNN_k=5",
+    "variant": "training_fold_only_imputation",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "KNN_k=5",
+    "variant": "training_fold_only_imputation",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "KNN_k=5",
+    "variant": "training_fold_only_imputation",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "MLP",
+    "variant": "training_fold_only_imputation",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "MLP",
+    "variant": "training_fold_only_imputation",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "MLP",
+    "variant": "training_fold_only_imputation",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "Random_Forest",
+    "variant": "training_fold_only_imputation",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "Random_Forest",
+    "variant": "training_fold_only_imputation",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "Random_Forest",
+    "variant": "training_fold_only_imputation",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "SVM_Linear",
+    "variant": "training_fold_only_imputation",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.4,
+    "macro_f1": 0.3333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "SVM_Linear",
+    "variant": "training_fold_only_imputation",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "SVM_Linear",
+    "variant": "training_fold_only_imputation",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "SVM_RBF",
+    "variant": "training_fold_only_imputation",
+    "fold": 0,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.6,
+    "macro_f1": 0.4666666666666666,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "SVM_RBF",
+    "variant": "training_fold_only_imputation",
+    "fold": 1,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "SVM_RBF",
+    "variant": "training_fold_only_imputation",
+    "fold": 2,
+    "seed": 42,
+    "precision": "float",
+    "evaluation_unit": "sweep",
+    "aggregation": "none",
+    "n": 5,
+    "accuracy": 0.8,
+    "macro_f1": 0.7333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "model": "LSM_precision",
+    "variant": "main",
+    "fold": "grouped",
+    "seed": 42,
+    "precision": "12-bit",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8391304347826087,
+    "macro_f1": 0.8288125672006268,
+    "confusion_matrix": [
+      [
+        19,
+        27,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        44,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        38,
+        8
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "model": "LSM_precision",
+    "variant": "main",
+    "fold": "grouped",
+    "seed": 42,
+    "precision": "16-bit",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8478260869565217,
+    "macro_f1": 0.8376617999169692,
+    "confusion_matrix": [
+      [
+        19,
+        27,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        44,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        40,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        46
+      ]
+    ]
+  },
+  {
+    "model": "LSM_precision",
+    "variant": "main",
+    "fold": "grouped",
+    "seed": 42,
+    "precision": "4-bit",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.717391304347826,
+    "macro_f1": 0.7167110824679714,
+    "confusion_matrix": [
+      [
+        21,
+        25,
+        0,
+        0,
+        0
+      ],
+      [
+        12,
+        34,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        38,
+        0,
+        7
+      ],
+      [
+        3,
+        0,
+        1,
+        42,
+        0
+      ],
+      [
+        0,
+        0,
+        16,
+        0,
+        30
+      ]
+    ]
+  },
+  {
+    "model": "LSM_precision",
+    "variant": "main",
+    "fold": "grouped",
+    "seed": 42,
+    "precision": "8-bit",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.7521739130434782,
+    "macro_f1": 0.7391256247479484,
+    "confusion_matrix": [
+      [
+        19,
+        27,
+        0,
+        0,
+        0
+      ],
+      [
+        7,
+        39,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        46,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        24,
+        22
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        45
+      ]
+    ]
+  },
+  {
+    "model": "LSM_precision",
+    "variant": "main",
+    "fold": "grouped",
+    "seed": 42,
+    "precision": "Float_reference",
+    "evaluation_unit": "window",
+    "aggregation": "none",
+    "n": 230,
+    "accuracy": 0.8391304347826087,
+    "macro_f1": 0.8291917958151496,
+    "confusion_matrix": [
+      [
+        19,
+        27,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        44,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        45,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        39,
+        7
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        46
+      ]
+    ]
+  }
+]

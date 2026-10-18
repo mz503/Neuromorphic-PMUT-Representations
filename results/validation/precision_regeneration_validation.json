@@ -1,0 +1,32 @@
+[
+  {
+    "format": "Float (reference)",
+    "regenerated_accuracy": 0.8391304347826087,
+    "archived_accuracy": 0.8391304347826087,
+    "matches": true
+  },
+  {
+    "format": "16-bit",
+    "regenerated_accuracy": 0.8478260869565217,
+    "archived_accuracy": 0.8478260869565217,
+    "matches": true
+  },
+  {
+    "format": "12-bit",
+    "regenerated_accuracy": 0.8391304347826087,
+    "archived_accuracy": 0.8391304347826087,
+    "matches": true
+  },
+  {
+    "format": "8-bit",
+    "regenerated_accuracy": 0.7521739130434782,
+    "archived_accuracy": 0.7521739130434782,
+    "matches": true
+  },
+  {
+    "format": "4-bit",
+    "regenerated_accuracy": 0.717391304347826,
+    "archived_accuracy": 0.717391304347826,
+    "matches": true
+  }
+]

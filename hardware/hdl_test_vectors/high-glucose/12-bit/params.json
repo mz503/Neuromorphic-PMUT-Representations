@@ -1,0 +1,21 @@
+{
+  "n_steps": 64,
+  "n_input": 4,
+  "n_neurons": 10,
+  "qfmt": "Qs3.8 (12-bit)",
+  "total_bits": 12,
+  "integer_bits": 3,
+  "fractional_bits": 8,
+  "scale": 256,
+  "threshold_float": 1.0,
+  "threshold_q": 256,
+  "beta_float": 0.9,
+  "beta_q": 230,
+  "W_in_q_shape": [
+    10,
+    4
+  ],
+  "bias_q_shape": [
+    10
+  ]
+}

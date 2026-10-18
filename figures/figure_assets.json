@@ -1,0 +1,87 @@
+[
+  {
+    "figure": 1,
+    "panel": "a",
+    "file": "figures/final/Figure_01a.jpg",
+    "source_asset": "Fig. Z1.jpg",
+    "asset_type": "final raster panel"
+  },
+  {
+    "figure": 1,
+    "panel": "b",
+    "file": "figures/final/Figure_01b.jpg",
+    "source_asset": "Fig. Z2.jpg",
+    "asset_type": "final raster panel"
+  },
+  {
+    "figure": 1,
+    "panel": "c",
+    "file": "figures/final/Figure_01c.jpg",
+    "source_asset": "Fig. Z3.jpg",
+    "asset_type": "final raster panel"
+  },
+  {
+    "figure": 2,
+    "panel": "a",
+    "file": "figures/final/Figure_02a.png",
+    "source_asset": "Fig. Z4.png",
+    "numerical_data": "data/raw/"
+  },
+  {
+    "figure": 2,
+    "panel": "b",
+    "file": "figures/final/Figure_02b.png",
+    "source_asset": "Fig. Z5.png",
+    "numerical_data": "data/raw/"
+  },
+  {
+    "figure": 2,
+    "panel": "c",
+    "file": "figures/final/Figure_02c.png",
+    "source_asset": "Fig. Z6.png",
+    "numerical_data": "data/raw/"
+  },
+  {
+    "figure": 3,
+    "panel": "",
+    "file": "figures/final/Figure_03.jpg",
+    "source_asset": "Fig. Z7.jpg",
+    "asset_type": "final raster panel"
+  },
+  {
+    "figure": 4,
+    "panel": "",
+    "file": "figures/final/Figure_04.png",
+    "source_asset": "Fig. C1.png",
+    "plotting_code": "src/pmut_models/reporting.py:make_figures",
+    "reproduction_command": "python scripts/report.py",
+    "numerical_data": "results/archive/feature_ml/high-glucose_baseline_summary.csv"
+  },
+  {
+    "figure": 5,
+    "panel": "",
+    "file": "figures/final/Figure_05.png",
+    "source_asset": "Fig. C3.png",
+    "plotting_code": "src/pmut_models/reporting.py:make_figures",
+    "reproduction_command": "python scripts/report.py",
+    "numerical_data": "figures/regenerated/Figure_05_data.csv"
+  },
+  {
+    "figure": 6,
+    "panel": "",
+    "file": "figures/final/Figure_06.png",
+    "source_asset": "Fig. C4.png",
+    "plotting_code": "src/pmut_models/reporting.py:make_figures",
+    "reproduction_command": "python scripts/report.py",
+    "numerical_data": "figures/regenerated/Figure_06_data.csv"
+  },
+  {
+    "figure": 7,
+    "panel": "",
+    "file": "figures/final/Figure_07.png",
+    "source_asset": "Fig. C2.png",
+    "plotting_code": "src/pmut_models/reporting.py:make_figures",
+    "reproduction_command": "python scripts/report.py",
+    "numerical_data": "figures/regenerated/Figure_07_data.csv"
+  }
+]

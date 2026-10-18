@@ -1,0 +1,119 @@
+{
+  "seed": 999,
+  "model": "cnn1d",
+  "device": "cpu",
+  "epochs": 150,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "labels": [
+    "Glucose 50 mM",
+    "Glucose 100 mM",
+    "Glucose 250 mM",
+    "Glucose 500 mM",
+    "Glucose 1000 mM"
+  ],
+  "dataset": {
+    "task": "high-glucose",
+    "split": "grouped_folds",
+    "fold": 0,
+    "train_sweeps": [
+      "Glucose 50mM sweep 1 (100k\u20132.5M)",
+      "Glucose 100mM sweep 1 (100k\u20132.5M)",
+      "Glucose 250mM sweep 1 (100k\u20132.5M)",
+      "Glucose 500mM sweep 1 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 1 (100k\u20132.5M)"
+    ],
+    "val_sweeps": [
+      "Glucose 50mM sweep 2 (100k\u20132.5M)",
+      "Glucose 100mM sweep 2 (100k\u20132.5M)",
+      "Glucose 250mM sweep 2 (100k\u20132.5M)",
+      "Glucose 500mM sweep 2 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 2 (100k\u20132.5M)"
+    ],
+    "test_sweeps": [
+      "Glucose 50mM sweep 3 (100k\u20132.5M)",
+      "Glucose 100mM sweep 3 (100k\u20132.5M)",
+      "Glucose 250mM sweep 3 (100k\u20132.5M)",
+      "Glucose 500mM sweep 3 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 3 (100k\u20132.5M)"
+    ],
+    "window_size": 128,
+    "stride": 128,
+    "n_samples": 690,
+    "n_train": 230,
+    "n_val": 230,
+    "n_test": 230,
+    "normalization_mean": [
+      0.004505949094891548,
+      -1.5821219682693481,
+      0.004501031711697578,
+      -0.00014642583846580237
+    ],
+    "normalization_std": [
+      0.0011242157779633999,
+      2.051642417907715,
+      0.0011216343846172094,
+      0.00017131389176938683
+    ]
+  },
+  "final_test_accuracy": 0.8043478260869565,
+  "balanced_accuracy": 0.8043478260869564,
+  "macro_precision": 0.8099028878098645,
+  "macro_recall": 0.8043478260869564,
+  "macro_f1": 0.8038766800386838,
+  "per_class_recall": {
+    "Glucose 50 mM": 0.6086956521739131,
+    "Glucose 100 mM": 0.6739130434782609,
+    "Glucose 250 mM": 1.0,
+    "Glucose 500 mM": 0.8043478260869565,
+    "Glucose 1000 mM": 0.9347826086956522
+  },
+  "confusion_matrix": [
+    [
+      28,
+      18,
+      0,
+      0,
+      0
+    ],
+    [
+      15,
+      31,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      46,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      37,
+      9
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      43
+    ]
+  ],
+  "n_val": 230,
+  "has_val": true,
+  "best": {
+    "epoch": 60,
+    "train_loss": 0.6637066788971424,
+    "train_accuracy": 0.7330729179084301,
+    "val_accuracy": 0.8956521739130435
+  },
+  "sweep_accuracy": 0.8,
+  "sweep_aggregation_method": "mean_logits",
+  "n_sweeps": 5
+}

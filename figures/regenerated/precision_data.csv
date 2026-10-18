@@ -1,0 +1,6 @@
+model,variant,fold,seed,precision,evaluation_unit,aggregation,n,accuracy,macro_f1
+LSM_precision,main,grouped,42,12-bit,window,none,230,0.8391304347826087,0.8288125672006268
+LSM_precision,main,grouped,42,16-bit,window,none,230,0.8478260869565217,0.8376617999169692
+LSM_precision,main,grouped,42,4-bit,window,none,230,0.717391304347826,0.7167110824679714
+LSM_precision,main,grouped,42,8-bit,window,none,230,0.7521739130434782,0.7391256247479484
+LSM_precision,main,grouped,42,Float_reference,window,none,230,0.8391304347826087,0.8291917958151496

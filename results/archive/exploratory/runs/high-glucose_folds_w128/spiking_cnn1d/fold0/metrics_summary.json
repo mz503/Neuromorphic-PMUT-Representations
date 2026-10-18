@@ -1,0 +1,80 @@
+{
+  "model": "spiking_cnn1d",
+  "num_seeds": 5,
+  "seeds": [
+    7,
+    42,
+    123,
+    999,
+    2024
+  ],
+  "labels": [
+    "Glucose 50 mM",
+    "Glucose 100 mM",
+    "Glucose 250 mM",
+    "Glucose 500 mM",
+    "Glucose 1000 mM"
+  ],
+  "dataset": {
+    "task": "high-glucose",
+    "split": "grouped_folds",
+    "fold": 0,
+    "train_sweeps": [
+      "Glucose 50mM sweep 1 (100k\u20132.5M)",
+      "Glucose 100mM sweep 1 (100k\u20132.5M)",
+      "Glucose 250mM sweep 1 (100k\u20132.5M)",
+      "Glucose 500mM sweep 1 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 1 (100k\u20132.5M)"
+    ],
+    "val_sweeps": [
+      "Glucose 50mM sweep 2 (100k\u20132.5M)",
+      "Glucose 100mM sweep 2 (100k\u20132.5M)",
+      "Glucose 250mM sweep 2 (100k\u20132.5M)",
+      "Glucose 500mM sweep 2 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 2 (100k\u20132.5M)"
+    ],
+    "test_sweeps": [
+      "Glucose 50mM sweep 3 (100k\u20132.5M)",
+      "Glucose 100mM sweep 3 (100k\u20132.5M)",
+      "Glucose 250mM sweep 3 (100k\u20132.5M)",
+      "Glucose 500mM sweep 3 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 3 (100k\u20132.5M)"
+    ],
+    "window_size": 128,
+    "stride": 128,
+    "n_samples": 690,
+    "n_train": 230,
+    "n_val": 230,
+    "n_test": 230,
+    "normalization_mean": [
+      0.004505949094891548,
+      -1.5821219682693481,
+      0.004501031711697578,
+      -0.00014642583846580237
+    ],
+    "normalization_std": [
+      0.0011242157779633999,
+      2.051642417907715,
+      0.0011216343846172094,
+      0.00017131389176938683
+    ]
+  },
+  "final_test_accuracy_mean": 0.7956521739130435,
+  "final_test_accuracy_std": 0.04658467908166564,
+  "final_test_accuracy_list": [
+    0.7086956521739131,
+    0.8043478260869565,
+    0.8434782608695652,
+    0.7956521739130434,
+    0.8260869565217391
+  ],
+  "best_val_accuracy_mean": 0.8678260869565217,
+  "best_val_accuracy_std": 0.002129991080681012,
+  "best_val_accuracy_list": [
+    0.8695652173913043,
+    0.8695652173913043,
+    0.8652173913043478,
+    0.8652173913043478,
+    0.8695652173913043
+  ]
+}

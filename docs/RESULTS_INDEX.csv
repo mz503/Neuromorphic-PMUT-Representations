@@ -1,0 +1,12 @@
+claim_or_asset,supporting_output,reproduction_command
+Physical-feature comparison and Figure 4,results/archive/feature_ml/high-glucose_baseline_summary.csv,python scripts/report.py
+Random Forest confusion and Figure 5,results/predictions/identified_predictions.csv,python scripts/report.py
+Reservoir fold comparison and Figure 6,results/tables/reservoir_fold_means.csv,python scripts/report.py
+Selected model comparison and Figure 7,figures/regenerated/Figure_07_data.csv,python scripts/report.py
+CNN and exploratory fold-0 SpikingCNN,results/tables/neural_fold_means.csv,python scripts/evaluate.py
+Precision table and each condition,results/precision/README.md,python scripts/train.py --family precision
+Feature imputation sensitivity,results/tables/feature_imputation_comparison.csv,python scripts/train.py --family features
+All individual predictions and class scores,results/predictions/identified_predictions.csv,python scripts/report.py
+Device and workflow Figures 1 and 3,figures/final/,Supplied final raster assets
+Baseline and glucose responses Figure 2,figures/final/,Original supplied panels; inspect data/raw/ and notebook 01
+Single-neuron HDL,hardware/README.md,Unverified single-neuron prototype and software reference vectors

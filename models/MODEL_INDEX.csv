@@ -1,0 +1,107 @@
+file,family,model,fold,seed,precision,bytes,origin
+models/features/legacy_full_table_imputation/KNN_k=3/fold0/fitted_model.joblib,features,legacy_full_table_imputation,0,42,floating,3846,regenerated fitted export
+models/features/legacy_full_table_imputation/KNN_k=3/fold1/fitted_model.joblib,features,legacy_full_table_imputation,1,42,floating,3846,regenerated fitted export
+models/features/legacy_full_table_imputation/KNN_k=3/fold2/fitted_model.joblib,features,legacy_full_table_imputation,2,42,floating,3846,regenerated fitted export
+models/features/legacy_full_table_imputation/KNN_k=5/fold0/fitted_model.joblib,features,legacy_full_table_imputation,0,42,floating,3846,regenerated fitted export
+models/features/legacy_full_table_imputation/KNN_k=5/fold1/fitted_model.joblib,features,legacy_full_table_imputation,1,42,floating,3846,regenerated fitted export
+models/features/legacy_full_table_imputation/KNN_k=5/fold2/fitted_model.joblib,features,legacy_full_table_imputation,2,42,floating,3846,regenerated fitted export
+models/features/legacy_full_table_imputation/MLP/fold0/fitted_model.joblib,features,legacy_full_table_imputation,0,42,floating,122410,regenerated fitted export
+models/features/legacy_full_table_imputation/MLP/fold1/fitted_model.joblib,features,legacy_full_table_imputation,1,42,floating,122714,regenerated fitted export
+models/features/legacy_full_table_imputation/MLP/fold2/fitted_model.joblib,features,legacy_full_table_imputation,2,42,floating,122138,regenerated fitted export
+models/features/legacy_full_table_imputation/Random_Forest/fold0/fitted_model.joblib,features,legacy_full_table_imputation,0,42,floating,253155,regenerated fitted export
+models/features/legacy_full_table_imputation/Random_Forest/fold1/fitted_model.joblib,features,legacy_full_table_imputation,1,42,floating,254403,regenerated fitted export
+models/features/legacy_full_table_imputation/Random_Forest/fold2/fitted_model.joblib,features,legacy_full_table_imputation,2,42,floating,254403,regenerated fitted export
+models/features/legacy_full_table_imputation/SVM_Linear/fold0/fitted_model.joblib,features,legacy_full_table_imputation,0,42,floating,5562,regenerated fitted export
+models/features/legacy_full_table_imputation/SVM_Linear/fold1/fitted_model.joblib,features,legacy_full_table_imputation,1,42,floating,5562,regenerated fitted export
+models/features/legacy_full_table_imputation/SVM_Linear/fold2/fitted_model.joblib,features,legacy_full_table_imputation,2,42,floating,5562,regenerated fitted export
+models/features/legacy_full_table_imputation/SVM_RBF/fold0/fitted_model.joblib,features,legacy_full_table_imputation,0,42,floating,5706,regenerated fitted export
+models/features/legacy_full_table_imputation/SVM_RBF/fold1/fitted_model.joblib,features,legacy_full_table_imputation,1,42,floating,5706,regenerated fitted export
+models/features/legacy_full_table_imputation/SVM_RBF/fold2/fitted_model.joblib,features,legacy_full_table_imputation,2,42,floating,5706,regenerated fitted export
+models/features/training_fold_only_imputation/KNN_k=3/fold0/fitted_model.joblib,features,training_fold_only_imputation,0,42,floating,3917,regenerated fitted export
+models/features/training_fold_only_imputation/KNN_k=3/fold1/fitted_model.joblib,features,training_fold_only_imputation,1,42,floating,3917,regenerated fitted export
+models/features/training_fold_only_imputation/KNN_k=3/fold2/fitted_model.joblib,features,training_fold_only_imputation,2,42,floating,3917,regenerated fitted export
+models/features/training_fold_only_imputation/KNN_k=5/fold0/fitted_model.joblib,features,training_fold_only_imputation,0,42,floating,3917,regenerated fitted export
+models/features/training_fold_only_imputation/KNN_k=5/fold1/fitted_model.joblib,features,training_fold_only_imputation,1,42,floating,3917,regenerated fitted export
+models/features/training_fold_only_imputation/KNN_k=5/fold2/fitted_model.joblib,features,training_fold_only_imputation,2,42,floating,3917,regenerated fitted export
+models/features/training_fold_only_imputation/MLP/fold0/fitted_model.joblib,features,training_fold_only_imputation,0,42,floating,122545,regenerated fitted export
+models/features/training_fold_only_imputation/MLP/fold1/fitted_model.joblib,features,training_fold_only_imputation,1,42,floating,122737,regenerated fitted export
+models/features/training_fold_only_imputation/MLP/fold2/fitted_model.joblib,features,training_fold_only_imputation,2,42,floating,122305,regenerated fitted export
+models/features/training_fold_only_imputation/Random_Forest/fold0/fitted_model.joblib,features,training_fold_only_imputation,0,42,floating,253242,regenerated fitted export
+models/features/training_fold_only_imputation/Random_Forest/fold1/fitted_model.joblib,features,training_fold_only_imputation,1,42,floating,254490,regenerated fitted export
+models/features/training_fold_only_imputation/Random_Forest/fold2/fitted_model.joblib,features,training_fold_only_imputation,2,42,floating,254490,regenerated fitted export
+models/features/training_fold_only_imputation/SVM_Linear/fold0/fitted_model.joblib,features,training_fold_only_imputation,0,42,floating,5649,regenerated fitted export
+models/features/training_fold_only_imputation/SVM_Linear/fold1/fitted_model.joblib,features,training_fold_only_imputation,1,42,floating,5649,regenerated fitted export
+models/features/training_fold_only_imputation/SVM_Linear/fold2/fitted_model.joblib,features,training_fold_only_imputation,2,42,floating,5649,regenerated fitted export
+models/features/training_fold_only_imputation/SVM_RBF/fold0/fitted_model.joblib,features,training_fold_only_imputation,0,42,floating,5793,regenerated fitted export
+models/features/training_fold_only_imputation/SVM_RBF/fold1/fitted_model.joblib,features,training_fold_only_imputation,1,42,floating,5793,regenerated fitted export
+models/features/training_fold_only_imputation/SVM_RBF/fold2/fitted_model.joblib,features,training_fold_only_imputation,2,42,floating,5793,regenerated fitted export
+models/high-glucose_folds_w128/cnn1d/fold0_seed123/best_model.pt,high-glucose_folds_w128,cnn1d,0,123,floating,70965,original saved neural checkpoint
+models/high-glucose_folds_w128/cnn1d/fold0_seed2024/best_model.pt,high-glucose_folds_w128,cnn1d,0,2024,floating,70965,original saved neural checkpoint
+models/high-glucose_folds_w128/cnn1d/fold0_seed42/best_model.pt,high-glucose_folds_w128,cnn1d,0,42,floating,70965,original saved neural checkpoint
+models/high-glucose_folds_w128/cnn1d/fold0_seed7/best_model.pt,high-glucose_folds_w128,cnn1d,0,7,floating,70965,original saved neural checkpoint
+models/high-glucose_folds_w128/cnn1d/fold0_seed999/best_model.pt,high-glucose_folds_w128,cnn1d,0,999,floating,70965,original saved neural checkpoint
+models/high-glucose_folds_w128/cnn1d/fold1_seed123/best_model.pt,high-glucose_folds_w128,cnn1d,1,123,floating,70965,original saved neural checkpoint
+models/high-glucose_folds_w128/cnn1d/fold1_seed2024/best_model.pt,high-glucose_folds_w128,cnn1d,1,2024,floating,70965,original saved neural checkpoint
+models/high-glucose_folds_w128/cnn1d/fold1_seed42/best_model.pt,high-glucose_folds_w128,cnn1d,1,42,floating,70965,original saved neural checkpoint
+models/high-glucose_folds_w128/cnn1d/fold1_seed7/best_model.pt,high-glucose_folds_w128,cnn1d,1,7,floating,70965,original saved neural checkpoint
+models/high-glucose_folds_w128/cnn1d/fold1_seed999/best_model.pt,high-glucose_folds_w128,cnn1d,1,999,floating,70965,original saved neural checkpoint
+models/high-glucose_folds_w128/cnn1d/fold2_seed123/best_model.pt,high-glucose_folds_w128,cnn1d,2,123,floating,70965,original saved neural checkpoint
+models/high-glucose_folds_w128/cnn1d/fold2_seed2024/best_model.pt,high-glucose_folds_w128,cnn1d,2,2024,floating,70965,original saved neural checkpoint
+models/high-glucose_folds_w128/cnn1d/fold2_seed42/best_model.pt,high-glucose_folds_w128,cnn1d,2,42,floating,70965,original saved neural checkpoint
+models/high-glucose_folds_w128/cnn1d/fold2_seed7/best_model.pt,high-glucose_folds_w128,cnn1d,2,7,floating,70965,original saved neural checkpoint
+models/high-glucose_folds_w128/cnn1d/fold2_seed999/best_model.pt,high-glucose_folds_w128,cnn1d,2,999,floating,70965,original saved neural checkpoint
+models/high-glucose_folds_w128/spiking_cnn1d/fold0_seed123/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,0,123,floating,71029,original saved neural checkpoint
+models/high-glucose_folds_w128/spiking_cnn1d/fold0_seed2024/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,0,2024,floating,71029,original saved neural checkpoint
+models/high-glucose_folds_w128/spiking_cnn1d/fold0_seed42/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,0,42,floating,71029,original saved neural checkpoint
+models/high-glucose_folds_w128/spiking_cnn1d/fold0_seed7/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,0,7,floating,71029,original saved neural checkpoint
+models/high-glucose_folds_w128/spiking_cnn1d/fold0_seed999/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,0,999,floating,71029,original saved neural checkpoint
+models/precision/12-bit/regenerated_model.npz,precision,12-bit,,42,12-bit,1124373,regenerated fitted export
+models/precision/16-bit/regenerated_model.npz,precision,16-bit,,42,16-bit,1296347,regenerated fitted export
+models/precision/4-bit/regenerated_model.npz,precision,4-bit,,42,4-bit,755214,regenerated fitted export
+models/precision/8-bit/regenerated_model.npz,precision,8-bit,,42,8-bit,947506,regenerated fitted export
+models/precision/Float_reference/regenerated_model.npz,precision,Float_reference,,42,Float_reference,1752652,regenerated fitted export
+models/reservoir/ESN/fold0_seed123/fitted_parameters.npz,reservoir,ESN,0,123,floating,668942,regenerated fitted export
+models/reservoir/ESN/fold0_seed2024/fitted_parameters.npz,reservoir,ESN,0,2024,floating,668881,regenerated fitted export
+models/reservoir/ESN/fold0_seed42/fitted_parameters.npz,reservoir,ESN,0,42,floating,669007,regenerated fitted export
+models/reservoir/ESN/fold0_seed7/fitted_parameters.npz,reservoir,ESN,0,7,floating,669949,regenerated fitted export
+models/reservoir/ESN/fold0_seed999/fitted_parameters.npz,reservoir,ESN,0,999,floating,669446,regenerated fitted export
+models/reservoir/ESN/fold1_seed123/fitted_parameters.npz,reservoir,ESN,1,123,floating,668947,regenerated fitted export
+models/reservoir/ESN/fold1_seed2024/fitted_parameters.npz,reservoir,ESN,1,2024,floating,668870,regenerated fitted export
+models/reservoir/ESN/fold1_seed42/fitted_parameters.npz,reservoir,ESN,1,42,floating,669006,regenerated fitted export
+models/reservoir/ESN/fold1_seed7/fitted_parameters.npz,reservoir,ESN,1,7,floating,669941,regenerated fitted export
+models/reservoir/ESN/fold1_seed999/fitted_parameters.npz,reservoir,ESN,1,999,floating,669431,regenerated fitted export
+models/reservoir/ESN/fold2_seed123/fitted_parameters.npz,reservoir,ESN,2,123,floating,668952,regenerated fitted export
+models/reservoir/ESN/fold2_seed2024/fitted_parameters.npz,reservoir,ESN,2,2024,floating,668857,regenerated fitted export
+models/reservoir/ESN/fold2_seed42/fitted_parameters.npz,reservoir,ESN,2,42,floating,669001,regenerated fitted export
+models/reservoir/ESN/fold2_seed7/fitted_parameters.npz,reservoir,ESN,2,7,floating,669947,regenerated fitted export
+models/reservoir/ESN/fold2_seed999/fitted_parameters.npz,reservoir,ESN,2,999,floating,669423,regenerated fitted export
+models/reservoir/LSM_membrane/fold0_seed123/fitted_parameters.npz,reservoir,LSM_membrane,0,123,floating,671054,regenerated fitted export
+models/reservoir/LSM_membrane/fold0_seed2024/fitted_parameters.npz,reservoir,LSM_membrane,0,2024,floating,671041,regenerated fitted export
+models/reservoir/LSM_membrane/fold0_seed42/fitted_parameters.npz,reservoir,LSM_membrane,0,42,floating,671143,regenerated fitted export
+models/reservoir/LSM_membrane/fold0_seed7/fitted_parameters.npz,reservoir,LSM_membrane,0,7,floating,672042,regenerated fitted export
+models/reservoir/LSM_membrane/fold0_seed999/fitted_parameters.npz,reservoir,LSM_membrane,0,999,floating,671646,regenerated fitted export
+models/reservoir/LSM_membrane/fold1_seed123/fitted_parameters.npz,reservoir,LSM_membrane,1,123,floating,671016,regenerated fitted export
+models/reservoir/LSM_membrane/fold1_seed2024/fitted_parameters.npz,reservoir,LSM_membrane,1,2024,floating,670974,regenerated fitted export
+models/reservoir/LSM_membrane/fold1_seed42/fitted_parameters.npz,reservoir,LSM_membrane,1,42,floating,671102,regenerated fitted export
+models/reservoir/LSM_membrane/fold1_seed7/fitted_parameters.npz,reservoir,LSM_membrane,1,7,floating,671999,regenerated fitted export
+models/reservoir/LSM_membrane/fold1_seed999/fitted_parameters.npz,reservoir,LSM_membrane,1,999,floating,671590,regenerated fitted export
+models/reservoir/LSM_membrane/fold2_seed123/fitted_parameters.npz,reservoir,LSM_membrane,2,123,floating,671017,regenerated fitted export
+models/reservoir/LSM_membrane/fold2_seed2024/fitted_parameters.npz,reservoir,LSM_membrane,2,2024,floating,670992,regenerated fitted export
+models/reservoir/LSM_membrane/fold2_seed42/fitted_parameters.npz,reservoir,LSM_membrane,2,42,floating,671126,regenerated fitted export
+models/reservoir/LSM_membrane/fold2_seed7/fitted_parameters.npz,reservoir,LSM_membrane,2,7,floating,671998,regenerated fitted export
+models/reservoir/LSM_membrane/fold2_seed999/fitted_parameters.npz,reservoir,LSM_membrane,2,999,floating,671627,regenerated fitted export
+models/reservoir/LSM_spikes/fold0_seed123/fitted_parameters.npz,reservoir,LSM_spikes,0,123,floating,670712,regenerated fitted export
+models/reservoir/LSM_spikes/fold0_seed2024/fitted_parameters.npz,reservoir,LSM_spikes,0,2024,floating,670268,regenerated fitted export
+models/reservoir/LSM_spikes/fold0_seed42/fitted_parameters.npz,reservoir,LSM_spikes,0,42,floating,670600,regenerated fitted export
+models/reservoir/LSM_spikes/fold0_seed7/fitted_parameters.npz,reservoir,LSM_spikes,0,7,floating,671709,regenerated fitted export
+models/reservoir/LSM_spikes/fold0_seed999/fitted_parameters.npz,reservoir,LSM_spikes,0,999,floating,670774,regenerated fitted export
+models/reservoir/LSM_spikes/fold1_seed123/fitted_parameters.npz,reservoir,LSM_spikes,1,123,floating,670754,regenerated fitted export
+models/reservoir/LSM_spikes/fold1_seed2024/fitted_parameters.npz,reservoir,LSM_spikes,1,2024,floating,670375,regenerated fitted export
+models/reservoir/LSM_spikes/fold1_seed42/fitted_parameters.npz,reservoir,LSM_spikes,1,42,floating,670659,regenerated fitted export
+models/reservoir/LSM_spikes/fold1_seed7/fitted_parameters.npz,reservoir,LSM_spikes,1,7,floating,671703,regenerated fitted export
+models/reservoir/LSM_spikes/fold1_seed999/fitted_parameters.npz,reservoir,LSM_spikes,1,999,floating,670736,regenerated fitted export
+models/reservoir/LSM_spikes/fold2_seed123/fitted_parameters.npz,reservoir,LSM_spikes,2,123,floating,670762,regenerated fitted export
+models/reservoir/LSM_spikes/fold2_seed2024/fitted_parameters.npz,reservoir,LSM_spikes,2,2024,floating,670244,regenerated fitted export
+models/reservoir/LSM_spikes/fold2_seed42/fitted_parameters.npz,reservoir,LSM_spikes,2,42,floating,670681,regenerated fitted export
+models/reservoir/LSM_spikes/fold2_seed7/fitted_parameters.npz,reservoir,LSM_spikes,2,7,floating,671652,regenerated fitted export
+models/reservoir/LSM_spikes/fold2_seed999/fitted_parameters.npz,reservoir,LSM_spikes,2,999,floating,670767,regenerated fitted export

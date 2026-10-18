@@ -1,0 +1,28 @@
+[
+  {
+    "channel": "frequency_hz",
+    "unit": "Hz",
+    "raw_column": "frequency",
+    "role": "Ordering/metadata; not a network input"
+  },
+  {
+    "channel": "amplitude",
+    "unit": "V",
+    "raw_column": "r"
+  },
+  {
+    "channel": "phase",
+    "unit": "degree",
+    "raw_column": "phase_deg"
+  },
+  {
+    "channel": "x_v",
+    "unit": "V",
+    "raw_column": "x"
+  },
+  {
+    "channel": "y_v",
+    "unit": "V",
+    "raw_column": "y"
+  }
+]

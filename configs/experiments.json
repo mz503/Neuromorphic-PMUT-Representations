@@ -1,0 +1,63 @@
+{
+  "window_size": 128,
+  "stride": 128,
+  "channels": [
+    "amplitude",
+    "phase",
+    "x_v",
+    "y_v"
+  ],
+  "normalization": "training-partition per-channel z score",
+  "reservoir_seeds": [
+    7,
+    42,
+    123,
+    999,
+    2024
+  ],
+  "cnn_selected_seeds": [
+    7,
+    42
+  ],
+  "cnn_available_seeds": [
+    7,
+    42,
+    123,
+    999,
+    2024
+  ],
+  "spiking_cnn_folds": [
+    0
+  ],
+  "spiking_cnn_seeds": [
+    7,
+    42,
+    123,
+    999,
+    2024
+  ],
+  "feature_cv": {
+    "splitter": "StratifiedKFold",
+    "n_splits": 3,
+    "shuffle": true,
+    "random_state": 42
+  },
+  "reservoir": {
+    "n_reservoir": 300,
+    "spectral_radius": 0.95,
+    "sparsity": 0.9,
+    "input_scaling": 1.0,
+    "warmup": 10,
+    "state_reduction": "mean",
+    "ridge_alpha": 1.0,
+    "lsm_beta": 0.9,
+    "threshold": 1.0,
+    "esn_leaking_rate": 0.3
+  },
+  "aggregation": {
+    "reservoir": "majority vote",
+    "tie_rule": "smallest class index",
+    "cnn": "window accuracy; archived sweep outputs use mean logits",
+    "sd": "population standard deviation (ddof=0); seed SD within folds, then SD across fold means"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "regenerated": true,
+  "mode": "legacy_full_table_imputation",
+  "fold": 0,
+  "train_sweeps": [
+    "Glucose 100mM sweep 2 (100k\u20132.5M)",
+    "Glucose 100mM sweep 3 (100k\u20132.5M)",
+    "Glucose 1000mM sweep 1 (100k\u20132.5M)",
+    "Glucose 1000mM sweep 2 (100k\u20132.5M)",
+    "Glucose 250mM sweep 2 (100k\u20132.5M)",
+    "Glucose 250mM sweep 3 (100k\u20132.5M)",
+    "Glucose 50mM sweep 1 (100k\u20132.5M)",
+    "Glucose 50mM sweep 2 (100k\u20132.5M)",
+    "Glucose 500mM sweep 2 (100k\u20132.5M)",
+    "Glucose 500mM sweep 3 (100k\u20132.5M)"
+  ],
+  "test_sweeps": [
+    "Glucose 100mM sweep 1 (100k\u20132.5M)",
+    "Glucose 1000mM sweep 3 (100k\u20132.5M)",
+    "Glucose 250mM sweep 1 (100k\u20132.5M)",
+    "Glucose 50mM sweep 3 (100k\u20132.5M)",
+    "Glucose 500mM sweep 1 (100k\u20132.5M)"
+  ],
+  "test_accuracy": 0.8
+}

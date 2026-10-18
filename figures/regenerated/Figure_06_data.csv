@@ -1,0 +1,10 @@
+model,evaluation_unit,fold,mean,sd_seeds,n_seeds
+ESN,sweep,0,0.76,0.08,5
+ESN,sweep,1,0.96,0.0799999999999999,5
+ESN,sweep,2,0.8,0.0,5
+LSM_membrane,sweep,0,0.6,0.0,5
+LSM_membrane,sweep,1,0.8,0.0,5
+LSM_membrane,sweep,2,0.8,0.0,5
+LSM_spikes,sweep,0,0.72,0.0979795897113271,5
+LSM_spikes,sweep,1,1.0,0.0,5
+LSM_spikes,sweep,2,0.92,0.097979589711327,5

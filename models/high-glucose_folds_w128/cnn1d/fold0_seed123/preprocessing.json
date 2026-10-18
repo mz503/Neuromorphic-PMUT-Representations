@@ -1,0 +1,25 @@
+{
+  "labels": [
+    "Glucose 50 mM",
+    "Glucose 100 mM",
+    "Glucose 250 mM",
+    "Glucose 500 mM",
+    "Glucose 1000 mM"
+  ],
+  "normalization_fitting_scope": "training windows of this complete-sweep rotation",
+  "normalization_mean": [
+    0.004505949094891548,
+    -1.5821219682693481,
+    0.004501031711697578,
+    -0.00014642583846580237
+  ],
+  "normalization_std": [
+    0.0011242157779633999,
+    2.051642417907715,
+    0.0011216343846172094,
+    0.00017131389176938683
+  ],
+  "model": "cnn1d",
+  "fold": 0,
+  "seed": 123
+}

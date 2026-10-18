@@ -1,0 +1,326 @@
+[
+  {
+    "artifact": "models\\reservoir\\ESN\\fold0_seed123",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\ESN\\fold0_seed2024",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\ESN\\fold0_seed42",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\ESN\\fold0_seed7",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\ESN\\fold0_seed999",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\ESN\\fold1_seed123",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\ESN\\fold1_seed2024",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\ESN\\fold1_seed42",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\ESN\\fold1_seed7",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\ESN\\fold1_seed999",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\ESN\\fold2_seed123",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\ESN\\fold2_seed2024",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\ESN\\fold2_seed42",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\ESN\\fold2_seed7",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\ESN\\fold2_seed999",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_membrane\\fold0_seed123",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_membrane\\fold0_seed2024",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_membrane\\fold0_seed42",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_membrane\\fold0_seed7",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_membrane\\fold0_seed999",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_membrane\\fold1_seed123",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_membrane\\fold1_seed2024",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_membrane\\fold1_seed42",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_membrane\\fold1_seed7",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_membrane\\fold1_seed999",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_membrane\\fold2_seed123",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_membrane\\fold2_seed2024",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_membrane\\fold2_seed42",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_membrane\\fold2_seed7",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_membrane\\fold2_seed999",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_spikes\\fold0_seed123",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_spikes\\fold0_seed2024",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_spikes\\fold0_seed42",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_spikes\\fold0_seed7",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_spikes\\fold0_seed999",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_spikes\\fold1_seed123",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_spikes\\fold1_seed2024",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_spikes\\fold1_seed42",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_spikes\\fold1_seed7",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_spikes\\fold1_seed999",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_spikes\\fold2_seed123",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_spikes\\fold2_seed2024",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_spikes\\fold2_seed42",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_spikes\\fold2_seed7",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\reservoir\\LSM_spikes\\fold2_seed999",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\KNN_k=3\\fold0\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\KNN_k=3\\fold1\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\KNN_k=3\\fold2\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\KNN_k=5\\fold0\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\KNN_k=5\\fold1\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\KNN_k=5\\fold2\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\MLP\\fold0\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\MLP\\fold1\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\MLP\\fold2\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\Random_Forest\\fold0\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\Random_Forest\\fold1\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\Random_Forest\\fold2\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\SVM_Linear\\fold0\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\SVM_Linear\\fold1\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\SVM_Linear\\fold2\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\SVM_RBF\\fold0\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\SVM_RBF\\fold1\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\legacy_full_table_imputation\\SVM_RBF\\fold2\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\KNN_k=3\\fold0\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\KNN_k=3\\fold1\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\KNN_k=3\\fold2\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\KNN_k=5\\fold0\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\KNN_k=5\\fold1\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\KNN_k=5\\fold2\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\MLP\\fold0\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\MLP\\fold1\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\MLP\\fold2\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\Random_Forest\\fold0\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\Random_Forest\\fold1\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\Random_Forest\\fold2\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\SVM_Linear\\fold0\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\SVM_Linear\\fold1\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\SVM_Linear\\fold2\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\SVM_RBF\\fold0\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\SVM_RBF\\fold1\\fitted_model.joblib",
+    "reload_predictions_match": true
+  },
+  {
+    "artifact": "models\\features\\training_fold_only_imputation\\SVM_RBF\\fold2\\fitted_model.joblib",
+    "reload_predictions_match": true
+  }
+]
