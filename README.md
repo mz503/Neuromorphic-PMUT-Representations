@@ -63,4 +63,6 @@ New neural training runs are written under `results/new_runs/`; selected origina
 
 The precision comparison has its own grouped split and window-level evaluation. Its Ridge readout is independently retrained at each precision, including the float reference; preprocessing and readout fitting/scoring remain floating point. See [the exact precision protocol](docs/PRECISION.md).
 
-HDL is an unverified single-neuron prototype. See `CITATION.cff` for citation metadata.
+## Licensing and citation
+
+ If you use or build upon this work, please cite the associated publication(s) and this repository, including the release or commit used. Third-party materials remain subject to their original licences and attribution requirements.
