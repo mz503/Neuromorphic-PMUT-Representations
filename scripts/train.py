@@ -18,7 +18,6 @@ def main():
         complete_spike_exports()
     elif args.family=='precision':r.precision_stage()
     else:
-        if args.family=='spiking_cnn1d' and args.fold!=0:parser.error('SpikingCNN1D reported scope is fold 0 only.')
         from src.pmut_models.data import build_dataset_folds
         from src.pmut_models.train_utils import train_single_run
         recorded=json.loads((ROOT/'configs/recorded_neural_runs.json').read_text(encoding='utf-8'))

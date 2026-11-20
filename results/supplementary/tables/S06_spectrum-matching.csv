@@ -1,0 +1,6 @@
+Method,Accuracy (%)
+Random guessing (expected),20.0
+Direct spectrum matching,73.3 ± 18.9
+CNN1D,78.7 ± 6.8
+ESN,84.0 ± 8.6
+LSM (spikes),88.0 ± 11.8

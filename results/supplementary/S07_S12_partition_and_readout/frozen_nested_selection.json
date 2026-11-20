@@ -1,0 +1,197 @@
+[
+  {
+    "outer": 0,
+    "test": [
+      2,
+      5,
+      8,
+      11,
+      14
+    ],
+    "train": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7,
+      9,
+      10,
+      12,
+      13
+    ],
+    "selected_configuration": {
+      "name": "sr120",
+      "n": 300,
+      "sr": 1.2,
+      "beta": 0.9
+    },
+    "candidates": [
+      {
+        "configuration": "fixed",
+        "mean_validation_sweep_accuracy": 1.0,
+        "mean_validation_window_accuracy": 0.8760869565217393
+      },
+      {
+        "configuration": "sr070",
+        "mean_validation_sweep_accuracy": 0.96,
+        "mean_validation_window_accuracy": 0.8691304347826087
+      },
+      {
+        "configuration": "sr120",
+        "mean_validation_sweep_accuracy": 1.0,
+        "mean_validation_window_accuracy": 0.9043478260869563
+      },
+      {
+        "configuration": "beta080",
+        "mean_validation_sweep_accuracy": 1.0,
+        "mean_validation_window_accuracy": 0.8800000000000001
+      },
+      {
+        "configuration": "beta095",
+        "mean_validation_sweep_accuracy": 1.0,
+        "mean_validation_window_accuracy": 0.8804347826086957
+      },
+      {
+        "configuration": "N150",
+        "mean_validation_sweep_accuracy": 0.8400000000000001,
+        "mean_validation_window_accuracy": 0.7995652173913043
+      },
+      {
+        "configuration": "N600",
+        "mean_validation_sweep_accuracy": 0.9800000000000001,
+        "mean_validation_window_accuracy": 0.8969565217391304
+      }
+    ]
+  },
+  {
+    "outer": 1,
+    "test": [
+      0,
+      3,
+      6,
+      9,
+      12
+    ],
+    "train": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      10,
+      11,
+      13,
+      14
+    ],
+    "selected_configuration": {
+      "name": "N600",
+      "n": 600,
+      "sr": 0.95,
+      "beta": 0.9
+    },
+    "candidates": [
+      {
+        "configuration": "fixed",
+        "mean_validation_sweep_accuracy": 0.8600000000000001,
+        "mean_validation_window_accuracy": 0.8469565217391304
+      },
+      {
+        "configuration": "sr070",
+        "mean_validation_sweep_accuracy": 0.8200000000000001,
+        "mean_validation_window_accuracy": 0.836086956521739
+      },
+      {
+        "configuration": "sr120",
+        "mean_validation_sweep_accuracy": 0.8800000000000001,
+        "mean_validation_window_accuracy": 0.8621739130434782
+      },
+      {
+        "configuration": "beta080",
+        "mean_validation_sweep_accuracy": 0.8800000000000001,
+        "mean_validation_window_accuracy": 0.8534782608695652
+      },
+      {
+        "configuration": "beta095",
+        "mean_validation_sweep_accuracy": 0.8400000000000001,
+        "mean_validation_window_accuracy": 0.8486956521739131
+      },
+      {
+        "configuration": "N150",
+        "mean_validation_sweep_accuracy": 0.8200000000000001,
+        "mean_validation_window_accuracy": 0.8008695652173913
+      },
+      {
+        "configuration": "N600",
+        "mean_validation_sweep_accuracy": 0.9,
+        "mean_validation_window_accuracy": 0.8839130434782609
+      }
+    ]
+  },
+  {
+    "outer": 2,
+    "test": [
+      1,
+      4,
+      7,
+      10,
+      13
+    ],
+    "train": [
+      0,
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      11,
+      12,
+      14
+    ],
+    "selected_configuration": {
+      "name": "sr070",
+      "n": 300,
+      "sr": 0.7,
+      "beta": 0.9
+    },
+    "candidates": [
+      {
+        "configuration": "fixed",
+        "mean_validation_sweep_accuracy": 0.6599999999999999,
+        "mean_validation_window_accuracy": 0.6569565217391304
+      },
+      {
+        "configuration": "sr070",
+        "mean_validation_sweep_accuracy": 0.7,
+        "mean_validation_window_accuracy": 0.6656521739130434
+      },
+      {
+        "configuration": "sr120",
+        "mean_validation_sweep_accuracy": 0.5999999999999999,
+        "mean_validation_window_accuracy": 0.6421739130434784
+      },
+      {
+        "configuration": "beta080",
+        "mean_validation_sweep_accuracy": 0.6399999999999999,
+        "mean_validation_window_accuracy": 0.6591304347826088
+      },
+      {
+        "configuration": "beta095",
+        "mean_validation_sweep_accuracy": 0.6799999999999999,
+        "mean_validation_window_accuracy": 0.6547826086956522
+      },
+      {
+        "configuration": "N150",
+        "mean_validation_sweep_accuracy": 0.6399999999999999,
+        "mean_validation_window_accuracy": 0.6539130434782608
+      },
+      {
+        "configuration": "N600",
+        "mean_validation_sweep_accuracy": 0.5999999999999999,
+        "mean_validation_window_accuracy": 0.6426086956521739
+      }
+    ]
+  }
+]

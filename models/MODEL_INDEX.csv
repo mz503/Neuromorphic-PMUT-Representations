@@ -55,6 +55,16 @@ models/high-glucose_folds_w128/spiking_cnn1d/fold0_seed2024/best_model.pt,high-g
 models/high-glucose_folds_w128/spiking_cnn1d/fold0_seed42/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,0,42,floating,71029,original saved neural checkpoint
 models/high-glucose_folds_w128/spiking_cnn1d/fold0_seed7/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,0,7,floating,71029,original saved neural checkpoint
 models/high-glucose_folds_w128/spiking_cnn1d/fold0_seed999/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,0,999,floating,71029,original saved neural checkpoint
+models/high-glucose_folds_w128/spiking_cnn1d/fold1_seed123/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,1,123,floating,71029,original saved neural checkpoint
+models/high-glucose_folds_w128/spiking_cnn1d/fold1_seed2024/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,1,2024,floating,71029,original saved neural checkpoint
+models/high-glucose_folds_w128/spiking_cnn1d/fold1_seed42/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,1,42,floating,71029,original saved neural checkpoint
+models/high-glucose_folds_w128/spiking_cnn1d/fold1_seed7/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,1,7,floating,71029,original saved neural checkpoint
+models/high-glucose_folds_w128/spiking_cnn1d/fold1_seed999/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,1,999,floating,71029,original saved neural checkpoint
+models/high-glucose_folds_w128/spiking_cnn1d/fold2_seed123/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,2,123,floating,71029,original saved neural checkpoint
+models/high-glucose_folds_w128/spiking_cnn1d/fold2_seed2024/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,2,2024,floating,71029,original saved neural checkpoint
+models/high-glucose_folds_w128/spiking_cnn1d/fold2_seed42/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,2,42,floating,71029,original saved neural checkpoint
+models/high-glucose_folds_w128/spiking_cnn1d/fold2_seed7/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,2,7,floating,71029,original saved neural checkpoint
+models/high-glucose_folds_w128/spiking_cnn1d/fold2_seed999/best_model.pt,high-glucose_folds_w128,spiking_cnn1d,2,999,floating,71029,original saved neural checkpoint
 models/precision/12-bit/regenerated_model.npz,precision,12-bit,,42,12-bit,1124373,regenerated fitted export
 models/precision/16-bit/regenerated_model.npz,precision,16-bit,,42,16-bit,1296347,regenerated fitted export
 models/precision/4-bit/regenerated_model.npz,precision,4-bit,,42,4-bit,755214,regenerated fitted export

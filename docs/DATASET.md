@@ -2,7 +2,7 @@
 
 The drive voltage is 10 V peak-to-peak.
 
-The original high-glucose workbook is retained unchanged. `AllSamples` contains the primary 15 glucose sweeps and additional air/DI records; only the named glucose sweeps enter the five-class benchmark. The dataset manifest lists each sweep's condition, repeat and source. Separate baseline-liquid measurements support Figure 2 and are excluded from the classifier dataset.
+The original workbook's `AllSamples` sheet contains 126,000 samples across 22 recorded sweeps under seven conditions. The five-class glucose benchmark uses 90,000 samples from 15 sweeps, with three acquisitions at each of five concentrations. Every benchmark acquisition contains 6,000 samples. The manifest gives each benchmark sweep's condition, repeat and source. Additional baseline-liquid recordings are retained under `data/raw/baseline_liquids/`.
 
 Class IDs are 0: 50 mM, 1: 100 mM, 2: 250 mM, 3: 500 mM, 4: 1000 mM. Channels are amplitude (V), phase (degrees), X (V) and Y (V); the raw frequency column is in Hz. The four-channel loader preserves recorded phase. Per-sweep phase/IQ checks are available in `data/metadata/phase_units_audit.csv`.
 

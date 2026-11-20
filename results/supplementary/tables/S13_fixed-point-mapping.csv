@@ -1,0 +1,10 @@
+Quantity,Format,Bits,Range,Resolution,Rounding,Saturation
+Input \(x_k\),Q3.12,16,"\([-8,8-2^{-12}]\)",\(2^{-12}\),Nearest-even,Clip to range
+\(W_{\mathrm{in}}\),Q3.12,16,"\([-8,8-2^{-12}]\)",\(2^{-12}\),Nearest-even,Clip to range
+\(W_{\mathrm{res}}\),Q3.12,16,"\([-8,8-2^{-12}]\)",\(2^{-12}\),Nearest-even,Clip to range
+Bias \(b\),Q3.12,16,"\([-8,8-2^{-12}]\)",\(2^{-12}\),Nearest-even,Clip to range
+Leak \(\beta\),Q3.12,16,"\([-8,8-2^{-12}]\)",\(2^{-12}\),Nearest-even,Clip to range
+Threshold \(\theta\),Q3.12,16,"\([-8,8-2^{-12}]\)",\(2^{-12}\),Nearest-even,Clip to range
+Membrane \(v_k\),Q3.12,16,"\([-8,8-2^{-12}]\)",\(2^{-12}\),Nearest-even,Clip to range
+Current \(I_k\),Q3.12,16,"\([-8,8-2^{-12}]\)",\(2^{-12}\),Nearest-even,Clip to range
+"Readout \(W_{\mathrm{out}},b_{\mathrm{out}}\)",Float64,64,\(\approx ± 1.80\times10^{308}\),Variable,Native FP,None

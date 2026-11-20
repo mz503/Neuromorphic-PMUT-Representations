@@ -1,0 +1,74 @@
+[
+  {
+    "fold": 0,
+    "config_id": "c64-128_k5-5_lr1e-03_b32",
+    "configuration": {
+      "width": 64,
+      "channels": [
+        64,
+        128
+      ],
+      "kernels": [
+        5,
+        5
+      ],
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "epochs": 150,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0
+    },
+    "mean_validation_accuracy": 0.9147826086956522,
+    "sd_validation_accuracy_seeds": 0.013358514344119327,
+    "n_parameters": 43461,
+    "validation_correct_total": 1052
+  },
+  {
+    "fold": 1,
+    "config_id": "c64-128_k5-5_lr1e-03_b32",
+    "configuration": {
+      "width": 64,
+      "channels": [
+        64,
+        128
+      ],
+      "kernels": [
+        5,
+        5
+      ],
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "epochs": 150,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0
+    },
+    "mean_validation_accuracy": 0.9695652173913043,
+    "sd_validation_accuracy_seeds": 0.013187609467915714,
+    "n_parameters": 43461,
+    "validation_correct_total": 1115
+  },
+  {
+    "fold": 2,
+    "config_id": "c32-64_k8-8_lr1e-03_b32",
+    "configuration": {
+      "width": 32,
+      "channels": [
+        32,
+        64
+      ],
+      "kernels": [
+        8,
+        8
+      ],
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "epochs": 150,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0
+    },
+    "mean_validation_accuracy": 0.8704347826086957,
+    "sd_validation_accuracy_seeds": 0.034498842478047624,
+    "n_parameters": 18021,
+    "validation_correct_total": 1001
+  }
+]

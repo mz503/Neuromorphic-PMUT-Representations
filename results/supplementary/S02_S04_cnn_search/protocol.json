@@ -1,0 +1,72 @@
+{
+  "architecture_widths": [
+    8,
+    16,
+    32,
+    64
+  ],
+  "architecture_kernel_pairs": [
+    [
+      5,
+      5
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      11,
+      11
+    ]
+  ],
+  "seeds": [
+    7,
+    42,
+    123,
+    999,
+    2024
+  ],
+  "folds": [
+    0,
+    1,
+    2
+  ],
+  "epochs": 150,
+  "stage_2_learning_rates": [
+    0.0001,
+    0.001
+  ],
+  "stage_2_batch_sizes": [
+    16,
+    32
+  ],
+  "selection": "Per-fold mean validation-window accuracy across five seeds; ties: fewer parameters, then config ID.",
+  "checkpoint_selection": "Highest validation accuracy, earliest epoch on ties.",
+  "cross_fold_selection": false,
+  "test_used_for_selection": false,
+  "test_protocol": "One pass per selected checkpoint after all fold selections are written and frozen.",
+  "study_status": "New retrospective supplementary search; original fixed configuration retained.",
+  "signature": {
+    "runner_sha256": "890e28e69f6eff7216e6b26ebbee5739f9f545b202cbf10cc1520464cd4f60ec",
+    "torch": "2.12.0+cpu",
+    "numpy": "2.3.3",
+    "folds": [
+      "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+      "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+      "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+    ],
+    "original_model_source": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6"
+  }
+}

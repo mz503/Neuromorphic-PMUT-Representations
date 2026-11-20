@@ -1,0 +1,5 @@
+Method,Majority/sweep,Score mean
+Physical-feature RF,86.7 ± 0.0,--
+CNN1D,62.7 ± 6.8,62.7 ± 10.8
+ESN,78.7 ± 2.7,88.0 ± 2.7
+LSM (spikes),82.7 ± 3.3,93.3 ± 0.0

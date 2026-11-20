@@ -1,0 +1,244 @@
+{
+  "signature": {
+    "sources": {
+      "review_comments_15_17_20261109\\run_study.py": "601f6a8a43448351ab9633a6f57852c0ee04220c2840c5166322a4a678fdbbe8",
+      "git_paper_clean\\src\\pmut_models\\spiking.py": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6",
+      "git_paper_clean\\src\\pmut_models\\reservoir.py": "ee5474f1ea426631b6f8efdb2a17bca543f332ee4a5fca0fa68c1976b1b7b3e9",
+      "git_paper_clean\\src\\pmut_models\\channel_ablation.py": "bcccf82bf4ee91af57a532eca8da3153a1de830d31c1aa31f2059d72151ed124"
+    },
+    "folds": [
+      "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+      "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+      "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+    ],
+    "numpy": "2.3.3",
+    "torch": "2.12.0+cpu"
+  },
+  "selections": [
+    {
+      "model": "cnn1d",
+      "fold": 0,
+      "selected_length": 256,
+      "candidates": [
+        {
+          "length": 64,
+          "sweep_correct_total": 25,
+          "window_correct_total": 2063,
+          "window_count_total": 2300
+        },
+        {
+          "length": 128,
+          "sweep_correct_total": 25,
+          "window_correct_total": 1023,
+          "window_count_total": 1150
+        },
+        {
+          "length": 256,
+          "sweep_correct_total": 25,
+          "window_correct_total": 516,
+          "window_count_total": 575
+        }
+      ]
+    },
+    {
+      "model": "cnn1d",
+      "fold": 1,
+      "selected_length": 64,
+      "candidates": [
+        {
+          "length": 64,
+          "sweep_correct_total": 25,
+          "window_correct_total": 2236,
+          "window_count_total": 2300
+        },
+        {
+          "length": 128,
+          "sweep_correct_total": 25,
+          "window_correct_total": 1078,
+          "window_count_total": 1150
+        },
+        {
+          "length": 256,
+          "sweep_correct_total": 25,
+          "window_correct_total": 534,
+          "window_count_total": 575
+        }
+      ]
+    },
+    {
+      "model": "cnn1d",
+      "fold": 2,
+      "selected_length": 64,
+      "candidates": [
+        {
+          "length": 64,
+          "sweep_correct_total": 23,
+          "window_correct_total": 1954,
+          "window_count_total": 2300
+        },
+        {
+          "length": 128,
+          "sweep_correct_total": 22,
+          "window_correct_total": 991,
+          "window_count_total": 1150
+        },
+        {
+          "length": 256,
+          "sweep_correct_total": 22,
+          "window_correct_total": 494,
+          "window_count_total": 575
+        }
+      ]
+    },
+    {
+      "model": "esn",
+      "fold": 0,
+      "selected_length": 64,
+      "candidates": [
+        {
+          "length": 64,
+          "sweep_correct_total": 25,
+          "window_correct_total": 2040,
+          "window_count_total": 2300
+        },
+        {
+          "length": 128,
+          "sweep_correct_total": 25,
+          "window_correct_total": 997,
+          "window_count_total": 1150
+        },
+        {
+          "length": 256,
+          "sweep_correct_total": 25,
+          "window_correct_total": 484,
+          "window_count_total": 575
+        }
+      ]
+    },
+    {
+      "model": "esn",
+      "fold": 1,
+      "selected_length": 64,
+      "candidates": [
+        {
+          "length": 64,
+          "sweep_correct_total": 20,
+          "window_correct_total": 1904,
+          "window_count_total": 2300
+        },
+        {
+          "length": 128,
+          "sweep_correct_total": 20,
+          "window_correct_total": 901,
+          "window_count_total": 1150
+        },
+        {
+          "length": 256,
+          "sweep_correct_total": 18,
+          "window_correct_total": 430,
+          "window_count_total": 575
+        }
+      ]
+    },
+    {
+      "model": "esn",
+      "fold": 2,
+      "selected_length": 128,
+      "candidates": [
+        {
+          "length": 64,
+          "sweep_correct_total": 15,
+          "window_correct_total": 1413,
+          "window_count_total": 2300
+        },
+        {
+          "length": 128,
+          "sweep_correct_total": 15,
+          "window_correct_total": 708,
+          "window_count_total": 1150
+        },
+        {
+          "length": 256,
+          "sweep_correct_total": 15,
+          "window_correct_total": 349,
+          "window_count_total": 575
+        }
+      ]
+    },
+    {
+      "model": "lsm",
+      "fold": 0,
+      "selected_length": 64,
+      "candidates": [
+        {
+          "length": 64,
+          "sweep_correct_total": 25,
+          "window_correct_total": 2037,
+          "window_count_total": 2300
+        },
+        {
+          "length": 128,
+          "sweep_correct_total": 25,
+          "window_correct_total": 1003,
+          "window_count_total": 1150
+        },
+        {
+          "length": 256,
+          "sweep_correct_total": 25,
+          "window_correct_total": 483,
+          "window_count_total": 575
+        }
+      ]
+    },
+    {
+      "model": "lsm",
+      "fold": 1,
+      "selected_length": 64,
+      "candidates": [
+        {
+          "length": 64,
+          "sweep_correct_total": 20,
+          "window_correct_total": 1935,
+          "window_count_total": 2300
+        },
+        {
+          "length": 128,
+          "sweep_correct_total": 20,
+          "window_correct_total": 940,
+          "window_count_total": 1150
+        },
+        {
+          "length": 256,
+          "sweep_correct_total": 20,
+          "window_correct_total": 454,
+          "window_count_total": 575
+        }
+      ]
+    },
+    {
+      "model": "lsm",
+      "fold": 2,
+      "selected_length": 256,
+      "candidates": [
+        {
+          "length": 64,
+          "sweep_correct_total": 15,
+          "window_correct_total": 1450,
+          "window_count_total": 2300
+        },
+        {
+          "length": 128,
+          "sweep_correct_total": 15,
+          "window_correct_total": 716,
+          "window_count_total": 1150
+        },
+        {
+          "length": 256,
+          "sweep_correct_total": 15,
+          "window_correct_total": 363,
+          "window_count_total": 575
+        }
+      ]
+    }
+  ]
+}

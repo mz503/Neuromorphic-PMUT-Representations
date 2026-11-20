@@ -1,0 +1,10 @@
+﻿model,fold,selected_window_length,test_sweep_accuracy_seed_mean
+cnn1d,0,256,0.72
+cnn1d,1,64,0.8
+cnn1d,2,64,0.9199999999999999
+esn,0,64,0.64
+esn,1,64,0.8400000000000001
+esn,2,128,0.8
+lsm,0,64,0.64
+lsm,1,64,0.96
+lsm,2,256,0.8

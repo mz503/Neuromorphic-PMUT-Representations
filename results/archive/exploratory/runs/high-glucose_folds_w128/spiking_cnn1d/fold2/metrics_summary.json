@@ -1,0 +1,80 @@
+{
+  "model": "spiking_cnn1d",
+  "num_seeds": 5,
+  "seeds": [
+    7,
+    42,
+    123,
+    999,
+    2024
+  ],
+  "labels": [
+    "Glucose 50 mM",
+    "Glucose 100 mM",
+    "Glucose 250 mM",
+    "Glucose 500 mM",
+    "Glucose 1000 mM"
+  ],
+  "dataset": {
+    "task": "high-glucose",
+    "split": "grouped_folds",
+    "fold": 2,
+    "train_sweeps": [
+      "Glucose 50mM sweep 3 (100k\u20132.5M)",
+      "Glucose 100mM sweep 3 (100k\u20132.5M)",
+      "Glucose 250mM sweep 3 (100k\u20132.5M)",
+      "Glucose 500mM sweep 3 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 3 (100k\u20132.5M)"
+    ],
+    "val_sweeps": [
+      "Glucose 50mM sweep 1 (100k\u20132.5M)",
+      "Glucose 100mM sweep 1 (100k\u20132.5M)",
+      "Glucose 250mM sweep 1 (100k\u20132.5M)",
+      "Glucose 500mM sweep 1 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 1 (100k\u20132.5M)"
+    ],
+    "test_sweeps": [
+      "Glucose 50mM sweep 2 (100k\u20132.5M)",
+      "Glucose 100mM sweep 2 (100k\u20132.5M)",
+      "Glucose 250mM sweep 2 (100k\u20132.5M)",
+      "Glucose 500mM sweep 2 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 2 (100k\u20132.5M)"
+    ],
+    "window_size": 128,
+    "stride": 128,
+    "n_samples": 690,
+    "n_train": 230,
+    "n_val": 230,
+    "n_test": 230,
+    "normalization_mean": [
+      0.004447887185961008,
+      -1.9447659254074097,
+      0.004441681317985058,
+      -0.00017138323164545
+    ],
+    "normalization_std": [
+      0.0011047190055251122,
+      2.1991817951202393,
+      0.0011014469200745225,
+      0.00018482410814613104
+    ]
+  },
+  "final_test_accuracy_mean": 0.8347826086956521,
+  "final_test_accuracy_std": 0.014288414543613029,
+  "final_test_accuracy_list": [
+    0.8130434782608695,
+    0.8347826086956521,
+    0.8521739130434782,
+    0.8478260869565217,
+    0.8260869565217391
+  ],
+  "best_val_accuracy_mean": 0.8130434782608695,
+  "best_val_accuracy_std": 0.010999226644063918,
+  "best_val_accuracy_list": [
+    0.8043478260869565,
+    0.808695652173913,
+    0.8,
+    0.8260869565217391,
+    0.8260869565217391
+  ]
+}

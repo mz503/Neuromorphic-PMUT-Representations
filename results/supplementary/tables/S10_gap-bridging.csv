@@ -1,0 +1,8 @@
+Configuration,Accuracy (%)
+"Ridge, majority vote",81.8 ± 14.5
+Scaled-state Ridge,82.2 ± 14.7
+Hybrid feature Ridge,54.7 ± 12.9
+"RF readout, majority vote",83.6 ± 14.2
+"Ridge, mean scores",92.9 ± 9.2
+"Ridge, temperature-scaled mean",84.2 ± 14.4
+"Ridge, five-seed ensemble",93.3 ± 9.4

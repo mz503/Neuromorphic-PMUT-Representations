@@ -2,7 +2,7 @@
 
 Code, measurements and fitted models for *Physical and Neuromorphic Representations of PMUT Electrical Spectra for Glucose Loading Classification*.
 
-The primary dataset comprises frequency sweeps at 50, 100, 250, 500 and 1000 mM glucose concentrations. Each sweep has 6,000 samples with frequency, amplitude, phase, X and Y. Four signal channels form non-overlapping 128-sample windows; frequency is retained as provenance. Complete acquisitions are separated in the main benchmark folds.
+The workbook contains 126,000 samples across 22 recorded sweeps. The five-class benchmark uses 90,000 samples from 15 glucose sweeps, with three acquisitions at each of 50, 100, 250, 500 and 1000 mM. Each benchmark sweep has 6,000 samples with frequency, amplitude, phase, X and Y. Four signal channels form non-overlapping 128-sample windows; frequency is retained as provenance. Complete acquisitions are separated in the main benchmark folds.
 
 ## Installation
 
@@ -25,11 +25,10 @@ Activate the environment or use its Python executable for the commands below. Th
 | `data/splits/` | Exact physical-feature CV, sweep-rotation and precision manifests |
 | `src/` | Reusable data, model, training, inference, aggregation and evaluation code |
 | `configs/` | Recorded experiment settings, seeds, feature bands and precision protocol |
-| `notebooks/` | Numbered executable workflow from inspection to figures |
+| `notebooks/` | Numbered executable workflow for data preparation, evaluation and reporting |
 | `scripts/` | Data preparation, training, evaluation and reporting entry points |
 | `models/` | Original neural checkpoints and regenerated fitted feature/reservoir/precision models |
-| `results/` | Predictions, metrics, confusion matrices, logs and numerical tables |
-| `figures/` | Final manuscript panels, regenerated plots and underlying numerical data |
+| `results/` | Predictions, metrics, confusion matrices, logs, and archived evidence for [Tables S1–S14](results/supplementary/) |
 | `hardware/` | Single-neuron Q3.12 Verilog prototype and existing software test vectors |
 | `docs/` | Dataset/protocol definitions and results index |
 
@@ -40,9 +39,10 @@ python scripts/prepare_data.py
 python scripts/evaluate.py
 python scripts/report.py
 python scripts/run_notebooks.py
+python scripts/verify_supplementary.py
 ```
 
-The first command regenerates features, window datasets and benchmark split provenance from the original workbook. Evaluation reloads the saved models and checks their supporting predictions. Reporting regenerates tables, confusion matrices and Figures 4–7, using majority-vote reservoir aggregation; tied votes select the smallest class index.
+The first command regenerates features, window datasets and benchmark split provenance from the original workbook. Evaluation reloads the saved models and checks their supporting predictions. Reporting regenerates numerical tables and confusion matrices. The [cross-model comparison](results/tables/cross_model_comparison.csv) includes SpikingCNN1D across all three folds. Reservoir sweep results use majority voting, with ties resolved by the smallest class index.
 
 To regenerate fitted models:
 
@@ -59,9 +59,13 @@ python scripts/train.py --family cnn1d --fold 0 --seed 7
 python scripts/train.py --family spiking_cnn1d --fold 0 --seed 7
 ```
 
-New neural training runs are written under `results/new_runs/`; selected original checkpoints are retained. CNN1D's selected manuscript comparison uses seeds 7 and 42 over three folds; other saved CNN seeds remain available. Reservoir comparisons use five seeds per fold. SpikingCNN1D is exploratory and reported for fold 0 only.
+New neural training runs are written under `results/new_runs/`; selected original checkpoints are retained. CNN1D's selected manuscript comparison uses seeds 7 and 42 over three folds; other saved CNN seeds remain available. Reservoir comparisons use five seeds per fold. SpikingCNN1D uses five seeds in each of all three sweep folds. Its mean window accuracy is 78.9%, with a population SD of 4.1 percentage points across fold means.
 
 The precision comparison has its own grouped split and window-level evaluation. Its Ridge readout is independently retrained at each precision, including the float reference; preprocessing and readout fitting/scoring remain floating point. See [the exact precision protocol](docs/PRECISION.md).
+
+## Supplementary experiments
+
+The [supplementary results](results/supplementary/) include each published table, the archived run records, and the split and selection records. `python scripts/verify_supplementary.py` checks the reported statistics in Tables S1–S12 against this evidence. To rerun the matched three-fold channel ablation, use `python scripts/channel_ablation.py --output results/new_runs/channel_ablation`. The additional CNN search, window-length and readout comparisons are supplied as archived runs and table evidence. The fixed-point and HDL tables are linked to the [precision outputs](results/precision/) and [prototype](hardware/).
 
 ## Licensing and citation
 

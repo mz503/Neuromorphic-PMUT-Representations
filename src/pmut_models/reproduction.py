@@ -221,10 +221,15 @@ def neural_validation_stage():
     from src.pmut_models.spiking import build_model
     torch.set_num_threads(1)
     checks=[]
-    for name,prefix in [('cnn1d','results/archive/runs'),('spiking_cnn1d','results/archive/exploratory/runs')]:
-        for fold in ([0] if name=='spiking_cnn1d' else range(3)):
+    config=json.loads((ROOT/'configs/experiments.json').read_text(encoding='utf-8'))
+    families = [
+        ('cnn1d', 'results/archive/runs', range(3), config['cnn_available_seeds']),
+        ('spiking_cnn1d', 'results/archive/exploratory/runs', config['spiking_cnn_folds'], config['spiking_cnn_seeds']),
+    ]
+    for name, prefix, folds, seeds in families:
+        for fold in folds:
             d=load_fold(fold)
-            for seed in [7,42,123,999,2024]:
+            for seed in seeds:
                 run=f'high-glucose_folds_w128/{name}/fold{fold}_seed{seed}'
                 model=build_model(name,input_shape=(128,4),num_classes=5)
                 checkpoint=REPO/'models'/run/'best_model.pt'

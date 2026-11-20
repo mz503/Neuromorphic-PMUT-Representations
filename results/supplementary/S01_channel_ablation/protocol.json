@@ -1,0 +1,63 @@
+{
+  "folds": [
+    0,
+    1,
+    2
+  ],
+  "seeds": [
+    7,
+    42,
+    123,
+    999,
+    2024
+  ],
+  "representations": [
+    "four",
+    "polar",
+    "cartesian"
+  ],
+  "models": [
+    "cnn1d",
+    "esn",
+    "lsm"
+  ],
+  "source_hashes": {
+    "src\\pmut_models\\channel_ablation.py": "bcccf82bf4ee91af57a532eca8da3153a1de830d31c1aa31f2059d72151ed124",
+    "src\\pmut_models\\data.py": "d12fc69bf5f5c9812ef52a6f825dd50cf6a03b9d903a45210f561aa586ca1b2e",
+    "src\\pmut_models\\reservoir.py": "ee5474f1ea426631b6f8efdb2a17bca543f332ee4a5fca0fa68c1976b1b7b3e9",
+    "src\\pmut_models\\spiking.py": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6",
+    "src\\pmut_models\\train_utils.py": "c7f908ed4c3f62f4c69b1fab5efee3a52f9961f3284cf47fc290e038d922110e"
+  },
+  "channels": {
+    "four": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "polar": [
+      0,
+      1
+    ],
+    "cartesian": [
+      2,
+      3
+    ]
+  },
+  "primary_pipeline": "four channels, unchanged",
+  "window_length": 128,
+  "stride": 128,
+  "train_val_test_windows_each": 230,
+  "cnn_epochs": 150,
+  "cnn_batch_size": 32,
+  "cnn_lr": 0.001,
+  "initialisation": "Original four-channel initialisation, selected input weights retained; no rescaling. Recurrence/bias/downstream CNN weights and random streams paired.",
+  "lsm_readout": "mean post-reset spikes after 10-step warmup; original lower membrane clamp retained",
+  "preprocessing": "Select columns of existing training-only per-channel z scores; no phase unwrapping or new preprocessing",
+  "primary_metric": "window accuracy; equal fold weighting after seed averaging",
+  "secondary_metric": "sweep majority vote; smallest class index on ties",
+  "software": {
+    "numpy": "2.3.3",
+    "torch": "2.12.0+cpu"
+  }
+}

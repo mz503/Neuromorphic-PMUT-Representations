@@ -1,0 +1,302 @@
+[
+  {
+    "fold": 0,
+    "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+    "target": 0,
+    "prediction": 0,
+    "reference_sweeps": [
+      "Glucose 50mM sweep 1 (100k–2.5M)",
+      "Glucose 100mM sweep 1 (100k–2.5M)",
+      "Glucose 250mM sweep 1 (100k–2.5M)",
+      "Glucose 500mM sweep 1 (100k–2.5M)",
+      "Glucose 1000mM sweep 1 (100k–2.5M)"
+    ],
+    "mean_squared_distances": [
+      0.02800887138188968,
+      0.3833385977428405,
+      2.202740899539247,
+      2.9309892987940454,
+      2.4673120793108563
+    ]
+  },
+  {
+    "fold": 0,
+    "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+    "target": 1,
+    "prediction": 1,
+    "reference_sweeps": [
+      "Glucose 50mM sweep 1 (100k–2.5M)",
+      "Glucose 100mM sweep 1 (100k–2.5M)",
+      "Glucose 250mM sweep 1 (100k–2.5M)",
+      "Glucose 500mM sweep 1 (100k–2.5M)",
+      "Glucose 1000mM sweep 1 (100k–2.5M)"
+    ],
+    "mean_squared_distances": [
+      0.10339986360227789,
+      0.03841226546342715,
+      2.774155850613696,
+      3.508518327464055,
+      2.8901716245662796
+    ]
+  },
+  {
+    "fold": 0,
+    "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+    "target": 2,
+    "prediction": 2,
+    "reference_sweeps": [
+      "Glucose 50mM sweep 1 (100k–2.5M)",
+      "Glucose 100mM sweep 1 (100k–2.5M)",
+      "Glucose 250mM sweep 1 (100k–2.5M)",
+      "Glucose 500mM sweep 1 (100k–2.5M)",
+      "Glucose 1000mM sweep 1 (100k–2.5M)"
+    ],
+    "mean_squared_distances": [
+      2.5550387357141933,
+      3.328655341947786,
+      0.03368591185185387,
+      0.10036384903314592,
+      0.15267893376512012
+    ]
+  },
+  {
+    "fold": 0,
+    "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+    "target": 3,
+    "prediction": 3,
+    "reference_sweeps": [
+      "Glucose 50mM sweep 1 (100k–2.5M)",
+      "Glucose 100mM sweep 1 (100k–2.5M)",
+      "Glucose 250mM sweep 1 (100k–2.5M)",
+      "Glucose 500mM sweep 1 (100k–2.5M)",
+      "Glucose 1000mM sweep 1 (100k–2.5M)"
+    ],
+    "mean_squared_distances": [
+      3.107859061083122,
+      3.8676089190828136,
+      0.06299436960918174,
+      0.03671002535277365,
+      0.12383494940484797
+    ]
+  },
+  {
+    "fold": 0,
+    "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+    "target": 4,
+    "prediction": 4,
+    "reference_sweeps": [
+      "Glucose 50mM sweep 1 (100k–2.5M)",
+      "Glucose 100mM sweep 1 (100k–2.5M)",
+      "Glucose 250mM sweep 1 (100k–2.5M)",
+      "Glucose 500mM sweep 1 (100k–2.5M)",
+      "Glucose 1000mM sweep 1 (100k–2.5M)"
+    ],
+    "mean_squared_distances": [
+      2.4117098450621683,
+      2.9042367453842295,
+      0.031531291422369594,
+      0.06569606857582755,
+      0.0061612347930105555
+    ]
+  },
+  {
+    "fold": 1,
+    "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+    "target": 0,
+    "prediction": 1,
+    "reference_sweeps": [
+      "Glucose 50mM sweep 2 (100k–2.5M)",
+      "Glucose 100mM sweep 2 (100k–2.5M)",
+      "Glucose 250mM sweep 2 (100k–2.5M)",
+      "Glucose 500mM sweep 2 (100k–2.5M)",
+      "Glucose 1000mM sweep 2 (100k–2.5M)"
+    ],
+    "mean_squared_distances": [
+      0.1233699811108643,
+      0.10879413945069978,
+      2.2378183342685363,
+      2.9169672480805597,
+      2.767944569486707
+    ]
+  },
+  {
+    "fold": 1,
+    "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+    "target": 1,
+    "prediction": 1,
+    "reference_sweeps": [
+      "Glucose 50mM sweep 2 (100k–2.5M)",
+      "Glucose 100mM sweep 2 (100k–2.5M)",
+      "Glucose 250mM sweep 2 (100k–2.5M)",
+      "Glucose 500mM sweep 2 (100k–2.5M)",
+      "Glucose 1000mM sweep 2 (100k–2.5M)"
+    ],
+    "mean_squared_distances": [
+      0.5626019602061385,
+      0.017264076690493294,
+      2.7352623269603957,
+      3.471013354452067,
+      3.447895202595468
+    ]
+  },
+  {
+    "fold": 1,
+    "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+    "target": 2,
+    "prediction": 2,
+    "reference_sweeps": [
+      "Glucose 50mM sweep 2 (100k–2.5M)",
+      "Glucose 100mM sweep 2 (100k–2.5M)",
+      "Glucose 250mM sweep 2 (100k–2.5M)",
+      "Glucose 500mM sweep 2 (100k–2.5M)",
+      "Glucose 1000mM sweep 2 (100k–2.5M)"
+    ],
+    "mean_squared_distances": [
+      2.0216542619599602,
+      2.65334696278836,
+      0.0021519564192756077,
+      0.04683752966926528,
+      0.05331319404822681
+    ]
+  },
+  {
+    "fold": 1,
+    "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+    "target": 3,
+    "prediction": 3,
+    "reference_sweeps": [
+      "Glucose 50mM sweep 2 (100k–2.5M)",
+      "Glucose 100mM sweep 2 (100k–2.5M)",
+      "Glucose 250mM sweep 2 (100k–2.5M)",
+      "Glucose 500mM sweep 2 (100k–2.5M)",
+      "Glucose 1000mM sweep 2 (100k–2.5M)"
+    ],
+    "mean_squared_distances": [
+      2.7411203102097716,
+      3.380803734437766,
+      0.06911812528936483,
+      0.01328778949029858,
+      0.0673521575085026
+    ]
+  },
+  {
+    "fold": 1,
+    "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+    "target": 4,
+    "prediction": 2,
+    "reference_sweeps": [
+      "Glucose 50mM sweep 2 (100k–2.5M)",
+      "Glucose 100mM sweep 2 (100k–2.5M)",
+      "Glucose 250mM sweep 2 (100k–2.5M)",
+      "Glucose 500mM sweep 2 (100k–2.5M)",
+      "Glucose 1000mM sweep 2 (100k–2.5M)"
+    ],
+    "mean_squared_distances": [
+      2.362964065061018,
+      2.7987996794636247,
+      0.042788532331653764,
+      0.05380277703352733,
+      0.14319017119699928
+    ]
+  },
+  {
+    "fold": 2,
+    "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+    "target": 0,
+    "prediction": 0,
+    "reference_sweeps": [
+      "Glucose 50mM sweep 3 (100k–2.5M)",
+      "Glucose 100mM sweep 3 (100k–2.5M)",
+      "Glucose 250mM sweep 3 (100k–2.5M)",
+      "Glucose 500mM sweep 3 (100k–2.5M)",
+      "Glucose 1000mM sweep 3 (100k–2.5M)"
+    ],
+    "mean_squared_distances": [
+      0.046586510824446314,
+      0.3649801485585943,
+      2.115169874411912,
+      2.7018573671123884,
+      2.2429492000031614
+    ]
+  },
+  {
+    "fold": 2,
+    "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+    "target": 1,
+    "prediction": 1,
+    "reference_sweeps": [
+      "Glucose 50mM sweep 3 (100k–2.5M)",
+      "Glucose 100mM sweep 3 (100k–2.5M)",
+      "Glucose 250mM sweep 3 (100k–2.5M)",
+      "Glucose 500mM sweep 3 (100k–2.5M)",
+      "Glucose 1000mM sweep 3 (100k–2.5M)"
+    ],
+    "mean_squared_distances": [
+      0.19839479261354062,
+      0.002611371278674928,
+      2.9859618997483075,
+      3.558286155351595,
+      2.7362311497617187
+    ]
+  },
+  {
+    "fold": 2,
+    "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+    "target": 2,
+    "prediction": 4,
+    "reference_sweeps": [
+      "Glucose 50mM sweep 3 (100k–2.5M)",
+      "Glucose 100mM sweep 3 (100k–2.5M)",
+      "Glucose 250mM sweep 3 (100k–2.5M)",
+      "Glucose 500mM sweep 3 (100k–2.5M)",
+      "Glucose 1000mM sweep 3 (100k–2.5M)"
+    ],
+    "mean_squared_distances": [
+      2.1727773049342494,
+      2.6704159464756563,
+      0.03316005161444909,
+      0.06782685301684362,
+      0.02410303598020111
+    ]
+  },
+  {
+    "fold": 2,
+    "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+    "target": 3,
+    "prediction": 3,
+    "reference_sweeps": [
+      "Glucose 50mM sweep 3 (100k–2.5M)",
+      "Glucose 100mM sweep 3 (100k–2.5M)",
+      "Glucose 250mM sweep 3 (100k–2.5M)",
+      "Glucose 500mM sweep 3 (100k–2.5M)",
+      "Glucose 1000mM sweep 3 (100k–2.5M)"
+    ],
+    "mean_squared_distances": [
+      2.8592563543051868,
+      3.419414334918148,
+      0.06958971920186074,
+      0.013302767060446896,
+      0.055258380798906125
+    ]
+  },
+  {
+    "fold": 2,
+    "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+    "target": 4,
+    "prediction": 3,
+    "reference_sweeps": [
+      "Glucose 50mM sweep 3 (100k–2.5M)",
+      "Glucose 100mM sweep 3 (100k–2.5M)",
+      "Glucose 250mM sweep 3 (100k–2.5M)",
+      "Glucose 500mM sweep 3 (100k–2.5M)",
+      "Glucose 1000mM sweep 3 (100k–2.5M)"
+    ],
+    "mean_squared_distances": [
+      2.6701645728565673,
+      3.347742016845893,
+      0.02418773035923813,
+      0.019542432409079713,
+      0.1280899005988706
+    ]
+  }
+]

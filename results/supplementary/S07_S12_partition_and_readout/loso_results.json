@@ -1,0 +1,6377 @@
+[
+  {
+    "fold": 0,
+    "seed": 7,
+    "model": "esn",
+    "window_accuracy": 0.782608695652174,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.39311699617780826,
+          0.2618012526971703,
+          0.11521819389512006,
+          0.12222966227767067,
+          0.10763389495223077
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "model": "lsm",
+    "window_accuracy": 0.7391304347826086,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.3802985723089404,
+          0.27828726153661903,
+          0.11473143596229743,
+          0.11401998197179876,
+          0.1126627482203446
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "model": "cnn1d",
+    "window_accuracy": 0.2608695652173913,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.4806053638458252,
+          0.5192088484764099,
+          1.562433499202598e-05,
+          3.9011501939967275e-05,
+          0.00013096265320200473
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 7,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "target": 0,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 42,
+    "model": "esn",
+    "window_accuracy": 0.782608695652174,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.4088886867355068,
+          0.2505302468578173,
+          0.1157774776291527,
+          0.11841176478059119,
+          0.10639182399693188
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 42,
+    "model": "lsm",
+    "window_accuracy": 0.7391304347826086,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.38202280215693346,
+          0.2780367380759886,
+          0.11441385593885725,
+          0.11412053499519305,
+          0.11140606883302759
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 42,
+    "model": "cnn1d",
+    "window_accuracy": 0.21739130434782608,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.38315296173095703,
+          0.6137992739677429,
+          0.0008903320995159447,
+          0.0007723072776570916,
+          0.001385088311508298
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 42,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "target": 0,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 123,
+    "model": "esn",
+    "window_accuracy": 0.7608695652173914,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.3898929254509125,
+          0.26612596140330536,
+          0.1156689742317328,
+          0.1192923803263165,
+          0.10901975858773282
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 123,
+    "model": "lsm",
+    "window_accuracy": 0.6956521739130435,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.38957093147382127,
+          0.27109359274664496,
+          0.11540343715141407,
+          0.11504840172917409,
+          0.10888363689894551
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 123,
+    "model": "cnn1d",
+    "window_accuracy": 0.21739130434782608,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.48391249775886536,
+          0.5142154097557068,
+          0.0004148171574342996,
+          0.0008611308294348419,
+          0.0005962245631963015
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 123,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "target": 0,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 999,
+    "model": "esn",
+    "window_accuracy": 0.717391304347826,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.3887944531634992,
+          0.2665974934364307,
+          0.11653617920883712,
+          0.1199430813699435,
+          0.10812879282128955
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 999,
+    "model": "lsm",
+    "window_accuracy": 0.6956521739130435,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.37708126472900433,
+          0.280040610225147,
+          0.11661378243764588,
+          0.11604736597364139,
+          0.11021697663456152
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 999,
+    "model": "cnn1d",
+    "window_accuracy": 0.2826086956521739,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.479368656873703,
+          0.4865853190422058,
+          0.013382885605096817,
+          0.008399439044296741,
+          0.012263686396181583
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 999,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "target": 0,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 2024,
+    "model": "esn",
+    "window_accuracy": 0.6521739130434783,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.37611029465049006,
+          0.2782743905957077,
+          0.1150847430241019,
+          0.12199233485224811,
+          0.1085382368774522
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 2024,
+    "model": "lsm",
+    "window_accuracy": 0.7391304347826086,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.3783592212830574,
+          0.27892313063105156,
+          0.11595959453976452,
+          0.11539277885740455,
+          0.11136527468872201
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 2024,
+    "model": "cnn1d",
+    "window_accuracy": 0.2391304347826087,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.3887130618095398,
+          0.5722541809082031,
+          0.012398190796375275,
+          0.015536818653345108,
+          0.01109785120934248
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 0,
+    "seed": 2024,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 0,
+        "target": 0,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "model": "esn",
+    "window_accuracy": 0.8043478260869565,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.4535085120054326,
+          0.21688342847625564,
+          0.11628064663727812,
+          0.1156419482276386,
+          0.09768546465339516
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "model": "lsm",
+    "window_accuracy": 0.782608695652174,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.443095489898544,
+          0.2282471930586433,
+          0.1133041650638147,
+          0.11201734664950466,
+          0.10333580532949321
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "model": "cnn1d",
+    "window_accuracy": 0.2826086956521739,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.46781864762306213,
+          0.531795084476471,
+          4.940695725963451e-05,
+          0.00014700047904625535,
+          0.00018993877165485173
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "target": 0,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 42,
+    "model": "esn",
+    "window_accuracy": 0.8478260869565217,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.464289322258562,
+          0.2093997385441231,
+          0.11499556071302851,
+          0.11319879414106712,
+          0.09811658434321933
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 42,
+    "model": "lsm",
+    "window_accuracy": 0.8695652173913043,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.4446553979820976,
+          0.2254164478660265,
+          0.11307528779797765,
+          0.1130200254243616,
+          0.10383284092953664
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 42,
+    "model": "cnn1d",
+    "window_accuracy": 0.3695652173913043,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.5415148735046387,
+          0.45807895064353943,
+          8.754281589062884e-05,
+          0.00010387472138972953,
+          0.00021484751778189093
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 42,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "target": 0,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 123,
+    "model": "esn",
+    "window_accuracy": 0.8478260869565217,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.45132013553293526,
+          0.21833823083611598,
+          0.1143656736280287,
+          0.11395455106211141,
+          0.10202140894080892
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 123,
+    "model": "lsm",
+    "window_accuracy": 0.8043478260869565,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.45686844281691896,
+          0.21621439429942232,
+          0.11383601673151512,
+          0.11215527917497728,
+          0.10092586697716642
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 123,
+    "model": "cnn1d",
+    "window_accuracy": 0.34782608695652173,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.5237968564033508,
+          0.4757765829563141,
+          4.810661630472168e-05,
+          0.0002675091091077775,
+          0.00011103574797743931
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 123,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "target": 0,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 999,
+    "model": "esn",
+    "window_accuracy": 0.8695652173913043,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.4476150989883482,
+          0.21917899380192798,
+          0.11747605239216163,
+          0.11524431380381879,
+          0.10048554101374323
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 999,
+    "model": "lsm",
+    "window_accuracy": 0.8043478260869565,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.42975356438171963,
+          0.2357836267849264,
+          0.11633141894054033,
+          0.11327918744549853,
+          0.10485220244731502
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 999,
+    "model": "cnn1d",
+    "window_accuracy": 0.30434782608695654,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.512645959854126,
+          0.4828871488571167,
+          0.001328315818682313,
+          0.0010759941069409251,
+          0.002062475075945258
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 999,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "target": 0,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 2024,
+    "model": "esn",
+    "window_accuracy": 0.782608695652174,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.43643274321378306,
+          0.23051455949232164,
+          0.11941960823158121,
+          0.11792240437887931,
+          0.09571068468343469
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 2024,
+    "model": "lsm",
+    "window_accuracy": 0.8695652173913043,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.4501269457122865,
+          0.22292694724104506,
+          0.10976509985728229,
+          0.10815453787665129,
+          0.10902646931273492
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 2024,
+    "model": "cnn1d",
+    "window_accuracy": 0.30434782608695654,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.4373573660850525,
+          0.529603123664856,
+          0.010842034593224525,
+          0.013876392506062984,
+          0.008321045897901058
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 1,
+    "seed": 2024,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 1,
+        "target": 0,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "model": "esn",
+    "window_accuracy": 0.34782608695652173,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.35517433986576963,
+          0.31612349519995414,
+          0.11845036281619493,
+          0.11656586806497087,
+          0.09368593405311029
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "model": "lsm",
+    "window_accuracy": 0.3695652173913043,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.34616959226192107,
+          0.3253826547338659,
+          0.11147276378551915,
+          0.1105748993230196,
+          0.1064000898956743
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "model": "cnn1d",
+    "window_accuracy": 0.2391304347826087,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.46595320105552673,
+          0.5334128737449646,
+          0.00014328290126286447,
+          9.22618419281207e-05,
+          0.00039828172884881496
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "model": "rf_physical",
+    "sweep_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "target": 0,
+        "prediction": 1
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 42,
+    "model": "esn",
+    "window_accuracy": 0.34782608695652173,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.35377080925912485,
+          0.31719047166117076,
+          0.11548750388183447,
+          0.11328329452186284,
+          0.10026792067600711
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 42,
+    "model": "lsm",
+    "window_accuracy": 0.391304347826087,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.34749075398127005,
+          0.3242591245278235,
+          0.1111302146896939,
+          0.10949147892150654,
+          0.10762842787970608
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 42,
+    "model": "cnn1d",
+    "window_accuracy": 0.21739130434782608,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.3966226279735565,
+          0.6024422645568848,
+          0.00014135550009086728,
+          0.00013667925668414682,
+          0.0006571304984390736
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 42,
+    "model": "rf_physical",
+    "sweep_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "target": 0,
+        "prediction": 1
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 123,
+    "model": "esn",
+    "window_accuracy": 0.34782608695652173,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.35370021242914385,
+          0.3175242701466156,
+          0.11727590520969643,
+          0.11413566876725058,
+          0.09736394344729352
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 123,
+    "model": "lsm",
+    "window_accuracy": 0.34782608695652173,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.35030296427465285,
+          0.32218437773866276,
+          0.11274795674560399,
+          0.1097858143992747,
+          0.10497888684180542
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 123,
+    "model": "cnn1d",
+    "window_accuracy": 0.30434782608695654,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.49787312746047974,
+          0.5016124844551086,
+          0.00012610414705704898,
+          0.00018732405442278832,
+          0.00020091241458430886
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 123,
+    "model": "rf_physical",
+    "sweep_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "target": 0,
+        "prediction": 1
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 999,
+    "model": "esn",
+    "window_accuracy": 0.34782608695652173,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.35977880564362097,
+          0.3142155670790161,
+          0.11528785526892686,
+          0.11313364015412218,
+          0.09758413185431404
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 999,
+    "model": "lsm",
+    "window_accuracy": 0.391304347826087,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.3619850185454661,
+          0.31524591535056934,
+          0.10890951130472676,
+          0.10666821873317675,
+          0.1071913360660611
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 999,
+    "model": "cnn1d",
+    "window_accuracy": 0.2608695652173913,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.4891129434108734,
+          0.5103312134742737,
+          8.529279148206115e-05,
+          0.00012994941789656878,
+          0.0003406059695407748
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 999,
+    "model": "rf_physical",
+    "sweep_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "target": 0,
+        "prediction": 1
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 2024,
+    "model": "esn",
+    "window_accuracy": 0.34782608695652173,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.35092725662319246,
+          0.3201100061841121,
+          0.11957479951198469,
+          0.11428392835986446,
+          0.09510400932084606
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 2024,
+    "model": "lsm",
+    "window_accuracy": 0.391304347826087,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.3596035066251088,
+          0.31685574099771807,
+          0.10986001591905305,
+          0.10824488872365788,
+          0.10543584773446212
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 2024,
+    "model": "cnn1d",
+    "window_accuracy": 0.2826086956521739,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.48945122957229614,
+          0.5038930773735046,
+          0.0020557267125695944,
+          0.002660047495737672,
+          0.0019400563323870301
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 2,
+    "seed": 2024,
+    "model": "rf_physical",
+    "sweep_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 2,
+        "target": 0,
+        "prediction": 1
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "model": "esn",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.4381011183162465,
+          0.21979218180512344,
+          0.11696351316571915,
+          0.1194230746295629,
+          0.10572011208334801
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "model": "lsm",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.42758657086114765,
+          0.22835963670816528,
+          0.11561107479659746,
+          0.11509892303227781,
+          0.11334379460181183
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "model": "cnn1d",
+    "window_accuracy": 0.34782608695652173,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.5195344686508179,
+          0.47967061400413513,
+          0.0002150297223124653,
+          0.00014026333519723266,
+          0.00043975168955512345
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 7,
+    "model": "rf_physical",
+    "sweep_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "target": 1,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 42,
+    "model": "esn",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.4503318195203268,
+          0.2108997242394959,
+          0.11555776634178291,
+          0.11623423181454831,
+          0.10697645808384611
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 42,
+    "model": "lsm",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.42992787810563904,
+          0.22702377818997113,
+          0.11525342986461842,
+          0.11535633830451789,
+          0.11243857553525363
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 42,
+    "model": "cnn1d",
+    "window_accuracy": 0.9130434782608695,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.4590734541416168,
+          0.5387071967124939,
+          0.0007587998989038169,
+          0.0004125078266952187,
+          0.0010480390628799796
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 42,
+    "model": "rf_physical",
+    "sweep_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "target": 1,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 123,
+    "model": "esn",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.4417486961430925,
+          0.21701201385969643,
+          0.1169270233683226,
+          0.11767520888421638,
+          0.106637057744672
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 123,
+    "model": "lsm",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.4355867195033266,
+          0.22214275412302814,
+          0.11521873685029425,
+          0.1152253825763843,
+          0.11182640694696656
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 123,
+    "model": "cnn1d",
+    "window_accuracy": 0.9347826086956522,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.21703672409057617,
+          0.7824442386627197,
+          5.740735650761053e-05,
+          1.967118078027852e-05,
+          0.00044171116314828396
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 123,
+    "model": "rf_physical",
+    "sweep_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "target": 1,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 999,
+    "model": "esn",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.440812898364958,
+          0.21756963975876867,
+          0.11754555378064696,
+          0.11827720953716768,
+          0.10579469855845872
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 999,
+    "model": "lsm",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.4220337383051857,
+          0.2335425805194964,
+          0.1159021594377118,
+          0.1150512583151356,
+          0.11347026342247055
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 999,
+    "model": "cnn1d",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.6552700996398926,
+          0.3442383408546448,
+          9.179161133943126e-05,
+          5.5213058658409864e-05,
+          0.0003446164773777127
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 999,
+    "model": "rf_physical",
+    "sweep_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "target": 1,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 2024,
+    "model": "esn",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.42979225627653006,
+          0.22607028953422278,
+          0.11797428297334406,
+          0.1202419418708789,
+          0.10592122934502424
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 2024,
+    "model": "lsm",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.4233469369058646,
+          0.23199154670504346,
+          0.11549254066680663,
+          0.11552250342794103,
+          0.11364647229434416
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 2024,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.46558424830436707,
+          0.5303094983100891,
+          0.0011304504005238414,
+          0.0017426147824153304,
+          0.0012330951867625117
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 3,
+    "seed": 2024,
+    "model": "rf_physical",
+    "sweep_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 3,
+        "target": 1,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "model": "esn",
+    "window_accuracy": 0.8260869565217391,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.24675697968634305,
+          0.41284116293109285,
+          0.10865566590433945,
+          0.10540286440733641,
+          0.1263433270708882
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "model": "lsm",
+    "window_accuracy": 0.8260869565217391,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.259650909596351,
+          0.3981495795425496,
+          0.11260450137826884,
+          0.11311695754884492,
+          0.11647805193398561
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "model": "cnn1d",
+    "window_accuracy": 0.8695652173913043,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.44007405638694763,
+          0.5593289732933044,
+          0.00010003368515754119,
+          0.00025288850883953273,
+          0.00024401291739195585
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 7,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "target": 1,
+        "prediction": 1
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 42,
+    "model": "esn",
+    "window_accuracy": 0.8478260869565217,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.2394259041816897,
+          0.42360064117644647,
+          0.1083750435537734,
+          0.10757616291907608,
+          0.12102224816901434
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 42,
+    "model": "lsm",
+    "window_accuracy": 0.8260869565217391,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.25971590669510064,
+          0.3983364346991931,
+          0.11304865203321131,
+          0.11352639731333486,
+          0.11537260925916011
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 42,
+    "model": "cnn1d",
+    "window_accuracy": 0.6739130434782609,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.5039137005805969,
+          0.4959624707698822,
+          2.9625161914736964e-05,
+          2.1427971660159528e-05,
+          7.283057493623346e-05
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 42,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "target": 1,
+        "prediction": 1
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 123,
+    "model": "esn",
+    "window_accuracy": 0.8260869565217391,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.2506398111112646,
+          0.40860578032017864,
+          0.10922813799685373,
+          0.10784917309723108,
+          0.12367709747447177
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 123,
+    "model": "lsm",
+    "window_accuracy": 0.8260869565217391,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.25413195860967386,
+          0.4047963135217076,
+          0.11082815051045443,
+          0.11192683379405549,
+          0.11831674356410869
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 123,
+    "model": "cnn1d",
+    "window_accuracy": 0.9130434782608695,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.38625568151474,
+          0.6137248873710632,
+          1.6885695686141844e-06,
+          3.1238685096468544e-06,
+          1.4642812857346144e-05
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 123,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "target": 1,
+        "prediction": 1
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 999,
+    "model": "esn",
+    "window_accuracy": 0.8478260869565217,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.25014591565594274,
+          0.40907174538404556,
+          0.10924459949923344,
+          0.10836070863773845,
+          0.12317703082303998
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 999,
+    "model": "lsm",
+    "window_accuracy": 0.8260869565217391,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.26158394196021195,
+          0.3970741998183144,
+          0.11167810995071861,
+          0.11269782272734341,
+          0.1169659255434115
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 999,
+    "model": "cnn1d",
+    "window_accuracy": 0.8913043478260869,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.4320487678050995,
+          0.567599356174469,
+          6.835502426838502e-05,
+          0.0001243875885847956,
+          0.00015898083802312613
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 999,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "target": 1,
+        "prediction": 1
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 2024,
+    "model": "esn",
+    "window_accuracy": 0.8260869565217391,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.26114108374536266,
+          0.3953306221027492,
+          0.10993896626522238,
+          0.1069467364200719,
+          0.1266425914665939
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 2024,
+    "model": "lsm",
+    "window_accuracy": 0.8260869565217391,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.2606534721655988,
+          0.39614884995188626,
+          0.11279061622975883,
+          0.1134606014211671,
+          0.1169464602315891
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 2024,
+    "model": "cnn1d",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.5810476541519165,
+          0.41868847608566284,
+          6.88547661411576e-05,
+          9.514526027487591e-05,
+          9.994088031817228e-05
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 4,
+    "seed": 2024,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 4,
+        "target": 1,
+        "prediction": 1
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 7,
+    "model": "esn",
+    "window_accuracy": 0.8913043478260869,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.16560219691513217,
+          0.5255221624281184,
+          0.08340560649991152,
+          0.07628283314322962,
+          0.14918720101360824
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 7,
+    "model": "lsm",
+    "window_accuracy": 0.8260869565217391,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.20093946133040658,
+          0.48499276289397464,
+          0.10130180665608633,
+          0.10284301196926551,
+          0.10992295715026687
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 7,
+    "model": "cnn1d",
+    "window_accuracy": 0.8260869565217391,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.47166815400123596,
+          0.5278071761131287,
+          6.766944716218859e-05,
+          0.00017975388618651778,
+          0.0002771643630694598
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 7,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "target": 1,
+        "prediction": 1
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 42,
+    "model": "esn",
+    "window_accuracy": 0.8913043478260869,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.1490108467103801,
+          0.5629459564110469,
+          0.08225384402057213,
+          0.08053135789896665,
+          0.12525799495903428
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 42,
+    "model": "lsm",
+    "window_accuracy": 0.8913043478260869,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.19156271720766596,
+          0.49521201263247994,
+          0.10112023326479357,
+          0.10198422546510696,
+          0.11012081142995366
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 42,
+    "model": "cnn1d",
+    "window_accuracy": 0.8043478260869565,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.5071901082992554,
+          0.4920951724052429,
+          0.00019024628272745758,
+          9.94644287857227e-05,
+          0.0004250497149769217
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 42,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "target": 1,
+        "prediction": 1
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 123,
+    "model": "esn",
+    "window_accuracy": 0.8913043478260869,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.16864528134594606,
+          0.5224245337725838,
+          0.08630225580462972,
+          0.08367628378041403,
+          0.13895164529642637
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 123,
+    "model": "lsm",
+    "window_accuracy": 0.8478260869565217,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.17747302274145385,
+          0.5200780984536971,
+          0.09261466147072372,
+          0.09560523306865226,
+          0.11422898426547311
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 123,
+    "model": "cnn1d",
+    "window_accuracy": 0.8695652173913043,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.3980070948600769,
+          0.6019718050956726,
+          1.6215424238907872e-06,
+          3.457189905020641e-06,
+          1.6029929611249827e-05
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 123,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "target": 1,
+        "prediction": 1
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 999,
+    "model": "esn",
+    "window_accuracy": 0.8913043478260869,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.16316743671488385,
+          0.5273703049388342,
+          0.08362755724758421,
+          0.08173071130441727,
+          0.1441039897942807
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 999,
+    "model": "lsm",
+    "window_accuracy": 0.8260869565217391,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.19785566996727838,
+          0.48825417789351755,
+          0.0992695740005539,
+          0.10278159944929681,
+          0.11183897868935323
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 999,
+    "model": "cnn1d",
+    "window_accuracy": 0.8478260869565217,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.44332441687583923,
+          0.5562541484832764,
+          6.911148375365883e-05,
+          0.00013556689373217523,
+          0.00021685101091861725
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 999,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "target": 1,
+        "prediction": 1
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 2024,
+    "model": "esn",
+    "window_accuracy": 0.8913043478260869,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.18938135658890626,
+          0.4866495948418529,
+          0.0889559047654618,
+          0.08303566339492766,
+          0.15197748040885142
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 2024,
+    "model": "lsm",
+    "window_accuracy": 0.9130434782608695,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 1,
+        "mean_scores": [
+          0.19022933632889355,
+          0.4965002207693309,
+          0.09972777400052267,
+          0.10069896753730391,
+          0.11284370136394893
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 2024,
+    "model": "cnn1d",
+    "window_accuracy": 0.717391304347826,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1,
+        "score_mean_prediction": 0,
+        "mean_scores": [
+          0.5306453108787537,
+          0.4674285054206848,
+          0.0003908177313860506,
+          0.0009623675141483545,
+          0.0005729059339500964
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 5,
+    "seed": 2024,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 5,
+        "target": 1,
+        "prediction": 1
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 7,
+    "model": "esn",
+    "window_accuracy": 0.717391304347826,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.1119674170333732,
+          0.10850899509734138,
+          0.4001941764830885,
+          0.09039050983702589,
+          0.2889389015491711
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 7,
+    "model": "lsm",
+    "window_accuracy": 0.6956521739130435,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.1108796113624582,
+          0.10842287926430229,
+          0.40880124874734447,
+          0.09022951860982392,
+          0.28166674201607117
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 7,
+    "model": "cnn1d",
+    "window_accuracy": 0.17391304347826086,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.0002544607559684664,
+          0.00041033027810044587,
+          0.3811435401439667,
+          0.00024918821873143315,
+          0.6179424524307251
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 7,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "target": 2,
+        "prediction": 2
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 42,
+    "model": "esn",
+    "window_accuracy": 0.8913043478260869,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.11146754485877064,
+          0.11041126584065332,
+          0.41785738310401305,
+          0.09275352013174806,
+          0.267510286064815
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 42,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.11467480666912715,
+          0.1100114368053188,
+          0.43440136680096625,
+          0.09983059306464356,
+          0.2410817966599444
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 42,
+    "model": "cnn1d",
+    "window_accuracy": 0.7391304347826086,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          7.046297832857817e-05,
+          0.0007480776403099298,
+          0.6616088151931763,
+          4.7854759031906724e-05,
+          0.3375247120857239
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 42,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "target": 2,
+        "prediction": 2
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 123,
+    "model": "esn",
+    "window_accuracy": 0.7608695652173914,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.11482312099374987,
+          0.10780687935193331,
+          0.4050166677752757,
+          0.09196322279563635,
+          0.2803901090834048
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 123,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.11355023557620836,
+          0.11179575762121985,
+          0.42538541263584567,
+          0.09996166217354388,
+          0.2493069319931822
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 123,
+    "model": "cnn1d",
+    "window_accuracy": 0.9782608695652174,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.00011388687562430277,
+          0.0004962559323757887,
+          0.69598388671875,
+          5.122789298184216e-05,
+          0.30335482954978943
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 123,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "target": 2,
+        "prediction": 2
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 999,
+    "model": "esn",
+    "window_accuracy": 0.8043478260869565,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.11508984816950844,
+          0.10658161152648019,
+          0.4156528228349928,
+          0.09139508611355672,
+          0.27128063135546193
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 999,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.11404802166129406,
+          0.10894266728833726,
+          0.4517221118949994,
+          0.10134421672015695,
+          0.22394298243521238
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 999,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          2.022007538471371e-05,
+          9.369561303174123e-05,
+          0.8688718676567078,
+          3.657161641967832e-06,
+          0.13101054728031158
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 999,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "target": 2,
+        "prediction": 2
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 2024,
+    "model": "esn",
+    "window_accuracy": 0.8043478260869565,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.11426439280338005,
+          0.10869173602144735,
+          0.40985158991327003,
+          0.09268029596928,
+          0.27451198529262244
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 2024,
+    "model": "lsm",
+    "window_accuracy": 0.9565217391304348,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.11138265007993968,
+          0.1102698446150845,
+          0.43209415454840444,
+          0.09471846562486855,
+          0.25153488513170286
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 2024,
+    "model": "cnn1d",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.0007101952796801925,
+          0.0006630525458604097,
+          0.2690102458000183,
+          0.0011170447105541825,
+          0.7284994721412659
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 6,
+    "seed": 2024,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 6,
+        "target": 2,
+        "prediction": 2
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 7,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.10638461786833094,
+          0.09940365508007709,
+          0.5239763324857186,
+          0.0798231080679603,
+          0.1904122864979131
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 7,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.10103376857228712,
+          0.09658544271522868,
+          0.5655867698179159,
+          0.08171134027733065,
+          0.15508267861723773
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 7,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          9.707868593977764e-05,
+          0.00021203701908234507,
+          0.8677016496658325,
+          2.284577021782752e-05,
+          0.13196641206741333
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 7,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "target": 2,
+        "prediction": 2
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 42,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.10331968653300948,
+          0.09597704553205513,
+          0.5573946954122482,
+          0.08205664574241527,
+          0.1612519267802721
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 42,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.10108410621730289,
+          0.09614484378530232,
+          0.5693170498413581,
+          0.08395630797269464,
+          0.14949769218334208
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 42,
+    "model": "cnn1d",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.0005943424184806645,
+          0.0013311930233612657,
+          0.11204706877470016,
+          0.006586606614291668,
+          0.8794405460357666
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 42,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "target": 2,
+        "prediction": 2
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 123,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.10593765281242672,
+          0.09961362849135591,
+          0.5260689337355783,
+          0.0810206584554886,
+          0.18735912650515046
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 123,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.10196957670371527,
+          0.09850612893431655,
+          0.5507333966240989,
+          0.08122074027802084,
+          0.1675701574598483
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 123,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          4.327025180828059e-06,
+          2.2375530534191057e-05,
+          0.9853344559669495,
+          2.3385614156268275e-07,
+          0.014638609252870083
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 123,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "target": 2,
+        "prediction": 2
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 999,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.10529234579181272,
+          0.09740999989014397,
+          0.541939349487695,
+          0.08052217770171455,
+          0.17483612712863392
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 999,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.0984489878306081,
+          0.09549789215694186,
+          0.5814297375878413,
+          0.08387139146820308,
+          0.1407519909564054
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 999,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.00010263867443427444,
+          0.0003113478305749595,
+          0.8881461024284363,
+          1.6784219042165205e-05,
+          0.11142314970493317
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 999,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "target": 2,
+        "prediction": 2
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 2024,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.10711771862159684,
+          0.09874560586879284,
+          0.5282770635831981,
+          0.0811600924227155,
+          0.1846995195036966
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 2024,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.09987788311269821,
+          0.09807367263911537,
+          0.5639249520435052,
+          0.08370168410435298,
+          0.15442180810032832
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 2024,
+    "model": "cnn1d",
+    "window_accuracy": 0.9782608695652174,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          8.140939462464303e-05,
+          0.0003026145277544856,
+          0.7797925472259521,
+          2.565569411672186e-05,
+          0.21979787945747375
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 7,
+    "seed": 2024,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 7,
+        "target": 2,
+        "prediction": 2
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 7,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.0970956256228622,
+          0.08600527019409214,
+          0.6062150348625138,
+          0.06385819066391327,
+          0.14682587865661842
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 7,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.08631548135017648,
+          0.0809769746033321,
+          0.6636728971794494,
+          0.06515671862305691,
+          0.10387792824398522
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 7,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.0002166311751352623,
+          0.00015988605446182191,
+          0.8818084001541138,
+          2.509254773030989e-05,
+          0.11778990179300308
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 7,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "target": 2,
+        "prediction": 2
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 42,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.09071537085438175,
+          0.077114443213248,
+          0.6557570297717403,
+          0.06382545811213537,
+          0.11258769804849446
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 42,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.08428673883134512,
+          0.0787296085490364,
+          0.6723791173219323,
+          0.06586525326298368,
+          0.09873928203470238
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 42,
+    "model": "cnn1d",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.0007866505184210837,
+          0.0011151256039738655,
+          0.21149660646915436,
+          0.003178611397743225,
+          0.7834229469299316
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 42,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "target": 2,
+        "prediction": 2
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 123,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.09603157682193127,
+          0.08574829410189541,
+          0.6061578983831811,
+          0.06421675546418433,
+          0.14784547522880787
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 123,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.09620758199861061,
+          0.08216910911854694,
+          0.6244720492506941,
+          0.06507574775527529,
+          0.1320755118768731
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 123,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          1.9535322280717082e-05,
+          2.1398067474365234e-05,
+          0.9774500727653503,
+          9.786446071302635e-07,
+          0.022507917135953903
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 123,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "target": 2,
+        "prediction": 2
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 999,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.09383568768974108,
+          0.08260599712643271,
+          0.6306204767559787,
+          0.06350119541422662,
+          0.12943664301362115
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 999,
+    "model": "lsm",
+    "window_accuracy": 0.9565217391304348,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.08354316189194581,
+          0.0772802121298515,
+          0.6683446327343635,
+          0.06675827981870217,
+          0.10407371342513717
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 999,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          3.5818215110339224e-05,
+          0.0001297134585911408,
+          0.9725803136825562,
+          1.828102654144459e-06,
+          0.02725237049162388
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 999,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "target": 2,
+        "prediction": 2
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 2024,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.09746514860568084,
+          0.08528755267480957,
+          0.6058173399641584,
+          0.06531639346107393,
+          0.14611356529427716
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 2024,
+    "model": "lsm",
+    "window_accuracy": 0.9347826086956522,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          0.08834642873408713,
+          0.08247514755369337,
+          0.6313311425109671,
+          0.06553125882450565,
+          0.13231602237674675
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 2024,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2,
+        "score_mean_prediction": 2,
+        "mean_scores": [
+          8.2513848610688e-05,
+          0.00015311516472138464,
+          0.9271053671836853,
+          5.7179263421858195e-06,
+          0.07265324890613556
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 8,
+    "seed": 2024,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 8,
+        "target": 2,
+        "prediction": 2
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 7,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.10201377600735373,
+          0.06992945239683496,
+          0.04719632276979394,
+          0.6214251482288075,
+          0.1594353005972101
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 7,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.07845562397063938,
+          0.06999704247380478,
+          0.057888622427983594,
+          0.7148432852606605,
+          0.07881542586691158
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 7,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          2.352924639126286e-06,
+          7.691636483286857e-07,
+          1.365752240189977e-07,
+          0.9818952679634094,
+          0.018101608380675316
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 7,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "target": 3,
+        "prediction": 3
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 42,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.09303057781244733,
+          0.06547155201795042,
+          0.05095472256106382,
+          0.6818140348393367,
+          0.10872911276920187
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 42,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.08279236939966414,
+          0.07386140592503594,
+          0.05395492884927269,
+          0.6849485009993497,
+          0.10444279482667762
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 42,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          4.897663075098535e-08,
+          2.423995582034877e-08,
+          3.901609035850129e-10,
+          0.9983266592025757,
+          0.0016731077339500189
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 42,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "target": 3,
+        "prediction": 3
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 123,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.09895667249427151,
+          0.07023256667506256,
+          0.04643463631850604,
+          0.6299680756610075,
+          0.1544080488511522
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 123,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.08890751645385454,
+          0.07726675328405146,
+          0.05159454028606533,
+          0.6476759844607918,
+          0.13455520551523692
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 123,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          1.180345179818687e-06,
+          5.282528263705899e-07,
+          1.662466964091891e-08,
+          0.9944804906845093,
+          0.005517825484275818
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 123,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "target": 3,
+        "prediction": 3
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 999,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.1026038337639398,
+          0.06659372519381596,
+          0.04904729287808467,
+          0.6438843514304984,
+          0.13787079673366137
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 999,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.07577557607534584,
+          0.0712792105756382,
+          0.054041508791102144,
+          0.708706948671438,
+          0.09019675588647595
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 999,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          1.1178848779991313e-07,
+          5.540622893818181e-08,
+          1.9198227452221772e-09,
+          0.9940855503082275,
+          0.005914335139095783
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 999,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "target": 3,
+        "prediction": 3
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 2024,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.10481337021118,
+          0.06611419916440947,
+          0.04734582277159825,
+          0.6324921715550486,
+          0.1492344362977637
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 2024,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.08355085800981,
+          0.077592720978899,
+          0.054342497863768574,
+          0.6565165667333115,
+          0.127997356414211
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 2024,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          3.0393534871109296e-06,
+          6.571140602318337e-06,
+          2.01911120711884e-06,
+          0.9742713570594788,
+          0.02571716345846653
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 9,
+    "seed": 2024,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 9,
+        "target": 3,
+        "prediction": 3
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 7,
+    "model": "esn",
+    "window_accuracy": 0.9782608695652174,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.11254225585454132,
+          0.1000237608279139,
+          0.08147270648695872,
+          0.4629773918448495,
+          0.2429838849857365
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 7,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.1048789556651026,
+          0.10378002150657979,
+          0.08733218399870415,
+          0.5004726502902335,
+          0.2035361885393801
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 7,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          5.974744681225275e-07,
+          2.621542876113381e-07,
+          9.307164816618752e-09,
+          0.9919719099998474,
+          0.008027355186641216
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 7,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "target": 3,
+        "prediction": 3
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 42,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.10996827377208859,
+          0.10145850407438652,
+          0.08485951441538037,
+          0.4832221966913851,
+          0.2204915110467596
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 42,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.10548296501882978,
+          0.10448718338188856,
+          0.08967771374168143,
+          0.5036190533540644,
+          0.19673308450353608
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 42,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          2.004326415772084e-05,
+          2.7619593311101198e-05,
+          2.957054130092729e-05,
+          0.8921551704406738,
+          0.10776739567518234
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 42,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "target": 3,
+        "prediction": 3
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 123,
+    "model": "esn",
+    "window_accuracy": 0.9782608695652174,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.1101124630007937,
+          0.1018146750619072,
+          0.08215519138354854,
+          0.46974710817602705,
+          0.2361705623777235
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 123,
+    "model": "lsm",
+    "window_accuracy": 0.9130434782608695,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.10572817986984172,
+          0.10416858888439093,
+          0.08425338716645532,
+          0.4811426219899475,
+          0.2247072220893646
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 123,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          1.9500641428749077e-05,
+          1.5058008102641907e-05,
+          6.555738991664839e-07,
+          0.9608432650566101,
+          0.03912152722477913
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 123,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "target": 3,
+        "prediction": 3
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 999,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.11121234519553273,
+          0.10108006510608074,
+          0.08238299286661495,
+          0.4701299862357143,
+          0.23519461059605726
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 999,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.10547378524029734,
+          0.10228635949305707,
+          0.08724480554204556,
+          0.5035004566553893,
+          0.20149459306921044
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 999,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          3.287527988504735e-06,
+          2.7615390081336955e-06,
+          6.557576739396609e-07,
+          0.9786685705184937,
+          0.021324701607227325
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 999,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "target": 3,
+        "prediction": 3
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 2024,
+    "model": "esn",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.11187335401892742,
+          0.10085085821714425,
+          0.08267035833601384,
+          0.46925554497502575,
+          0.23534988445288857
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 2024,
+    "model": "lsm",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.10567344160221807,
+          0.10435895896429714,
+          0.08745183838226503,
+          0.4931994403764173,
+          0.20931632067480244
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 2024,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          4.927788381792197e-07,
+          2.2954837675115414e-07,
+          2.485888606074127e-09,
+          0.9946641325950623,
+          0.005334991030395031
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 10,
+    "seed": 2024,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 10,
+        "target": 3,
+        "prediction": 3
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 7,
+    "model": "esn",
+    "window_accuracy": 0.8913043478260869,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.11510372790684616,
+          0.11856239055745589,
+          0.1135269311871708,
+          0.3635827626458354,
+          0.289224187702692
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 7,
+    "model": "lsm",
+    "window_accuracy": 0.5652173913043478,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.11309292922132537,
+          0.11759189738924991,
+          0.1024161331578978,
+          0.3365252059352545,
+          0.33037383429627254
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 7,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          6.504796601802809e-06,
+          1.0567552635620814e-05,
+          2.188199914598954e-06,
+          0.9603411555290222,
+          0.03963976353406906
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 7,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "target": 3,
+        "prediction": 3
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 42,
+    "model": "esn",
+    "window_accuracy": 0.782608695652174,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.11291724277186231,
+          0.11990336310976012,
+          0.11053964671315185,
+          0.3551245540974907,
+          0.301515193307735
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 42,
+    "model": "lsm",
+    "window_accuracy": 0.8913043478260869,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.11339317020832931,
+          0.11964471738733515,
+          0.10981254784112264,
+          0.35431440135022124,
+          0.3028351632129917
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 42,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          6.742982805008069e-05,
+          1.901626819744706e-05,
+          1.4125960660749115e-05,
+          0.7329627871513367,
+          0.26693665981292725
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 42,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "target": 3,
+        "prediction": 3
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 123,
+    "model": "esn",
+    "window_accuracy": 0.9782608695652174,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.11520449055841839,
+          0.11926896746266064,
+          0.11558910226474003,
+          0.36507298884671924,
+          0.2848644508674618
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 123,
+    "model": "lsm",
+    "window_accuracy": 0.9130434782608695,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.11296540854734627,
+          0.1207647582717887,
+          0.11342005819160131,
+          0.3659186544931169,
+          0.2869311204961469
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 123,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.00020841350487899035,
+          0.00025131856091320515,
+          6.718915392411873e-05,
+          0.6162534952163696,
+          0.3832195997238159
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 123,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "target": 3,
+        "prediction": 3
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 999,
+    "model": "esn",
+    "window_accuracy": 0.9565217391304348,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.11294218873610609,
+          0.12053210921880922,
+          0.11226739096534386,
+          0.3610583209022903,
+          0.2931999901774504
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 999,
+    "model": "lsm",
+    "window_accuracy": 0.8478260869565217,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.11555727842035868,
+          0.1182306804402603,
+          0.11151954168488555,
+          0.35435501635653244,
+          0.3003374830979631
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 999,
+    "model": "cnn1d",
+    "window_accuracy": 0.13043478260869565,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          8.972355863079429e-05,
+          9.357686940347776e-05,
+          0.0001037944239214994,
+          0.3383278548717499,
+          0.6613850593566895
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 999,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "target": 3,
+        "prediction": 3
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 2024,
+    "model": "esn",
+    "window_accuracy": 0.9565217391304348,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.11332038968862193,
+          0.1209624863326012,
+          0.11487573038311913,
+          0.362899699549875,
+          0.2879416940457827
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 2024,
+    "model": "lsm",
+    "window_accuracy": 0.9565217391304348,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.11539305909715311,
+          0.1188762787872665,
+          0.11412023729235181,
+          0.3633183817115045,
+          0.28829204311172413
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 2024,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          4.982540849596262e-05,
+          9.62453123065643e-06,
+          1.1088309292972554e-06,
+          0.8208120465278625,
+          0.1791275441646576
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 11,
+    "seed": 2024,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 11,
+        "target": 3,
+        "prediction": 3
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 7,
+    "model": "esn",
+    "window_accuracy": 0.3695652173913043,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.11252355514544753,
+          0.13131843688353614,
+          0.15510609408815332,
+          0.31830685629699146,
+          0.28274505758587165
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 7,
+    "model": "lsm",
+    "window_accuracy": 0.5434782608695652,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11037456839461059,
+          0.115639562723033,
+          0.11171397493754338,
+          0.27009208462234296,
+          0.39217980932247004
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 7,
+    "model": "cnn1d",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          1.4095834558247589e-05,
+          1.916804103530012e-05,
+          1.7701902834232897e-05,
+          0.9396135807037354,
+          0.06033559888601303
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 7,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "target": 4,
+        "prediction": 4
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "model": "esn",
+    "window_accuracy": 0.5,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 3,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11096871926150106,
+          0.12717503712409647,
+          0.13584151220506616,
+          0.29440532337386655,
+          0.33160940803546973
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "model": "lsm",
+    "window_accuracy": 0.5,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 3,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.1128835784201011,
+          0.117324104058196,
+          0.12642693459729462,
+          0.2784635623880159,
+          0.3649018205363923
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "model": "cnn1d",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          8.501802949467674e-05,
+          3.0366458304342814e-05,
+          1.618198075448163e-05,
+          0.9199365377426147,
+          0.07993186265230179
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 42,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "target": 4,
+        "prediction": 4
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 123,
+    "model": "esn",
+    "window_accuracy": 0.41304347826086957,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.11219819103328199,
+          0.13041317790624096,
+          0.15324652822762092,
+          0.31120196355098967,
+          0.2929401392818664
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 123,
+    "model": "lsm",
+    "window_accuracy": 0.43478260869565216,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 3,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11732778135188913,
+          0.12125289014454363,
+          0.14113841037021743,
+          0.3003845809049763,
+          0.3198963372283735
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 123,
+    "model": "cnn1d",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          6.904916517669335e-05,
+          7.422598719131202e-05,
+          0.00012316013453528285,
+          0.7778506278991699,
+          0.22188298404216766
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 123,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "target": 4,
+        "prediction": 4
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 999,
+    "model": "esn",
+    "window_accuracy": 0.41304347826086957,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.11020379205919549,
+          0.1327906414057609,
+          0.14743602291217897,
+          0.3107593125143785,
+          0.29881023110848615
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 999,
+    "model": "lsm",
+    "window_accuracy": 0.5217391304347826,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11516724913728456,
+          0.11789305931058147,
+          0.12532081625332883,
+          0.2821069024324784,
+          0.3595119728663267
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 999,
+    "model": "cnn1d",
+    "window_accuracy": 0.021739130434782608,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          9.335977665614337e-05,
+          2.3004235117696226e-05,
+          0.0001235497184097767,
+          0.7076088190078735,
+          0.29215115308761597
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 999,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "target": 4,
+        "prediction": 4
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 2024,
+    "model": "esn",
+    "window_accuracy": 0.41304347826086957,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          0.1110084500226461,
+          0.13179451497590808,
+          0.15192714092579154,
+          0.31009801343906823,
+          0.29517188063658595
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 2024,
+    "model": "lsm",
+    "window_accuracy": 0.4782608695652174,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 3,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11549582682898377,
+          0.11949021264789784,
+          0.13367465001875303,
+          0.29361037590894545,
+          0.3377289345954198
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 2024,
+    "model": "cnn1d",
+    "window_accuracy": 0.8478260869565217,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.0004813596315216273,
+          0.0004999348311685026,
+          0.0013473682338371873,
+          0.38661259412765503,
+          0.6110585927963257
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 12,
+    "seed": 2024,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 12,
+        "target": 4,
+        "prediction": 4
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 7,
+    "model": "esn",
+    "window_accuracy": 0.5217391304347826,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11457545408910047,
+          0.13328335840889005,
+          0.22038719485194888,
+          0.2457769741325093,
+          0.2859770185175514
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 7,
+    "model": "lsm",
+    "window_accuracy": 0.8478260869565217,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11593683910314712,
+          0.12128030303813873,
+          0.1815596112752027,
+          0.21714466715851694,
+          0.3640785794249943
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 7,
+    "model": "cnn1d",
+    "window_accuracy": 0.8913043478260869,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.00021654425654560328,
+          8.7700791482348e-05,
+          0.006672276183962822,
+          0.2952202260494232,
+          0.6978033185005188
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 7,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "target": 4,
+        "prediction": 4
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 42,
+    "model": "esn",
+    "window_accuracy": 0.717391304347826,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11286226191476423,
+          0.12903085652508156,
+          0.19368827746919692,
+          0.2260629268926431,
+          0.3383556771983141
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 42,
+    "model": "lsm",
+    "window_accuracy": 0.8478260869565217,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11234086370228889,
+          0.11837321477691523,
+          0.17712790071027426,
+          0.20680920058978716,
+          0.3853488202207343
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 42,
+    "model": "cnn1d",
+    "window_accuracy": 0.8913043478260869,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.0053172935731709,
+          0.004293392412364483,
+          0.01737872324883938,
+          0.23141483962535858,
+          0.7415958642959595
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 42,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "target": 4,
+        "prediction": 4
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 123,
+    "model": "esn",
+    "window_accuracy": 0.5652173913043478,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11438712493903437,
+          0.13110632936726305,
+          0.21788675810543526,
+          0.24204133429463257,
+          0.2945784532936349
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 123,
+    "model": "lsm",
+    "window_accuracy": 0.7608695652173914,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11613415384941995,
+          0.12380479995983486,
+          0.2004082198023204,
+          0.228480895374042,
+          0.3311719310143828
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 123,
+    "model": "cnn1d",
+    "window_accuracy": 0.9347826086956522,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.003006222890689969,
+          0.05542755126953125,
+          0.1244896873831749,
+          0.015326039865612984,
+          0.8017505407333374
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 123,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "target": 4,
+        "prediction": 4
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 999,
+    "model": "esn",
+    "window_accuracy": 0.717391304347826,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.1125084565787133,
+          0.1341057686220086,
+          0.20833013737674527,
+          0.24123438059947713,
+          0.3038212568230557
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 999,
+    "model": "lsm",
+    "window_accuracy": 0.782608695652174,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11127544294189332,
+          0.11764056559158542,
+          0.17525459611595107,
+          0.20192799662095878,
+          0.3939013987296113
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 999,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.00020473422773648053,
+          0.0002369175635976717,
+          0.009176069870591164,
+          0.2173125445842743,
+          0.7730697989463806
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 999,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "target": 4,
+        "prediction": 4
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 2024,
+    "model": "esn",
+    "window_accuracy": 0.5652173913043478,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11256475712591998,
+          0.13339453437488033,
+          0.2167828353513387,
+          0.24036448644549513,
+          0.2968933867023659
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 2024,
+    "model": "lsm",
+    "window_accuracy": 0.6304347826086957,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11564219249461165,
+          0.11861669822108971,
+          0.19412394644310152,
+          0.21808986422204366,
+          0.35352729861915344
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 2024,
+    "model": "cnn1d",
+    "window_accuracy": 0.8913043478260869,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.0019807773642241955,
+          0.001236375537700951,
+          0.010795561596751213,
+          0.20670780539512634,
+          0.779279351234436
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 13,
+    "seed": 2024,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 13,
+        "target": 4,
+        "prediction": 4
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 7,
+    "model": "esn",
+    "window_accuracy": 0.5,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 2,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.1129538623271499,
+          0.13494501698179878,
+          0.2880257311929436,
+          0.1724673932794714,
+          0.2916079962186362
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 7,
+    "model": "lsm",
+    "window_accuracy": 0.7391304347826086,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11960141058834105,
+          0.12442055728097623,
+          0.26773159170968136,
+          0.1553036768846064,
+          0.3329427635363948
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 7,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.0005998063716106117,
+          0.0010319777065888047,
+          0.09059882909059525,
+          0.027831045910716057,
+          0.8799384832382202
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 7,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "target": 4,
+        "prediction": 4
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 42,
+    "model": "esn",
+    "window_accuracy": 0.782608695652174,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11196936760950696,
+          0.1300218836843757,
+          0.25509931723899104,
+          0.15431734087923382,
+          0.3485920905878927
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 42,
+    "model": "lsm",
+    "window_accuracy": 0.9347826086956522,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11424609967600494,
+          0.12240647958262743,
+          0.240625848532753,
+          0.1395493761895076,
+          0.3831721960191072
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 42,
+    "model": "cnn1d",
+    "window_accuracy": 0.0,
+    "sweep_accuracy": 0.0,
+    "score_mean_accuracy": 0.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 3,
+        "score_mean_prediction": 3,
+        "mean_scores": [
+          7.354294211836532e-06,
+          5.6405438044748735e-06,
+          3.0581222745240666e-06,
+          0.9342208504676819,
+          0.06576301157474518
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 42,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "target": 4,
+        "prediction": 4
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 123,
+    "model": "esn",
+    "window_accuracy": 0.5217391304347826,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11445619853084782,
+          0.13170026512417085,
+          0.28397533976257305,
+          0.1672802220291269,
+          0.30258797455328124
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 123,
+    "model": "lsm",
+    "window_accuracy": 0.6521739130434783,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11592379738450216,
+          0.12396086452156459,
+          0.26027862128422297,
+          0.15403268863527098,
+          0.34580402817443934
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 123,
+    "model": "cnn1d",
+    "window_accuracy": 0.717391304347826,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.00033981577144004405,
+          0.0007245708839036524,
+          0.449444979429245,
+          0.0017914820928126574,
+          0.5476992726325989
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 123,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "target": 4,
+        "prediction": 4
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 999,
+    "model": "esn",
+    "window_accuracy": 0.6956521739130435,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11383265035434785,
+          0.13295225148233347,
+          0.2746096355530008,
+          0.16695945186628575,
+          0.3116460107440321
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 999,
+    "model": "lsm",
+    "window_accuracy": 0.8478260869565217,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.10865554065675206,
+          0.11737832657229384,
+          0.2177506746887487,
+          0.12506444378611706,
+          0.4311510142960883
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 999,
+    "model": "cnn1d",
+    "window_accuracy": 0.8695652173913043,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.0015866305911913514,
+          0.001497546792961657,
+          0.18058878183364868,
+          0.04232778400182724,
+          0.7739991545677185
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 999,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "target": 4,
+        "prediction": 4
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 2024,
+    "model": "esn",
+    "window_accuracy": 0.5652173913043478,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11180426528805812,
+          0.13425177485898981,
+          0.28099167087011934,
+          0.16662562928683064,
+          0.3063266596960021
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 2024,
+    "model": "lsm",
+    "window_accuracy": 0.6956521739130435,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.11541147933734235,
+          0.11857853323771789,
+          0.24585848956519424,
+          0.1419678123836952,
+          0.37818368547605025
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 2024,
+    "model": "cnn1d",
+    "window_accuracy": 1.0,
+    "sweep_accuracy": 1.0,
+    "score_mean_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4,
+        "score_mean_prediction": 4,
+        "mean_scores": [
+          0.0002760745119303465,
+          0.0003712413308676332,
+          0.00980048906058073,
+          0.04664319381117821,
+          0.9429090023040771
+        ]
+      }
+    ]
+  },
+  {
+    "fold": 14,
+    "seed": 2024,
+    "model": "rf_physical",
+    "sweep_accuracy": 1.0,
+    "sweeps": [
+      {
+        "sweep_index": 14,
+        "target": 4,
+        "prediction": 4
+      }
+    ]
+  }
+]

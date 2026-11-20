@@ -116,7 +116,7 @@ def collect_results():
     summary=folds.groupby(['model','evaluation_unit'])['mean'].agg(mean='mean',sd_fold_means=lambda x:np.std(x,ddof=0)).reset_index()
     summary.to_csv(ROOT/'results/tables/reservoir_summary.csv',index=False)
     selected=flat[((flat.model=='cnn1d') & (flat.variant=='selected')) | (flat.model=='spiking_cnn1d')]
-    selected.groupby(['model','evaluation_unit','fold']).accuracy.agg(mean='mean',sd_seeds=lambda x:np.std(x,ddof=0)).reset_index().to_csv(ROOT/'results/tables/neural_fold_means.csv',index=False)
+    selected.groupby(['model','evaluation_unit','fold']).accuracy.agg(mean='mean',sd_seeds=lambda x:np.std(x,ddof=0),n_seeds='size').reset_index().to_csv(ROOT/'results/tables/neural_fold_means.csv',index=False)
     model_rows=[]
     for p in sorted((ROOT/'models').rglob('*')):
         if p.suffix not in {'.npz','.pt','.joblib'}:continue
@@ -127,6 +127,30 @@ def collect_results():
     pd.DataFrame(model_rows).to_csv(ROOT/'models/MODEL_INDEX.csv',index=False)
     print(f'Exported {len(all_rows)} identified predictions and {len(metrics)} individual evaluations.',flush=True)
     return flat
+
+def write_cross_model_comparison():
+    feature_summary = pd.read_csv(ROOT / 'results/archive/feature_ml/high-glucose_baseline_summary.csv')
+    comparison = []
+    rf = feature_summary.loc[feature_summary.model.eq('Random Forest')].iloc[0]
+    comparison.append(dict(model='Random Forest', evaluation_unit='sweep', mean=float(rf.accuracy), sd=float(rf.cv_std)))
+    neural = pd.read_csv(ROOT / 'results/tables/neural_fold_means.csv')
+    config = json.loads((ROOT / 'configs/experiments.json').read_text(encoding='utf-8'))
+    selected_models = [
+        ('cnn1d', 'CNN1D', list(range(3)), config['cnn_selected_seeds']),
+        ('spiking_cnn1d', 'SpikingCNN1D', config['spiking_cnn_folds'], config['spiking_cnn_seeds']),
+    ]
+    for key, label, folds, seeds in selected_models:
+        rows = neural[(neural.model == key) & (neural.evaluation_unit == 'window')].sort_values('fold')
+        if rows.fold.tolist() != folds or not rows.n_seeds.eq(len(seeds)).all():
+            raise ValueError(f'Incomplete recorded comparison for {label}')
+        comparison.append(dict(model=label, evaluation_unit='window', mean=float(rows['mean'].mean()),
+                               sd=float(rows['mean'].std(ddof=0))))
+    for row in pd.read_csv(ROOT/'results/tables/reservoir_summary.csv').to_dict('records'):
+        comparison.append(dict(model=row['model'],evaluation_unit=row['evaluation_unit'],mean=row['mean'],sd=row['sd_fold_means']))
+    table = pd.DataFrame(comparison)
+    table.to_csv(ROOT / 'results/tables/cross_model_comparison.csv', index=False)
+    return table
+
 
 def make_figures():
     import matplotlib
@@ -153,14 +177,8 @@ def make_figures():
     for i,(name,g) in enumerate(folds.groupby('model')):
         ax.bar(g.fold.to_numpy()+i*.25-.25,g['mean']*100,.25,yerr=g.sd_seeds*100,capsize=3,label=name)
     ax.set_xticks(range(3),['Fold 0','Fold 1','Fold 2']);ax.set_ylabel('Sweep accuracy (%)');ax.set_ylim(0,115);ax.legend(fontsize=8);fig.tight_layout();fig.savefig(final/'Figure_06.png',dpi=300);plt.close(fig)
-    comparison=[]
-    comparison.append(dict(model='Random Forest',evaluation_unit='sweep',mean=float(feat.loc[feat.model=='Random Forest','accuracy'].iloc[0]),sd=float(feat.loc[feat.model=='Random Forest','cv_std'].iloc[0])))
-    neural=pd.read_csv(ROOT/'results/tables/neural_fold_means.csv')
-    neural=neural[(neural.model=='cnn1d') & (neural.evaluation_unit=='window')]
-    comparison.append(dict(model='CNN1D',evaluation_unit='window',mean=float(neural['mean'].mean()),sd=float(neural['mean'].std(ddof=0))))
-    for row in pd.read_csv(ROOT/'results/tables/reservoir_summary.csv').to_dict('records'):
-        comparison.append(dict(model=row['model'],evaluation_unit=row['evaluation_unit'],mean=row['mean'],sd=row['sd_fold_means']))
-    c=pd.DataFrame(comparison);c.to_csv(final/'Figure_07_data.csv',index=False)
+    c = write_cross_model_comparison()
+    c.to_csv(final / 'Figure_07_data.csv', index=False)
     fig,ax=plt.subplots(figsize=(8,4));bars=ax.bar(range(len(c)),100*c['mean'],yerr=100*c.sd,capsize=3)
     for bar,unit in zip(bars,c.evaluation_unit):
         if unit=='sweep':bar.set_hatch('///')

@@ -1,0 +1,4 @@
+Method,Accuracy (%)
+Physical-feature RF,86.7 ± 9.4
+Fixed LSM,82.7 ± 13.2
+Nested-selected LSM,86.7 ± 9.4

@@ -1,0 +1,119 @@
+{
+  "seed": 2024,
+  "model": "spiking_cnn1d",
+  "device": "cpu",
+  "epochs": 150,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "labels": [
+    "Glucose 50 mM",
+    "Glucose 100 mM",
+    "Glucose 250 mM",
+    "Glucose 500 mM",
+    "Glucose 1000 mM"
+  ],
+  "dataset": {
+    "task": "high-glucose",
+    "split": "grouped_folds",
+    "fold": 1,
+    "train_sweeps": [
+      "Glucose 50mM sweep 2 (100k\u20132.5M)",
+      "Glucose 100mM sweep 2 (100k\u20132.5M)",
+      "Glucose 250mM sweep 2 (100k\u20132.5M)",
+      "Glucose 500mM sweep 2 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 2 (100k\u20132.5M)"
+    ],
+    "val_sweeps": [
+      "Glucose 50mM sweep 3 (100k\u20132.5M)",
+      "Glucose 100mM sweep 3 (100k\u20132.5M)",
+      "Glucose 250mM sweep 3 (100k\u20132.5M)",
+      "Glucose 500mM sweep 3 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 3 (100k\u20132.5M)"
+    ],
+    "test_sweeps": [
+      "Glucose 50mM sweep 1 (100k\u20132.5M)",
+      "Glucose 100mM sweep 1 (100k\u20132.5M)",
+      "Glucose 250mM sweep 1 (100k\u20132.5M)",
+      "Glucose 500mM sweep 1 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 1 (100k\u20132.5M)"
+    ],
+    "window_size": 128,
+    "stride": 128,
+    "n_samples": 690,
+    "n_train": 230,
+    "n_val": 230,
+    "n_test": 230,
+    "normalization_mean": [
+      0.0044770133681595325,
+      -2.0593442916870117,
+      0.004469983279705048,
+      -0.00017846847185865045
+    ],
+    "normalization_std": [
+      0.0011150622740387917,
+      2.2798054218292236,
+      0.001112068654038012,
+      0.00018887112673837692
+    ]
+  },
+  "final_test_accuracy": 0.8478260869565217,
+  "balanced_accuracy": 0.8478260869565217,
+  "macro_precision": 0.9135802469135802,
+  "macro_recall": 0.8478260869565217,
+  "macro_f1": 0.8220748722199198,
+  "per_class_recall": {
+    "Glucose 50 mM": 0.2391304347826087,
+    "Glucose 100 mM": 1.0,
+    "Glucose 250 mM": 1.0,
+    "Glucose 500 mM": 1.0,
+    "Glucose 1000 mM": 1.0
+  },
+  "confusion_matrix": [
+    [
+      11,
+      35,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      46,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      46,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      46,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      46
+    ]
+  ],
+  "n_val": 230,
+  "has_val": true,
+  "best": {
+    "epoch": 141,
+    "train_loss": 0.41755624674260616,
+    "train_accuracy": 0.80859375,
+    "val_accuracy": 0.8478260869565217
+  },
+  "sweep_accuracy": 0.8,
+  "sweep_aggregation_method": "mean_logits",
+  "n_sweeps": 5
+}

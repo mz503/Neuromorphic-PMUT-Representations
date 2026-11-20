@@ -1,0 +1,6 @@
+Method,Original 3,Additional 15
+Direct spectrum matching,73.3 ± 18.9,73.3 ± 15.8
+Physical-feature RF,80.0 ± 13.1,84.3 ± 10.7
+CNN1D,78.7 ± 6.8,79.7 ± 7.1
+ESN,84.0 ± 8.6,78.7 ± 13.4
+LSM (spikes),88.0 ± 11.8,80.5 ± 14.7

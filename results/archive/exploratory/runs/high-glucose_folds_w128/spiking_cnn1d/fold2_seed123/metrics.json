@@ -1,0 +1,119 @@
+{
+  "seed": 123,
+  "model": "spiking_cnn1d",
+  "device": "cpu",
+  "epochs": 150,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "labels": [
+    "Glucose 50 mM",
+    "Glucose 100 mM",
+    "Glucose 250 mM",
+    "Glucose 500 mM",
+    "Glucose 1000 mM"
+  ],
+  "dataset": {
+    "task": "high-glucose",
+    "split": "grouped_folds",
+    "fold": 2,
+    "train_sweeps": [
+      "Glucose 50mM sweep 3 (100k\u20132.5M)",
+      "Glucose 100mM sweep 3 (100k\u20132.5M)",
+      "Glucose 250mM sweep 3 (100k\u20132.5M)",
+      "Glucose 500mM sweep 3 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 3 (100k\u20132.5M)"
+    ],
+    "val_sweeps": [
+      "Glucose 50mM sweep 1 (100k\u20132.5M)",
+      "Glucose 100mM sweep 1 (100k\u20132.5M)",
+      "Glucose 250mM sweep 1 (100k\u20132.5M)",
+      "Glucose 500mM sweep 1 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 1 (100k\u20132.5M)"
+    ],
+    "test_sweeps": [
+      "Glucose 50mM sweep 2 (100k\u20132.5M)",
+      "Glucose 100mM sweep 2 (100k\u20132.5M)",
+      "Glucose 250mM sweep 2 (100k\u20132.5M)",
+      "Glucose 500mM sweep 2 (100k\u20132.5M)",
+      "Glucose 1000mM sweep 2 (100k\u20132.5M)"
+    ],
+    "window_size": 128,
+    "stride": 128,
+    "n_samples": 690,
+    "n_train": 230,
+    "n_val": 230,
+    "n_test": 230,
+    "normalization_mean": [
+      0.004447887185961008,
+      -1.9447659254074097,
+      0.004441681317985058,
+      -0.00017138323164545
+    ],
+    "normalization_std": [
+      0.0011047190055251122,
+      2.1991817951202393,
+      0.0011014469200745225,
+      0.00018482410814613104
+    ]
+  },
+  "final_test_accuracy": 0.8521739130434782,
+  "balanced_accuracy": 0.8521739130434783,
+  "macro_precision": 0.9122003770535955,
+  "macro_recall": 0.8521739130434783,
+  "macro_f1": 0.8309872533881283,
+  "per_class_recall": {
+    "Glucose 50 mM": 0.2826086956521739,
+    "Glucose 100 mM": 1.0,
+    "Glucose 250 mM": 1.0,
+    "Glucose 500 mM": 1.0,
+    "Glucose 1000 mM": 0.9782608695652174
+  },
+  "confusion_matrix": [
+    [
+      13,
+      33,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      46,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      46,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      46,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      45
+    ]
+  ],
+  "n_val": 230,
+  "has_val": true,
+  "best": {
+    "epoch": 104,
+    "train_loss": 0.6322071254253387,
+    "train_accuracy": 0.7330729179084301,
+    "val_accuracy": 0.8
+  },
+  "sweep_accuracy": 1.0,
+  "sweep_aggregation_method": "mean_logits",
+  "n_sweeps": 5
+}

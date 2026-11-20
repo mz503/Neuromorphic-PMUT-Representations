@@ -1,0 +1,6 @@
+﻿method,sweep_accuracy_mean,sweep_accuracy_sd
+Random guessing (expected),0.2,
+Direct spectrum matching,0.7333333333333334,0.18856180831641267
+CNN1D,0.7866666666666667,0.06798692684790385
+ESN,0.84,0.08640987597877145
+LSM (spikes),0.88,0.11775681155103791

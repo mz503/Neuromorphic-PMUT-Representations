@@ -1,0 +1,74 @@
+{
+  "signature": {
+    "sources": {
+      "review_comments_15_17_20261109\\run_study.py": "601f6a8a43448351ab9633a6f57852c0ee04220c2840c5166322a4a678fdbbe8",
+      "git_paper_clean\\src\\pmut_models\\spiking.py": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6",
+      "git_paper_clean\\src\\pmut_models\\reservoir.py": "ee5474f1ea426631b6f8efdb2a17bca543f332ee4a5fca0fa68c1976b1b7b3e9",
+      "git_paper_clean\\src\\pmut_models\\channel_ablation.py": "bcccf82bf4ee91af57a532eca8da3153a1de830d31c1aa31f2059d72151ed124"
+    },
+    "folds": [
+      "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+      "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+      "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+    ],
+    "numpy": "2.3.3",
+    "torch": "2.12.0+cpu"
+  },
+  "lengths": [
+    64,
+    128,
+    256
+  ],
+  "folds": [
+    0,
+    1,
+    2
+  ],
+  "seeds": [
+    7,
+    42,
+    123,
+    999,
+    2024
+  ],
+  "models": [
+    "cnn1d",
+    "esn",
+    "lsm"
+  ],
+  "channels": [
+    "A",
+    "phase",
+    "X",
+    "Y"
+  ],
+  "common_samples_per_sweep": 5888,
+  "windows_per_sweep": {
+    "64": 92,
+    "128": 46,
+    "256": 23
+  },
+  "normalisation": "Reuse the original training-only channel statistics fitted on the common 5,888-point coverage.",
+  "cnn": {
+    "channels": [
+      32,
+      64
+    ],
+    "kernels": [
+      9,
+      7
+    ],
+    "epochs": 150,
+    "batch_size": 32,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0
+  },
+  "reservoir": "Existing 300-node weights and bias reused within each fold/seed; alpha=1; warmup=10; ESN mean state and LSM mean spikes.",
+  "selection": "Per-model, per-fold mean validation sweep accuracy over five seeds; ties: validation window accuracy, then 128,64,256. Integer counts used.",
+  "test_use": "Choices frozen after all validation jobs; test alternatives reported as retrospective sensitivity, never used for selection. Existing L128 predictions reused.",
+  "training_budget": "CNN epochs and batch size fixed; samples per epoch equal, while numbers of windows and optimiser updates change with L.",
+  "matching": "One original training sweep per class; nearest reference by mean squared distance over 5,888 ordered, training-standardised four-channel samples; no fitted hyperparameters.",
+  "evaluation": "Sweep-level majority vote for window models; smallest class index breaks ties. Means and population SD over three fold means after seed averaging.",
+  "study_status": "Additional retrospective analysis of existing acquisitions; original main results retained."
+}

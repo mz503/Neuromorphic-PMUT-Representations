@@ -16,5 +16,9 @@
     1000
   ],
   "repeats_per_class": 3,
-  "settings_source": "Latest supplied manuscript; drive voltage confirmed by author as 10 V peak-to-peak; frequency range and count checked against measurements"
+  "settings_source": "Latest supplied manuscript; drive voltage confirmed by author as 10 V peak-to-peak; frequency range and count checked against measurements",
+  "recorded_samples": 126000,
+  "recorded_sweeps": 22,
+  "glucose_benchmark_samples": 90000,
+  "glucose_benchmark_sweeps": 15
 }

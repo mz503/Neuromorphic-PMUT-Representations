@@ -1,0 +1,24 @@
+{
+  "complete_runs": 135,
+  "runs_per_cell": 15,
+  "all_predictions_recomputed": true,
+  "matched_recurrence_and_bias_verified": true,
+  "rankings_by_window_accuracy": {
+    "four": [
+      "lsm",
+      "esn",
+      "cnn1d"
+    ],
+    "polar": [
+      "lsm",
+      "cnn1d",
+      "esn"
+    ],
+    "cartesian": [
+      "lsm",
+      "cnn1d",
+      "esn"
+    ]
+  },
+  "ordering_unchanged_all_inputs": false
+}

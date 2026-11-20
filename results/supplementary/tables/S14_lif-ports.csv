@@ -1,0 +1,8 @@
+Port,Direction,Bits,Function
+\texttt{clk},Input,1,Rising-edge clock.
+\texttt{rst\_n},Input,1,Asynchronous active-low reset.
+\texttt{i\_current},Input,16,"Q3.12 current word, interpreted as signed; held through COMPUTE."
+\texttt{i\_valid},Input,1,Update request in IDLE.
+\texttt{o\_spike},Output,1,Spike output.
+\texttt{o\_membrane},Output,16,Q3.12 membrane-state word.
+\texttt{o\_ready},Output,1,Output-completion indication.

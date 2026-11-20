@@ -27,7 +27,9 @@
     2024
   ],
   "spiking_cnn_folds": [
-    0
+    0,
+    1,
+    2
   ],
   "spiking_cnn_seeds": [
     7,

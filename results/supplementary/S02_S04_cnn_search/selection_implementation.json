@@ -1,0 +1,6 @@
+{
+  "selection_engine_sha256": "887e6c801e76ff5bb373077c674a74fa8aca51d6658129c28a72bd8a70332131",
+  "criterion": "Sum integer validation correct counts over five seeds (1150 predictions); ties prefer fewer parameters, then configuration ID.",
+  "reason": "Exact counts avoid floating-point averaging order affecting a predeclared tie rule.",
+  "test_used_in_correction": false
+}

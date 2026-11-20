@@ -1,12 +1,15 @@
 claim_or_asset,supporting_output,reproduction_command
-Physical-feature comparison and Figure 4,results/archive/feature_ml/high-glucose_baseline_summary.csv,python scripts/report.py
-Random Forest confusion and Figure 5,results/predictions/identified_predictions.csv,python scripts/report.py
-Reservoir fold comparison and Figure 6,results/tables/reservoir_fold_means.csv,python scripts/report.py
-Selected model comparison and Figure 7,figures/regenerated/Figure_07_data.csv,python scripts/report.py
-CNN and exploratory fold-0 SpikingCNN,results/tables/neural_fold_means.csv,python scripts/evaluate.py
+Physical-feature comparison,results/archive/feature_ml/high-glucose_baseline_summary.csv,python scripts/report.py
+Random Forest confusion,results/predictions/identified_predictions.csv,python scripts/report.py
+Reservoir fold comparison,results/tables/reservoir_fold_means.csv,python scripts/report.py
+Selected model comparison,results/tables/cross_model_comparison.csv,python scripts/report.py
+CNN1D and three-fold SpikingCNN1D,results/tables/neural_fold_means.csv,python scripts/evaluate.py
 Precision table and each condition,results/precision/README.md,python scripts/train.py --family precision
 Feature imputation sensitivity,results/tables/feature_imputation_comparison.csv,python scripts/train.py --family features
 All individual predictions and class scores,results/predictions/identified_predictions.csv,python scripts/report.py
-Device and workflow Figures 1 and 3,figures/final/,Supplied final raster assets
-Baseline and glucose responses Figure 2,figures/final/,Original supplied panels; inspect data/raw/ and notebook 01
 Single-neuron HDL,hardware/README.md,Unverified single-neuron prototype and software reference vectors
+S1: Matched channel ablation,results/supplementary/S01_channel_ablation/,python scripts/verify_supplementary.py
+S2–S4: CNN parameter selection,results/supplementary/S02_S04_cnn_search/,python scripts/verify_supplementary.py
+S5–S6: Window length and spectrum matching,results/supplementary/S05_S06_window_and_matching/,python scripts/verify_supplementary.py
+"S7–S12: Alternative partitions, readouts, nested CV and leave-one-sweep-out",results/supplementary/S07_S12_partition_and_readout/,python scripts/verify_supplementary.py
+S13–S14: Fixed-point mapping and declared LIF ports,results/supplementary/tables/,See docs/PRECISION.md and hardware/README.md

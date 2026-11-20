@@ -4,9 +4,9 @@ type: software
 title: "Dataset and code for Physical and Neuromorphic Representations of PMUT Electrical Spectra for Glucose Loading Classification"
 authors:
   - family-names: "Zaid"
-    given-names: "M."
+    given-names: "Mohammad"
   - family-names: "Cheng"
-    given-names: "Z."
+    given-names: "Ziyi"
   - family-names: "Seshia"
-    given-names: "A."
+    given-names: "Ashwin"
 repository-code: "https://github.com/mz503/Neuromorphic-PMUT-Representations"

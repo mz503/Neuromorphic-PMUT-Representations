@@ -1,6 +1,6 @@
 [
   {
-    "source": "outputs/runs/high-glucose_folds_w128/cnn1d/fold0_seed123/metrics.json",
+    "source": "results/archive/runs/high-glucose_folds_w128/cnn1d/fold0_seed123/metrics.json",
     "model": "cnn1d",
     "seed": 123,
     "fold": 0,
@@ -28,25 +28,25 @@
       "split": "grouped_folds",
       "fold": 0,
       "train_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -69,7 +69,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/cnn1d/fold0_seed2024/metrics.json",
+    "source": "results/archive/runs/high-glucose_folds_w128/cnn1d/fold0_seed2024/metrics.json",
     "model": "cnn1d",
     "seed": 2024,
     "fold": 0,
@@ -97,25 +97,25 @@
       "split": "grouped_folds",
       "fold": 0,
       "train_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -138,7 +138,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/cnn1d/fold0_seed42/metrics.json",
+    "source": "results/archive/runs/high-glucose_folds_w128/cnn1d/fold0_seed42/metrics.json",
     "model": "cnn1d",
     "seed": 42,
     "fold": 0,
@@ -166,25 +166,25 @@
       "split": "grouped_folds",
       "fold": 0,
       "train_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -207,7 +207,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/cnn1d/fold0_seed7/metrics.json",
+    "source": "results/archive/runs/high-glucose_folds_w128/cnn1d/fold0_seed7/metrics.json",
     "model": "cnn1d",
     "seed": 7,
     "fold": 0,
@@ -235,25 +235,25 @@
       "split": "grouped_folds",
       "fold": 0,
       "train_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -276,7 +276,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/cnn1d/fold0_seed999/metrics.json",
+    "source": "results/archive/runs/high-glucose_folds_w128/cnn1d/fold0_seed999/metrics.json",
     "model": "cnn1d",
     "seed": 999,
     "fold": 0,
@@ -304,25 +304,25 @@
       "split": "grouped_folds",
       "fold": 0,
       "train_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -345,7 +345,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/cnn1d/fold1_seed123/metrics.json",
+    "source": "results/archive/runs/high-glucose_folds_w128/cnn1d/fold1_seed123/metrics.json",
     "model": "cnn1d",
     "seed": 123,
     "fold": 1,
@@ -373,25 +373,25 @@
       "split": "grouped_folds",
       "fold": 1,
       "train_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -414,7 +414,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/cnn1d/fold1_seed2024/metrics.json",
+    "source": "results/archive/runs/high-glucose_folds_w128/cnn1d/fold1_seed2024/metrics.json",
     "model": "cnn1d",
     "seed": 2024,
     "fold": 1,
@@ -442,25 +442,25 @@
       "split": "grouped_folds",
       "fold": 1,
       "train_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -483,7 +483,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/cnn1d/fold1_seed42/metrics.json",
+    "source": "results/archive/runs/high-glucose_folds_w128/cnn1d/fold1_seed42/metrics.json",
     "model": "cnn1d",
     "seed": 42,
     "fold": 1,
@@ -511,25 +511,25 @@
       "split": "grouped_folds",
       "fold": 1,
       "train_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -552,7 +552,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/cnn1d/fold1_seed7/metrics.json",
+    "source": "results/archive/runs/high-glucose_folds_w128/cnn1d/fold1_seed7/metrics.json",
     "model": "cnn1d",
     "seed": 7,
     "fold": 1,
@@ -580,25 +580,25 @@
       "split": "grouped_folds",
       "fold": 1,
       "train_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -621,7 +621,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/cnn1d/fold1_seed999/metrics.json",
+    "source": "results/archive/runs/high-glucose_folds_w128/cnn1d/fold1_seed999/metrics.json",
     "model": "cnn1d",
     "seed": 999,
     "fold": 1,
@@ -649,25 +649,25 @@
       "split": "grouped_folds",
       "fold": 1,
       "train_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -690,7 +690,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/cnn1d/fold2_seed123/metrics.json",
+    "source": "results/archive/runs/high-glucose_folds_w128/cnn1d/fold2_seed123/metrics.json",
     "model": "cnn1d",
     "seed": 123,
     "fold": 2,
@@ -718,25 +718,25 @@
       "split": "grouped_folds",
       "fold": 2,
       "train_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -759,7 +759,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/cnn1d/fold2_seed2024/metrics.json",
+    "source": "results/archive/runs/high-glucose_folds_w128/cnn1d/fold2_seed2024/metrics.json",
     "model": "cnn1d",
     "seed": 2024,
     "fold": 2,
@@ -787,25 +787,25 @@
       "split": "grouped_folds",
       "fold": 2,
       "train_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -828,7 +828,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/cnn1d/fold2_seed42/metrics.json",
+    "source": "results/archive/runs/high-glucose_folds_w128/cnn1d/fold2_seed42/metrics.json",
     "model": "cnn1d",
     "seed": 42,
     "fold": 2,
@@ -856,25 +856,25 @@
       "split": "grouped_folds",
       "fold": 2,
       "train_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -897,7 +897,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/cnn1d/fold2_seed7/metrics.json",
+    "source": "results/archive/runs/high-glucose_folds_w128/cnn1d/fold2_seed7/metrics.json",
     "model": "cnn1d",
     "seed": 7,
     "fold": 2,
@@ -925,25 +925,25 @@
       "split": "grouped_folds",
       "fold": 2,
       "train_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -966,7 +966,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/cnn1d/fold2_seed999/metrics.json",
+    "source": "results/archive/runs/high-glucose_folds_w128/cnn1d/fold2_seed999/metrics.json",
     "model": "cnn1d",
     "seed": 999,
     "fold": 2,
@@ -994,25 +994,25 @@
       "split": "grouped_folds",
       "fold": 2,
       "train_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -1035,7 +1035,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed123/metrics.json",
+    "source": "results/archive/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed123/metrics.json",
     "model": "spiking_cnn1d",
     "seed": 123,
     "fold": 0,
@@ -1063,25 +1063,25 @@
       "split": "grouped_folds",
       "fold": 0,
       "train_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -1104,7 +1104,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed2024/metrics.json",
+    "source": "results/archive/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed2024/metrics.json",
     "model": "spiking_cnn1d",
     "seed": 2024,
     "fold": 0,
@@ -1132,25 +1132,25 @@
       "split": "grouped_folds",
       "fold": 0,
       "train_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -1173,7 +1173,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed42/metrics.json",
+    "source": "results/archive/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed42/metrics.json",
     "model": "spiking_cnn1d",
     "seed": 42,
     "fold": 0,
@@ -1201,25 +1201,25 @@
       "split": "grouped_folds",
       "fold": 0,
       "train_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -1242,7 +1242,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed7/metrics.json",
+    "source": "results/archive/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed7/metrics.json",
     "model": "spiking_cnn1d",
     "seed": 7,
     "fold": 0,
@@ -1270,25 +1270,25 @@
       "split": "grouped_folds",
       "fold": 0,
       "train_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -1311,7 +1311,7 @@
     }
   },
   {
-    "source": "outputs/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed999/metrics.json",
+    "source": "results/archive/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold0_seed999/metrics.json",
     "model": "spiking_cnn1d",
     "seed": 999,
     "fold": 0,
@@ -1339,25 +1339,25 @@
       "split": "grouped_folds",
       "fold": 0,
       "train_sweeps": [
-        "Glucose 50mM sweep 1 (100k–2.5M)",
-        "Glucose 100mM sweep 1 (100k–2.5M)",
-        "Glucose 250mM sweep 1 (100k–2.5M)",
-        "Glucose 500mM sweep 1 (100k–2.5M)",
-        "Glucose 1000mM sweep 1 (100k–2.5M)"
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
       ],
       "val_sweeps": [
-        "Glucose 50mM sweep 2 (100k–2.5M)",
-        "Glucose 100mM sweep 2 (100k–2.5M)",
-        "Glucose 250mM sweep 2 (100k–2.5M)",
-        "Glucose 500mM sweep 2 (100k–2.5M)",
-        "Glucose 1000mM sweep 2 (100k–2.5M)"
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
       ],
       "test_sweeps": [
-        "Glucose 50mM sweep 3 (100k–2.5M)",
-        "Glucose 100mM sweep 3 (100k–2.5M)",
-        "Glucose 250mM sweep 3 (100k–2.5M)",
-        "Glucose 500mM sweep 3 (100k–2.5M)",
-        "Glucose 1000mM sweep 3 (100k–2.5M)"
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
       ],
       "window_size": 128,
       "stride": 128,
@@ -1376,6 +1376,696 @@
         2.051642417907715,
         0.0011216343846172094,
         0.00017131389176938683
+      ]
+    }
+  },
+  {
+    "source": "results/archive/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold1_seed7/metrics.json",
+    "model": "spiking_cnn1d",
+    "seed": 7,
+    "fold": 1,
+    "recorded_settings": {
+      "epochs": 150,
+      "batch_size": 32,
+      "learning_rate": 0.001,
+      "labels": [
+        "Glucose 50 mM",
+        "Glucose 100 mM",
+        "Glucose 250 mM",
+        "Glucose 500 mM",
+        "Glucose 1000 mM"
+      ],
+      "best": {
+        "epoch": 70,
+        "train_loss": 0.5749128758907318,
+        "train_accuracy": 0.796875,
+        "val_accuracy": 0.8478260869565217
+      },
+      "sweep_aggregation_method": "mean_logits"
+    },
+    "dataset_metadata": {
+      "task": "high-glucose",
+      "split": "grouped_folds",
+      "fold": 1,
+      "train_sweeps": [
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
+      ],
+      "val_sweeps": [
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
+      ],
+      "test_sweeps": [
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
+      ],
+      "window_size": 128,
+      "stride": 128,
+      "n_samples": 690,
+      "n_train": 230,
+      "n_val": 230,
+      "n_test": 230,
+      "normalization_mean": [
+        0.0044770133681595325,
+        -2.0593442916870117,
+        0.004469983279705048,
+        -0.00017846847185865045
+      ],
+      "normalization_std": [
+        0.0011150622740387917,
+        2.2798054218292236,
+        0.001112068654038012,
+        0.00018887112673837692
+      ]
+    }
+  },
+  {
+    "source": "results/archive/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold1_seed42/metrics.json",
+    "model": "spiking_cnn1d",
+    "seed": 42,
+    "fold": 1,
+    "recorded_settings": {
+      "epochs": 150,
+      "batch_size": 32,
+      "learning_rate": 0.001,
+      "labels": [
+        "Glucose 50 mM",
+        "Glucose 100 mM",
+        "Glucose 250 mM",
+        "Glucose 500 mM",
+        "Glucose 1000 mM"
+      ],
+      "best": {
+        "epoch": 58,
+        "train_loss": 0.5060639902949333,
+        "train_accuracy": 0.81640625,
+        "val_accuracy": 0.8521739130434782
+      },
+      "sweep_aggregation_method": "mean_logits"
+    },
+    "dataset_metadata": {
+      "task": "high-glucose",
+      "split": "grouped_folds",
+      "fold": 1,
+      "train_sweeps": [
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
+      ],
+      "val_sweeps": [
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
+      ],
+      "test_sweeps": [
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
+      ],
+      "window_size": 128,
+      "stride": 128,
+      "n_samples": 690,
+      "n_train": 230,
+      "n_val": 230,
+      "n_test": 230,
+      "normalization_mean": [
+        0.0044770133681595325,
+        -2.0593442916870117,
+        0.004469983279705048,
+        -0.00017846847185865045
+      ],
+      "normalization_std": [
+        0.0011150622740387917,
+        2.2798054218292236,
+        0.001112068654038012,
+        0.00018887112673837692
+      ]
+    }
+  },
+  {
+    "source": "results/archive/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold1_seed123/metrics.json",
+    "model": "spiking_cnn1d",
+    "seed": 123,
+    "fold": 1,
+    "recorded_settings": {
+      "epochs": 150,
+      "batch_size": 32,
+      "learning_rate": 0.001,
+      "labels": [
+        "Glucose 50 mM",
+        "Glucose 100 mM",
+        "Glucose 250 mM",
+        "Glucose 500 mM",
+        "Glucose 1000 mM"
+      ],
+      "best": {
+        "epoch": 56,
+        "train_loss": 0.6184868142008781,
+        "train_accuracy": 0.7213541679084301,
+        "val_accuracy": 0.8478260869565217
+      },
+      "sweep_aggregation_method": "mean_logits"
+    },
+    "dataset_metadata": {
+      "task": "high-glucose",
+      "split": "grouped_folds",
+      "fold": 1,
+      "train_sweeps": [
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
+      ],
+      "val_sweeps": [
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
+      ],
+      "test_sweeps": [
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
+      ],
+      "window_size": 128,
+      "stride": 128,
+      "n_samples": 690,
+      "n_train": 230,
+      "n_val": 230,
+      "n_test": 230,
+      "normalization_mean": [
+        0.0044770133681595325,
+        -2.0593442916870117,
+        0.004469983279705048,
+        -0.00017846847185865045
+      ],
+      "normalization_std": [
+        0.0011150622740387917,
+        2.2798054218292236,
+        0.001112068654038012,
+        0.00018887112673837692
+      ]
+    }
+  },
+  {
+    "source": "results/archive/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold1_seed999/metrics.json",
+    "model": "spiking_cnn1d",
+    "seed": 999,
+    "fold": 1,
+    "recorded_settings": {
+      "epochs": 150,
+      "batch_size": 32,
+      "learning_rate": 0.001,
+      "labels": [
+        "Glucose 50 mM",
+        "Glucose 100 mM",
+        "Glucose 250 mM",
+        "Glucose 500 mM",
+        "Glucose 1000 mM"
+      ],
+      "best": {
+        "epoch": 78,
+        "train_loss": 0.439293697476387,
+        "train_accuracy": 0.8072916641831398,
+        "val_accuracy": 0.8478260869565217
+      },
+      "sweep_aggregation_method": "mean_logits"
+    },
+    "dataset_metadata": {
+      "task": "high-glucose",
+      "split": "grouped_folds",
+      "fold": 1,
+      "train_sweeps": [
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
+      ],
+      "val_sweeps": [
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
+      ],
+      "test_sweeps": [
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
+      ],
+      "window_size": 128,
+      "stride": 128,
+      "n_samples": 690,
+      "n_train": 230,
+      "n_val": 230,
+      "n_test": 230,
+      "normalization_mean": [
+        0.0044770133681595325,
+        -2.0593442916870117,
+        0.004469983279705048,
+        -0.00017846847185865045
+      ],
+      "normalization_std": [
+        0.0011150622740387917,
+        2.2798054218292236,
+        0.001112068654038012,
+        0.00018887112673837692
+      ]
+    }
+  },
+  {
+    "source": "results/archive/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold1_seed2024/metrics.json",
+    "model": "spiking_cnn1d",
+    "seed": 2024,
+    "fold": 1,
+    "recorded_settings": {
+      "epochs": 150,
+      "batch_size": 32,
+      "learning_rate": 0.001,
+      "labels": [
+        "Glucose 50 mM",
+        "Glucose 100 mM",
+        "Glucose 250 mM",
+        "Glucose 500 mM",
+        "Glucose 1000 mM"
+      ],
+      "best": {
+        "epoch": 141,
+        "train_loss": 0.41755624674260616,
+        "train_accuracy": 0.80859375,
+        "val_accuracy": 0.8478260869565217
+      },
+      "sweep_aggregation_method": "mean_logits"
+    },
+    "dataset_metadata": {
+      "task": "high-glucose",
+      "split": "grouped_folds",
+      "fold": 1,
+      "train_sweeps": [
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
+      ],
+      "val_sweeps": [
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
+      ],
+      "test_sweeps": [
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
+      ],
+      "window_size": 128,
+      "stride": 128,
+      "n_samples": 690,
+      "n_train": 230,
+      "n_val": 230,
+      "n_test": 230,
+      "normalization_mean": [
+        0.0044770133681595325,
+        -2.0593442916870117,
+        0.004469983279705048,
+        -0.00017846847185865045
+      ],
+      "normalization_std": [
+        0.0011150622740387917,
+        2.2798054218292236,
+        0.001112068654038012,
+        0.00018887112673837692
+      ]
+    }
+  },
+  {
+    "source": "results/archive/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold2_seed7/metrics.json",
+    "model": "spiking_cnn1d",
+    "seed": 7,
+    "fold": 2,
+    "recorded_settings": {
+      "epochs": 150,
+      "batch_size": 32,
+      "learning_rate": 0.001,
+      "labels": [
+        "Glucose 50 mM",
+        "Glucose 100 mM",
+        "Glucose 250 mM",
+        "Glucose 500 mM",
+        "Glucose 1000 mM"
+      ],
+      "best": {
+        "epoch": 87,
+        "train_loss": 0.5297289565205574,
+        "train_accuracy": 0.76171875,
+        "val_accuracy": 0.8043478260869565
+      },
+      "sweep_aggregation_method": "mean_logits"
+    },
+    "dataset_metadata": {
+      "task": "high-glucose",
+      "split": "grouped_folds",
+      "fold": 2,
+      "train_sweeps": [
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
+      ],
+      "val_sweeps": [
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
+      ],
+      "test_sweeps": [
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
+      ],
+      "window_size": 128,
+      "stride": 128,
+      "n_samples": 690,
+      "n_train": 230,
+      "n_val": 230,
+      "n_test": 230,
+      "normalization_mean": [
+        0.004447887185961008,
+        -1.9447659254074097,
+        0.004441681317985058,
+        -0.00017138323164545
+      ],
+      "normalization_std": [
+        0.0011047190055251122,
+        2.1991817951202393,
+        0.0011014469200745225,
+        0.00018482410814613104
+      ]
+    }
+  },
+  {
+    "source": "results/archive/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold2_seed42/metrics.json",
+    "model": "spiking_cnn1d",
+    "seed": 42,
+    "fold": 2,
+    "recorded_settings": {
+      "epochs": 150,
+      "batch_size": 32,
+      "learning_rate": 0.001,
+      "labels": [
+        "Glucose 50 mM",
+        "Glucose 100 mM",
+        "Glucose 250 mM",
+        "Glucose 500 mM",
+        "Glucose 1000 mM"
+      ],
+      "best": {
+        "epoch": 90,
+        "train_loss": 0.5484024547040462,
+        "train_accuracy": 0.72265625,
+        "val_accuracy": 0.808695652173913
+      },
+      "sweep_aggregation_method": "mean_logits"
+    },
+    "dataset_metadata": {
+      "task": "high-glucose",
+      "split": "grouped_folds",
+      "fold": 2,
+      "train_sweeps": [
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
+      ],
+      "val_sweeps": [
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
+      ],
+      "test_sweeps": [
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
+      ],
+      "window_size": 128,
+      "stride": 128,
+      "n_samples": 690,
+      "n_train": 230,
+      "n_val": 230,
+      "n_test": 230,
+      "normalization_mean": [
+        0.004447887185961008,
+        -1.9447659254074097,
+        0.004441681317985058,
+        -0.00017138323164545
+      ],
+      "normalization_std": [
+        0.0011047190055251122,
+        2.1991817951202393,
+        0.0011014469200745225,
+        0.00018482410814613104
+      ]
+    }
+  },
+  {
+    "source": "results/archive/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold2_seed123/metrics.json",
+    "model": "spiking_cnn1d",
+    "seed": 123,
+    "fold": 2,
+    "recorded_settings": {
+      "epochs": 150,
+      "batch_size": 32,
+      "learning_rate": 0.001,
+      "labels": [
+        "Glucose 50 mM",
+        "Glucose 100 mM",
+        "Glucose 250 mM",
+        "Glucose 500 mM",
+        "Glucose 1000 mM"
+      ],
+      "best": {
+        "epoch": 104,
+        "train_loss": 0.6322071254253387,
+        "train_accuracy": 0.7330729179084301,
+        "val_accuracy": 0.8
+      },
+      "sweep_aggregation_method": "mean_logits"
+    },
+    "dataset_metadata": {
+      "task": "high-glucose",
+      "split": "grouped_folds",
+      "fold": 2,
+      "train_sweeps": [
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
+      ],
+      "val_sweeps": [
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
+      ],
+      "test_sweeps": [
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
+      ],
+      "window_size": 128,
+      "stride": 128,
+      "n_samples": 690,
+      "n_train": 230,
+      "n_val": 230,
+      "n_test": 230,
+      "normalization_mean": [
+        0.004447887185961008,
+        -1.9447659254074097,
+        0.004441681317985058,
+        -0.00017138323164545
+      ],
+      "normalization_std": [
+        0.0011047190055251122,
+        2.1991817951202393,
+        0.0011014469200745225,
+        0.00018482410814613104
+      ]
+    }
+  },
+  {
+    "source": "results/archive/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold2_seed999/metrics.json",
+    "model": "spiking_cnn1d",
+    "seed": 999,
+    "fold": 2,
+    "recorded_settings": {
+      "epochs": 150,
+      "batch_size": 32,
+      "learning_rate": 0.001,
+      "labels": [
+        "Glucose 50 mM",
+        "Glucose 100 mM",
+        "Glucose 250 mM",
+        "Glucose 500 mM",
+        "Glucose 1000 mM"
+      ],
+      "best": {
+        "epoch": 126,
+        "train_loss": 0.6724331900477409,
+        "train_accuracy": 0.7447916679084301,
+        "val_accuracy": 0.8260869565217391
+      },
+      "sweep_aggregation_method": "mean_logits"
+    },
+    "dataset_metadata": {
+      "task": "high-glucose",
+      "split": "grouped_folds",
+      "fold": 2,
+      "train_sweeps": [
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
+      ],
+      "val_sweeps": [
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
+      ],
+      "test_sweeps": [
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
+      ],
+      "window_size": 128,
+      "stride": 128,
+      "n_samples": 690,
+      "n_train": 230,
+      "n_val": 230,
+      "n_test": 230,
+      "normalization_mean": [
+        0.004447887185961008,
+        -1.9447659254074097,
+        0.004441681317985058,
+        -0.00017138323164545
+      ],
+      "normalization_std": [
+        0.0011047190055251122,
+        2.1991817951202393,
+        0.0011014469200745225,
+        0.00018482410814613104
+      ]
+    }
+  },
+  {
+    "source": "results/archive/exploratory/runs/high-glucose_folds_w128/spiking_cnn1d/fold2_seed2024/metrics.json",
+    "model": "spiking_cnn1d",
+    "seed": 2024,
+    "fold": 2,
+    "recorded_settings": {
+      "epochs": 150,
+      "batch_size": 32,
+      "learning_rate": 0.001,
+      "labels": [
+        "Glucose 50 mM",
+        "Glucose 100 mM",
+        "Glucose 250 mM",
+        "Glucose 500 mM",
+        "Glucose 1000 mM"
+      ],
+      "best": {
+        "epoch": 127,
+        "train_loss": 0.500627625733614,
+        "train_accuracy": 0.7252604179084301,
+        "val_accuracy": 0.8260869565217391
+      },
+      "sweep_aggregation_method": "mean_logits"
+    },
+    "dataset_metadata": {
+      "task": "high-glucose",
+      "split": "grouped_folds",
+      "fold": 2,
+      "train_sweeps": [
+        "Glucose 50mM sweep 3 (100k\u20132.5M)",
+        "Glucose 100mM sweep 3 (100k\u20132.5M)",
+        "Glucose 250mM sweep 3 (100k\u20132.5M)",
+        "Glucose 500mM sweep 3 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 3 (100k\u20132.5M)"
+      ],
+      "val_sweeps": [
+        "Glucose 50mM sweep 1 (100k\u20132.5M)",
+        "Glucose 100mM sweep 1 (100k\u20132.5M)",
+        "Glucose 250mM sweep 1 (100k\u20132.5M)",
+        "Glucose 500mM sweep 1 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 1 (100k\u20132.5M)"
+      ],
+      "test_sweeps": [
+        "Glucose 50mM sweep 2 (100k\u20132.5M)",
+        "Glucose 100mM sweep 2 (100k\u20132.5M)",
+        "Glucose 250mM sweep 2 (100k\u20132.5M)",
+        "Glucose 500mM sweep 2 (100k\u20132.5M)",
+        "Glucose 1000mM sweep 2 (100k\u20132.5M)"
+      ],
+      "window_size": 128,
+      "stride": 128,
+      "n_samples": 690,
+      "n_train": 230,
+      "n_val": 230,
+      "n_test": 230,
+      "normalization_mean": [
+        0.004447887185961008,
+        -1.9447659254074097,
+        0.004441681317985058,
+        -0.00017138323164545
+      ],
+      "normalization_std": [
+        0.0011047190055251122,
+        2.1991817951202393,
+        0.0011014469200745225,
+        0.00018482410814613104
       ]
     }
   }

@@ -1,0 +1,727 @@
+[
+  {
+    "fold": 0,
+    "seed": 7,
+    "config_id": "c64-128_k5-5_lr1e-03_b32",
+    "signature": {
+      "runner_sha256": "890e28e69f6eff7216e6b26ebbee5739f9f545b202cbf10cc1520464cd4f60ec",
+      "torch": "2.12.0+cpu",
+      "numpy": "2.3.3",
+      "folds": [
+        "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+        "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+        "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+      ],
+      "original_model_source": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6"
+    },
+    "selection_sha256": "e2af5d847867c26075cf693b8b87721c7d7d474c2031d9cbba68e5cf7652bd84",
+    "window_accuracy": 0.8304347826086956,
+    "sweep_accuracy_majority": 1.0,
+    "sweep_predictions": [
+      {
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4
+      },
+      {
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1
+      },
+      {
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2
+      },
+      {
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3
+      },
+      {
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0
+      }
+    ],
+    "test_passes": 1,
+    "original_selection_sha256": "3e962bc85bbfd95b2d2d411635fa74830c9493758529c42f2020645d228d93b2",
+    "reused_same_checkpoint_predictions": true
+  },
+  {
+    "fold": 0,
+    "seed": 42,
+    "config_id": "c64-128_k5-5_lr1e-03_b32",
+    "signature": {
+      "runner_sha256": "890e28e69f6eff7216e6b26ebbee5739f9f545b202cbf10cc1520464cd4f60ec",
+      "torch": "2.12.0+cpu",
+      "numpy": "2.3.3",
+      "folds": [
+        "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+        "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+        "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+      ],
+      "original_model_source": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6"
+    },
+    "selection_sha256": "e2af5d847867c26075cf693b8b87721c7d7d474c2031d9cbba68e5cf7652bd84",
+    "window_accuracy": 0.8391304347826087,
+    "sweep_accuracy_majority": 1.0,
+    "sweep_predictions": [
+      {
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4
+      },
+      {
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1
+      },
+      {
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2
+      },
+      {
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3
+      },
+      {
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0
+      }
+    ],
+    "test_passes": 1,
+    "original_selection_sha256": "3e962bc85bbfd95b2d2d411635fa74830c9493758529c42f2020645d228d93b2",
+    "reused_same_checkpoint_predictions": true
+  },
+  {
+    "fold": 0,
+    "seed": 123,
+    "config_id": "c64-128_k5-5_lr1e-03_b32",
+    "signature": {
+      "runner_sha256": "890e28e69f6eff7216e6b26ebbee5739f9f545b202cbf10cc1520464cd4f60ec",
+      "torch": "2.12.0+cpu",
+      "numpy": "2.3.3",
+      "folds": [
+        "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+        "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+        "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+      ],
+      "original_model_source": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6"
+    },
+    "selection_sha256": "e2af5d847867c26075cf693b8b87721c7d7d474c2031d9cbba68e5cf7652bd84",
+    "window_accuracy": 0.6,
+    "sweep_accuracy_majority": 0.8,
+    "sweep_predictions": [
+      {
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4
+      },
+      {
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1
+      },
+      {
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2
+      },
+      {
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 4
+      },
+      {
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0
+      }
+    ],
+    "test_passes": 1,
+    "original_selection_sha256": "3e962bc85bbfd95b2d2d411635fa74830c9493758529c42f2020645d228d93b2",
+    "reused_same_checkpoint_predictions": true
+  },
+  {
+    "fold": 0,
+    "seed": 999,
+    "config_id": "c64-128_k5-5_lr1e-03_b32",
+    "signature": {
+      "runner_sha256": "890e28e69f6eff7216e6b26ebbee5739f9f545b202cbf10cc1520464cd4f60ec",
+      "torch": "2.12.0+cpu",
+      "numpy": "2.3.3",
+      "folds": [
+        "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+        "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+        "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+      ],
+      "original_model_source": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6"
+    },
+    "selection_sha256": "e2af5d847867c26075cf693b8b87721c7d7d474c2031d9cbba68e5cf7652bd84",
+    "window_accuracy": 0.6782608695652174,
+    "sweep_accuracy_majority": 0.8,
+    "sweep_predictions": [
+      {
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4
+      },
+      {
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1
+      },
+      {
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2
+      },
+      {
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 4
+      },
+      {
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0
+      }
+    ],
+    "test_passes": 1,
+    "original_selection_sha256": "3e962bc85bbfd95b2d2d411635fa74830c9493758529c42f2020645d228d93b2",
+    "reused_same_checkpoint_predictions": true
+  },
+  {
+    "fold": 0,
+    "seed": 2024,
+    "config_id": "c64-128_k5-5_lr1e-03_b32",
+    "signature": {
+      "runner_sha256": "890e28e69f6eff7216e6b26ebbee5739f9f545b202cbf10cc1520464cd4f60ec",
+      "torch": "2.12.0+cpu",
+      "numpy": "2.3.3",
+      "folds": [
+        "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+        "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+        "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+      ],
+      "original_model_source": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6"
+    },
+    "selection_sha256": "e2af5d847867c26075cf693b8b87721c7d7d474c2031d9cbba68e5cf7652bd84",
+    "window_accuracy": 0.6347826086956522,
+    "sweep_accuracy_majority": 0.8,
+    "sweep_predictions": [
+      {
+        "sweep_key": "Glucose 1000mM sweep 3 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4
+      },
+      {
+        "sweep_key": "Glucose 100mM sweep 3 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1
+      },
+      {
+        "sweep_key": "Glucose 250mM sweep 3 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2
+      },
+      {
+        "sweep_key": "Glucose 500mM sweep 3 (100k–2.5M)",
+        "target": 3,
+        "prediction": 4
+      },
+      {
+        "sweep_key": "Glucose 50mM sweep 3 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0
+      }
+    ],
+    "test_passes": 1,
+    "original_selection_sha256": "3e962bc85bbfd95b2d2d411635fa74830c9493758529c42f2020645d228d93b2",
+    "reused_same_checkpoint_predictions": true
+  },
+  {
+    "fold": 1,
+    "seed": 7,
+    "config_id": "c64-128_k5-5_lr1e-03_b32",
+    "signature": {
+      "runner_sha256": "890e28e69f6eff7216e6b26ebbee5739f9f545b202cbf10cc1520464cd4f60ec",
+      "torch": "2.12.0+cpu",
+      "numpy": "2.3.3",
+      "folds": [
+        "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+        "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+        "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+      ],
+      "original_model_source": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6"
+    },
+    "selection_sha256": "e2af5d847867c26075cf693b8b87721c7d7d474c2031d9cbba68e5cf7652bd84",
+    "window_accuracy": 0.6391304347826087,
+    "sweep_accuracy_majority": 0.6,
+    "sweep_predictions": [
+      {
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 3
+      },
+      {
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0
+      },
+      {
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2
+      },
+      {
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3
+      },
+      {
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0
+      }
+    ],
+    "test_passes": 1,
+    "original_selection_sha256": "3e962bc85bbfd95b2d2d411635fa74830c9493758529c42f2020645d228d93b2",
+    "reused_same_checkpoint_predictions": true
+  },
+  {
+    "fold": 1,
+    "seed": 42,
+    "config_id": "c64-128_k5-5_lr1e-03_b32",
+    "signature": {
+      "runner_sha256": "890e28e69f6eff7216e6b26ebbee5739f9f545b202cbf10cc1520464cd4f60ec",
+      "torch": "2.12.0+cpu",
+      "numpy": "2.3.3",
+      "folds": [
+        "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+        "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+        "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+      ],
+      "original_model_source": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6"
+    },
+    "selection_sha256": "e2af5d847867c26075cf693b8b87721c7d7d474c2031d9cbba68e5cf7652bd84",
+    "window_accuracy": 0.782608695652174,
+    "sweep_accuracy_majority": 0.8,
+    "sweep_predictions": [
+      {
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4
+      },
+      {
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0
+      },
+      {
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2
+      },
+      {
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3
+      },
+      {
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0
+      }
+    ],
+    "test_passes": 1,
+    "original_selection_sha256": "3e962bc85bbfd95b2d2d411635fa74830c9493758529c42f2020645d228d93b2",
+    "reused_same_checkpoint_predictions": true
+  },
+  {
+    "fold": 1,
+    "seed": 123,
+    "config_id": "c64-128_k5-5_lr1e-03_b32",
+    "signature": {
+      "runner_sha256": "890e28e69f6eff7216e6b26ebbee5739f9f545b202cbf10cc1520464cd4f60ec",
+      "torch": "2.12.0+cpu",
+      "numpy": "2.3.3",
+      "folds": [
+        "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+        "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+        "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+      ],
+      "original_model_source": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6"
+    },
+    "selection_sha256": "e2af5d847867c26075cf693b8b87721c7d7d474c2031d9cbba68e5cf7652bd84",
+    "window_accuracy": 0.8,
+    "sweep_accuracy_majority": 0.8,
+    "sweep_predictions": [
+      {
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4
+      },
+      {
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0
+      },
+      {
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2
+      },
+      {
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3
+      },
+      {
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0
+      }
+    ],
+    "test_passes": 1,
+    "original_selection_sha256": "3e962bc85bbfd95b2d2d411635fa74830c9493758529c42f2020645d228d93b2",
+    "reused_same_checkpoint_predictions": true
+  },
+  {
+    "fold": 1,
+    "seed": 999,
+    "config_id": "c64-128_k5-5_lr1e-03_b32",
+    "signature": {
+      "runner_sha256": "890e28e69f6eff7216e6b26ebbee5739f9f545b202cbf10cc1520464cd4f60ec",
+      "torch": "2.12.0+cpu",
+      "numpy": "2.3.3",
+      "folds": [
+        "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+        "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+        "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+      ],
+      "original_model_source": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6"
+    },
+    "selection_sha256": "e2af5d847867c26075cf693b8b87721c7d7d474c2031d9cbba68e5cf7652bd84",
+    "window_accuracy": 0.7869565217391304,
+    "sweep_accuracy_majority": 0.8,
+    "sweep_predictions": [
+      {
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4
+      },
+      {
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0
+      },
+      {
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2
+      },
+      {
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3
+      },
+      {
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0
+      }
+    ],
+    "test_passes": 1,
+    "original_selection_sha256": "3e962bc85bbfd95b2d2d411635fa74830c9493758529c42f2020645d228d93b2",
+    "reused_same_checkpoint_predictions": true
+  },
+  {
+    "fold": 1,
+    "seed": 2024,
+    "config_id": "c64-128_k5-5_lr1e-03_b32",
+    "signature": {
+      "runner_sha256": "890e28e69f6eff7216e6b26ebbee5739f9f545b202cbf10cc1520464cd4f60ec",
+      "torch": "2.12.0+cpu",
+      "numpy": "2.3.3",
+      "folds": [
+        "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+        "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+        "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+      ],
+      "original_model_source": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6"
+    },
+    "selection_sha256": "e2af5d847867c26075cf693b8b87721c7d7d474c2031d9cbba68e5cf7652bd84",
+    "window_accuracy": 0.6695652173913044,
+    "sweep_accuracy_majority": 0.6,
+    "sweep_predictions": [
+      {
+        "sweep_key": "Glucose 1000mM sweep 1 (100k–2.5M)",
+        "target": 4,
+        "prediction": 3
+      },
+      {
+        "sweep_key": "Glucose 100mM sweep 1 (100k–2.5M)",
+        "target": 1,
+        "prediction": 0
+      },
+      {
+        "sweep_key": "Glucose 250mM sweep 1 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2
+      },
+      {
+        "sweep_key": "Glucose 500mM sweep 1 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3
+      },
+      {
+        "sweep_key": "Glucose 50mM sweep 1 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0
+      }
+    ],
+    "test_passes": 1,
+    "original_selection_sha256": "3e962bc85bbfd95b2d2d411635fa74830c9493758529c42f2020645d228d93b2",
+    "reused_same_checkpoint_predictions": true
+  },
+  {
+    "fold": 2,
+    "seed": 7,
+    "config_id": "c32-64_k8-8_lr1e-03_b32",
+    "signature": {
+      "runner_sha256": "890e28e69f6eff7216e6b26ebbee5739f9f545b202cbf10cc1520464cd4f60ec",
+      "torch": "2.12.0+cpu",
+      "numpy": "2.3.3",
+      "folds": [
+        "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+        "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+        "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+      ],
+      "original_model_source": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6"
+    },
+    "selection_sha256": "e2af5d847867c26075cf693b8b87721c7d7d474c2031d9cbba68e5cf7652bd84",
+    "window_accuracy": 0.8130434782608695,
+    "sweep_accuracy_majority": 0.8,
+    "sweep_predictions": [
+      {
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4
+      },
+      {
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1
+      },
+      {
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2
+      },
+      {
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3
+      },
+      {
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1
+      }
+    ],
+    "test_passes": 1
+  },
+  {
+    "fold": 2,
+    "seed": 42,
+    "config_id": "c32-64_k8-8_lr1e-03_b32",
+    "signature": {
+      "runner_sha256": "890e28e69f6eff7216e6b26ebbee5739f9f545b202cbf10cc1520464cd4f60ec",
+      "torch": "2.12.0+cpu",
+      "numpy": "2.3.3",
+      "folds": [
+        "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+        "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+        "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+      ],
+      "original_model_source": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6"
+    },
+    "selection_sha256": "e2af5d847867c26075cf693b8b87721c7d7d474c2031d9cbba68e5cf7652bd84",
+    "window_accuracy": 0.8565217391304348,
+    "sweep_accuracy_majority": 1.0,
+    "sweep_predictions": [
+      {
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4
+      },
+      {
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1
+      },
+      {
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2
+      },
+      {
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3
+      },
+      {
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0
+      }
+    ],
+    "test_passes": 1
+  },
+  {
+    "fold": 2,
+    "seed": 123,
+    "config_id": "c32-64_k8-8_lr1e-03_b32",
+    "signature": {
+      "runner_sha256": "890e28e69f6eff7216e6b26ebbee5739f9f545b202cbf10cc1520464cd4f60ec",
+      "torch": "2.12.0+cpu",
+      "numpy": "2.3.3",
+      "folds": [
+        "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+        "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+        "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+      ],
+      "original_model_source": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6"
+    },
+    "selection_sha256": "e2af5d847867c26075cf693b8b87721c7d7d474c2031d9cbba68e5cf7652bd84",
+    "window_accuracy": 0.8608695652173913,
+    "sweep_accuracy_majority": 0.8,
+    "sweep_predictions": [
+      {
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4
+      },
+      {
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1
+      },
+      {
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2
+      },
+      {
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3
+      },
+      {
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 1
+      }
+    ],
+    "test_passes": 1
+  },
+  {
+    "fold": 2,
+    "seed": 999,
+    "config_id": "c32-64_k8-8_lr1e-03_b32",
+    "signature": {
+      "runner_sha256": "890e28e69f6eff7216e6b26ebbee5739f9f545b202cbf10cc1520464cd4f60ec",
+      "torch": "2.12.0+cpu",
+      "numpy": "2.3.3",
+      "folds": [
+        "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+        "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+        "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+      ],
+      "original_model_source": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6"
+    },
+    "selection_sha256": "e2af5d847867c26075cf693b8b87721c7d7d474c2031d9cbba68e5cf7652bd84",
+    "window_accuracy": 0.9173913043478261,
+    "sweep_accuracy_majority": 1.0,
+    "sweep_predictions": [
+      {
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4
+      },
+      {
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1
+      },
+      {
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2
+      },
+      {
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3
+      },
+      {
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0
+      }
+    ],
+    "test_passes": 1
+  },
+  {
+    "fold": 2,
+    "seed": 2024,
+    "config_id": "c32-64_k8-8_lr1e-03_b32",
+    "signature": {
+      "runner_sha256": "890e28e69f6eff7216e6b26ebbee5739f9f545b202cbf10cc1520464cd4f60ec",
+      "torch": "2.12.0+cpu",
+      "numpy": "2.3.3",
+      "folds": [
+        "aaad28b19d5f7f8adbdb73a568669c0b8d33f19fb57048d0ebc7373044a4fda1",
+        "0dca36907717cac7fb210dd82671cf43604b7d39fb2bd0fedf3dc1284d90a099",
+        "58046ec089dcf522f2a55e7828345cedb1a426619ca0c7d2f3a4570610d75f26"
+      ],
+      "original_model_source": "39df03e29e1012e475a624d5524666becf4f55976227ac5b9e608123e3beaeb6"
+    },
+    "selection_sha256": "e2af5d847867c26075cf693b8b87721c7d7d474c2031d9cbba68e5cf7652bd84",
+    "window_accuracy": 0.9173913043478261,
+    "sweep_accuracy_majority": 1.0,
+    "sweep_predictions": [
+      {
+        "sweep_key": "Glucose 1000mM sweep 2 (100k–2.5M)",
+        "target": 4,
+        "prediction": 4
+      },
+      {
+        "sweep_key": "Glucose 100mM sweep 2 (100k–2.5M)",
+        "target": 1,
+        "prediction": 1
+      },
+      {
+        "sweep_key": "Glucose 250mM sweep 2 (100k–2.5M)",
+        "target": 2,
+        "prediction": 2
+      },
+      {
+        "sweep_key": "Glucose 500mM sweep 2 (100k–2.5M)",
+        "target": 3,
+        "prediction": 3
+      },
+      {
+        "sweep_key": "Glucose 50mM sweep 2 (100k–2.5M)",
+        "target": 0,
+        "prediction": 0
+      }
+    ],
+    "test_passes": 1
+  }
+]
