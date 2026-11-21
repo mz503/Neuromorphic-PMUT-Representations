@@ -1,6 +1,6 @@
 # Neuromorphic PMUT representations
 
-Code, measurements and fitted models for *Physical and Neuromorphic Representations of PMUT Electrical Spectra for Glucose Loading Classification*.
+Code, measurements and fitted models for *Physical and Neuromorphic Representations of PMUT Electrical Spectra for Glucose Loading Classification*, submitted to the Journal of Micromechanics and Microengineering (IOP Publishing)..
 
 The workbook contains 126,000 samples across 22 recorded sweeps. The five-class benchmark uses 90,000 samples from 15 glucose sweeps, with three acquisitions at each of 50, 100, 250, 500 and 1000 mM. Each benchmark sweep has 6,000 samples with frequency, amplitude, phase, X and Y. Four signal channels form non-overlapping 128-sample windows; frequency is retained as provenance. Complete acquisitions are separated in the main benchmark folds.
 
